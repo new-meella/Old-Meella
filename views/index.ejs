@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/landing.css"> <!--  -->
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100;200;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Welcome to EATMI</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+    <%- include('common/common-starter', {}); %>
+</head>
+
+<body>
+    <div class="sb-app">
+        <%- include('common/header-en', {}); %>
+
+            <!-- dynamic content -->
+            <div id="sb-dynamic-content" class="sb-transition-fade">
+                <!-- space below the bar -->
+                <section class="sb-p-20-0">
+                    <div class="container">
+                        <div class="row flex-md-row-reverse">
+                            <div class="col-lg-6 align-self-center sb-mb-40"></div>
+                        </div>
+                    </div>
+                </section>
+                <section class="sb-about-text">
+                    <div class="container">
+                        <div id="welcome-box">
+                            <div id="welcome-message" style="margin-top: 175px;">
+                                <h1>Wonderful food with Special price</h1>
+                                <p>which awaits you to discover. Join our sustainable journey to tackle food waste while
+                                    enjoy
+                                    delightful
+                                    food with us</p>
+                                <button id="signup-button">Sign up</button>
+                            </div>
+                            <img id="bg-vector-1" src="/img/preview_image.png" />
+                        </div>
+                        <div>
+                            <h2>Special offers</h2>
+                            <p>We select today&#39s best deal to offer you the most afforadable food.</p>
+                            <div id="menu-list">
+                                <%- include('common/product-card', {menus: menus}); %>
+                            </div>
+                        </div>
+                        <div class="center" id="step-header">
+                            <h2>3 Steps with Eatmi</h2>
+                            <p>We select today&#39s best deal to offer you the most afforadable food.</p>
+                        </div>
+                        <div id="step-list">
+                            <div class="step">
+                                <div class="circle">1</div>
+                                <b>Pick you fav food</b>
+                                <img src="img/step1.png">
+                            </div>
+                            <div class="step">
+                                <div class="circle">2</div>
+                                <b>Pay with QR code</b>
+                                <img src="img/step2.png">
+                            </div>
+                            <div class="step">
+                                <div class="circle">3</div>
+                                <b>Pick up at store</b>
+                                <img src="img/step3.png">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Space above the footer -->
+            </div>
+    </div>
+    <%- include('common/footer-en', {}); %>
+        <%- include('common/common-ender', {}); %>
+
+
+</body>
+
+</html>

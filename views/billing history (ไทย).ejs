@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>billing history TH</title>
+    <style>
+        body {
+            background-image: url(/img/Vector.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position-y: 500px;
+            margin: 0 auto;
+            z-index: -1;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/no_account.css (ไทย) lists/body (ไทย).css">
+    <link rel="stylesheet" href="/css/no_account.css (ไทย) lists/header (ไทย).css">
+    <link rel="stylesheet" href="/css/no_account.css (ไทย) lists/style (ไทย).css">
+    <link rel="stylesheet" href="/css/no_account.css (ไทย) lists/footer (ไทย).css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+
+<body>
+    <header class="header, header_shade">
+        <div class="left_taskbar">
+            <a href="#.html">
+                <img src="/img/meella_logo.png" class="meella_logo">
+            </a>
+            <div class="shop_text">ร้านค้า</div>
+            <div class="my_account_text">บัญชีของฉัน<arrow1 class="fa-regular fa-angle-down"></arrow1>
+            </div>
+            <div class="select-box1">
+                <div class="options-container1">
+                    <div class="option1">
+                        <input type="radio" class="radio" id="my_profile" name="category" />
+                        <label for="my_profile">โปรไฟล์ของฉัน</label>
+                    </div>
+
+                    <div class="option1">
+                        <input type="radio" class="radio" id="my_coupon" name="category" />
+                        <label for="my_coupon">คูปองของฉัน</label>
+                    </div>
+
+                    <div class="option1">
+                        <input type="radio" class="radio" id="order_history" name="category" />
+                        <label for="order_history">ประวัติการสั่งซื้อ</label>
+                    </div>
+                </div>
+            </div>
+            <div class="our_story_text">เรื่องราวของเรา<arrow2 class="fa-regular fa-angle-down"></arrow2>
+            </div>
+            <div class="select-box2">
+                <div class="options-container2">
+                    <div class="option2">
+                        <input type="radio" class="radio" id="partner" name="category" />
+                        <label for="partner">หุ้นส่วน</label>
+                    </div>
+
+                    <div class="option2">
+                        <input type="radio" class="radio" id="about_eatmi" name="category" />
+                        <label for="about_eatmi">เกี่ยวกับ Eatmi</label>
+                    </div>
+
+                    <div class="option2">
+                        <input type="radio" class="radio" id="sustain" name="category" />
+                        <label for="sustain">เส้นทางแห่งความยั่งยืน</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_taskbar">
+            <a href="#.html" target="_blank">
+                <div class="bag">
+                    <bag1 class="fa-regular fa-shopping-bag"></bag1>
+                </div>
+            </a>
+            <a href="#.html" target="_blank">
+                <button class="sign_up_button">
+                    <div class="sign_up_text">ชื่อ</div>
+                </button>
+            </a>
+            <a href="billing history.html">
+                <div class="Eng_Thai">EN/TH</div>
+            </a>
+        </div>
+    </header>
+    <div class="bill_box">
+        <div class="bill_history_text">ประวัติการเก็บเงิน</div>
+        <div class="no_order_text">ไม่มีประวัติ</div>
+        <input placeholder="หมายเลขการสั่งซื้อ" class="search_box">
+        <img src="/icon/search_icon.png" class="search_icon" onclick="searchID()">
+        </input>
+        <button class="filter_button" onclick="openFilter()">
+            <img src="/img/Vector 541.png" class="filter_icon">
+            <div class="filter_text">ตัวกรอง</div>
+        </button>
+        <div class="filter_drop_down" id="filterDropDown">
+            <div class="order_status_text">สถานะการสั่งซื้อ:</div>
+            <button class="in_progress_button" id="inProgress" onclick="inProgressButton()">
+                <div class="in_progress_text" id="inProgressText">กำลังดำเนินการ</div>
+            </button>
+            <button class="completed_button" id="completed" onclick="completedButton()">
+                <div class="completed_text" id="completedText">เสร็จสิ้น</div>
+            </button>
+            <button class="cancelled_button" id="cancelled" onclick="cancelledButton()">
+                <div class="cancelled_text" id="cancelledText">ถูกยกเลิก</div>
+            </button>
+            <div class="filter_cancel_text" onclick="cancelFilterButton()">ยกเลิก</div>
+            <button class="filter_apply_button" id="applyFilter" onclick="applyFilterButton()">
+                <div class="filter_apply_text">ใช้</div>
+            </button>
+        </div>
+        <div class="bill_history_table" id="billTable">
+            <div class="bill_field">
+                <div class="number">หมายเลข</div>
+                <div class="order_number">หมายเลขการสั่งซื้อ</div>
+                <div class="order_status">สถานะการสั่งซื้อ</div>
+                <div class="customer">ลูกค้า</div>
+                <div class="last_update">สั่งซื้อเมื่อ</div>
+                <div class="total_field">ราคารวม</div>
+                <div class="payment_field">การจ่ายเงิน</div>
+            </div>
+            <div class="bill_content">
+                <div class="number_data" id="number"></div>
+                <a href="order details.html">
+                    <div class="order_number_data" id="orderNumber"></div>
+                </a>
+                <div class="order_status_data" id="orderStatus"></div>
+                <div class="customer_data" id="customer"></div>
+                <div class="last_update_data" id="lastUpdate"></div>
+                <div class="total_field_data" id="total"></div>
+                <div class="payment_field_data" id="payment"></div>
+            </div>
+        </div>
+        <button class="see_more_button">ดูเพิ่ม</button>
+        <div class="date_to_date_box">
+            <div class="from">จาก</div>
+            <input type="date" class="date1_box"></input>
+            <div class="to">ถึง</div>
+            <input type="date" class="date2_box"></input>
+            <button class="apply_button" onclick="applyDate()">
+                <div class="apply_text">ใช้</div>
+            </button>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="/img/AIESEC.png" class="AIESEC">
+        <div class="taskbar_box">
+            <div class="first_taskbar">
+                <our_story>เรื่องราวของเรา</our_story>
+                <a href="#.html" target="_blank">
+                    <partner>หุ้นส่วน</partner>
+                </a>
+                <a href="#.html" target="_blank">
+                    <about_eatmi>เกี่ยวกับ Eatmi</about_eatmi>
+                </a>
+                <a href="#.html" target="_blank">
+                    <sustain>เส้นทางแห่งความยั่งยืน</sustain>
+                </a>
+            </div>
+            <div class="second_taskbar">
+                <shop>ร้านค้า</shop>
+                <a href="#.html" target="_blank">
+                    <view_shop>ดูร้านค้า</view_shop>
+                </a>
+            </div>
+            <div class="third_taskbar">
+                <my_account>บัญชีของฉัน</my_account>
+                <a href="#.html" target="_blank">
+                    <my_profile>โปรไฟล์ของฉัน</my_profile>
+                </a>
+                <a href="#.html" target="_blank">
+                    <my_coupon>คูปองของฉัน</my_coupon>
+                </a>
+                <a href="#.html" target="_blank">
+                    <order_history>ประวัติการสั่งซื้อ</order_history>
+                </a>
+            </div>
+            <div class="last_taskbar">
+                <help>ความช่วยเหลือ</help>
+                <a href="#.html" target="_blank">
+                    <FAQS>FAQS</FAQS>
+                </a>
+            </div>
+            <a href="#.html" target="_blank">
+                <term_condition>ข้อกำหนดและเงื่อนไข</term_condition>
+            </a>
+            <a href="#.html" target="_blank">
+                <privacy_policy>นโยบายความเป็นส่วนตัว</privacy_policy>
+            </a>
+        </div>
+        <div class="line"></div>
+        <a href="https://www.facebook.com/Meella.official/" target="_blank">
+            <img src="/icon/fb.png" class="fb">
+        </a>
+        <a href="https://www.instagram.com/meella.th/?hl=th" target="_blank">
+            <img src="/icon/ig.png" class="ig">
+        </a>
+    </footer>
+    <script src="js/header_dropdown.js"></script>
+    <script src="js/filter_dropdown.js"></script>
+    <script src="js/filter_progress.js"></script>
+</body>
+
+</html>

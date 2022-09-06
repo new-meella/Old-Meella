@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/shop.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/slider-range.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+    <title>Welcome to EATMI</title>
+    <%- include('common/common-starter', {}); %>
+</head>
+
+<body>
+
+    <%- include('common/header-en', {}); %>
+        <span>
+
+
+
+
+            <div style="margin-top: 175px 0px 175px 0px;">
+                <div id="filter-zone">
+                    <div class="flex-row">
+                        <b>Filters</b>
+                        <span>clear all</span>
+                    </div>
+                    <h3>Price</h3>
+                    <div id="slider-range" class="mb-20 noUi-target noUi-ltr noUi-horizontal noUi-background">
+                        <div class="noUi-base">
+                            <div class="noUi-origin noUi-connect" style="left: 25.25%;">
+                                <div class="noUi-handle noUi-handle-lower"></div>
+                            </div>
+                            <div class="noUi-origin noUi-background" style="left: 51.05%;">
+                                <div class="noUi-handle noUi-handle-upper"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Category</h3>
+                    <div class="three-col-container" id="category-box">
+                        <% categories.forEach((category)=> {%>
+                            <div>
+                                <span>
+                                    <%- category %>
+                                </span>
+                            </div>
+                            <% }) %>
+                    </div>
+                    <h3>Pick up time</h3>
+                    <div class="three-col-container" id="pick-up-box">
+                        <% pickUpTimes.forEach((pickUpTime)=> {%>
+                            <div>
+                                <span>
+                                    <%- pickUpTime %>
+                                </span>
+                            </div>
+                            <% }) %>
+                    </div>
+                    <div>
+                        <h3>Location</h3>
+                        <span>7 km near you</span>
+                    </div>
+
+                    <input type="range" />
+                </div>
+                <div id="menu-zone">
+                    <div class="search-box">
+                        <input type="text" placeholder="search food or restaurant" />
+                        <img src="/img/search.png" />
+                    </div>
+                    <div id="menu-list">
+                        <%- include('common/product-card', {menus: menus}); %>
+                    </div>
+                </div>
+        </span>
+        </div>
+        <img id="bg-image" src="/img/shop-bg.png" />
+        <script src="/js/shop.js"></script>
+        <%- include('common/footer-en', {}); %>
+            <%- include('common/common-ender', {}); %>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+<% currentOrderList.forEach((order, idx)=> { %>
+
+    <div class="order-card">
+        <div class="order-info">
+            <div class="flex-row">
+                <b class="name">
+                    Name : <%- order.name %>
+                </b>
+            </div>
+            <span class="flex-row">
+                Order number : <%- order.orderId %>
+            </span>
+            <div class="flex-row">
+                Pickup time : <%- order.pickUpTime %>
+            </div>
+            <div class="flex-row">
+                Date : <%- order.date %>
+            </div>
+        </div>
+    </div>
+    <% }) %>

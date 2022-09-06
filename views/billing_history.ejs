@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>billing history</title>
+    <style>
+        body {
+            background-image: url(img/figma/Vector.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position-y: 500px;
+            margin: 0 auto;
+            z-index: -1;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/no_account.css_lists/body.css">
+    <link rel="stylesheet" href="/css/no_account.css_lists/header.css">
+    <link rel="stylesheet" href="/css/no_account.css_lists/style.css">
+    <link rel="stylesheet" href="/css/no_account.css_lists/footer.css">
+    <link rel="stylesheet" href="/css/all.css">
+</head>
+
+<body>
+    <header class="header, header_shade">
+        <div class="left_taskbar">
+            <a href="#.html">
+                <img src="img/figma/meella_logo.png" class="meella_logo">
+            </a>
+            <div class="shop_text">Shop</div>
+            <div class="my_account_text">My Account<arrow1 class="fa-regular fa-angle-down"></arrow1>
+            </div>
+            <div class="select-box1">
+                <div class="options-container1">
+                    <div class="option1">
+                        <input type="radio" class="radio" id="my_profile" name="category" />
+                        <label for="my_profile">My Profile</label>
+                    </div>
+
+                    <div class="option1">
+                        <input type="radio" class="radio" id="my_coupon" name="category" />
+                        <label for="my_coupon">My Coupon</label>
+                    </div>
+
+                    <div class="option1">
+                        <input type="radio" class="radio" id="order_history" name="category" />
+                        <label for="order_history">Order History</label>
+                    </div>
+                </div>
+
+                <div class="option1">
+                    <input type="radio" class="radio" id="my_coupon" name="category" />
+                    <label for="my_coupon">My Coupon</label>
+                </div>
+
+                <div class="option1">
+                    <input type="radio" class="radio" id="order_history" name="category" />
+                    <label for="order_history">Order History</label>
+                </div>
+            </div>
+        </div>
+        <div class="our_story_text">Our Story<arrow2 class="fa-regular fa-angle-down"></arrow2>
+        </div>
+        <div class="select-box2">
+            <div class="options-container2">
+                <div class="option2">
+                    <input type="radio" class="radio" id="partner" name="category" />
+                    <label for="partner">Partner</label>
+                </div>
+
+                <div class="option2">
+                    <input type="radio" class="radio" id="about_eatmi" name="category" />
+                    <label for="about_eatmi">About Eatmi</label>
+                </div>
+
+                <div class="option2">
+                    <input type="radio" class="radio" id="sustain" name="category" />
+                    <label for="sustain">Sustainability Journey</label>
+                </div>
+                </a>
+                <a href="#.html" target="_blank">
+                    <button class="sign_up_button">
+                        <div class="sign_up_text">name</div>
+                    </button>
+                </a>
+                <a href="billing history (ไทย).html">
+                    <div class="Eng_Thai">EN/TH</div>
+                </a>
+            </div>
+    </header>
+    <div class="bill_box">
+        <div class="bill_history_text">Billing History</div>
+        <div class="no_order_text">No order history</div>
+        <input placeholder="Search by order number" class="search_box">
+        <img src="icon/search_icon.png" class="search_icon" onclick="searchID()">
+        </input>
+        <button class="filter_button" onclick="openFilter()">
+            <img src="img/figma/Vector 541.png" class="filter_icon">
+            <div class="filter_text">Filters</div>
+        </button>
+        <div class="filter_drop_down" id="filterDropDown">
+            <div class="order_status_text">Order Status:</div>
+            <button class="in_progress_button" id="inProgress" onclick="inProgressButton()">
+                <div class="in_progress_text" id="inProgressText">In Progress</div>
+            </button>
+            <button class="completed_button" id="completed" onclick="completedButton()">
+                <div class="completed_text" id="completedText">Completed</div>
+            </button>
+            <button class="cancelled_button" id="cancelled" onclick="cancelledButton()">
+                <div class="cancelled_text" id="cancelledText">Cancelled</div>
+            </button>
+            <div class="filter_cancel_text" onclick="cancelFilterButton()">Cancel</div>
+            <button class="filter_apply_button" id="applyFilter" onclick="applyFilterButton()">
+                <div class="filter_apply_text">Apply</div>
+            </button>
+        </div>
+        <div class="bill_history_table" id="billTable">
+            <div class="bill_field">
+                <div class="number">NO.</div>
+                <div class="order_number">ORDER NO.</div>
+                <div class="order_status">ORDER STATUS</div>
+                <div class="customer">CUSTOMER</div>
+                <div class="last_update">LAST UPDATE</div>
+                <div class="total_field">TOTAL</div>
+                <div class="payment_field">PAYMENT</div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <img src="img/figma/AIESEC.png" class="AIESEC">
+        <div class="taskbar_box">
+            <div class="first_taskbar">
+                <our_story>OUR STORY</our_story>
+                <a href="#.html" target="_blank">
+                    <partner>Partner</partner>
+                </a>
+                <a href="#.html" target="_blank">
+                    <about_eatmi>About Eatmi</about_eatmi>
+                </a>
+                <a href="#.html" target="_blank">
+                    <sustain>Sustainability Journey</sustain>
+                </a>
+            </div>
+            <div class="second_taskbar">
+                <shop>SHOP</shop>
+                <a href="#.html" target="_blank">
+                    <view_shop>View Shop</view_shop>
+                </a>
+            </div>
+            <div class="third_taskbar">
+                <my_account>MY ACCOUNT</my_account>
+                <a href="#.html" target="_blank">
+                    <my_profile>My Profile</my_profile>
+                </a>
+                <a href="#.html" target="_blank">
+                    <my_coupon>My Coupon</my_coupon>
+                </a>
+                <a href="#.html" target="_blank">
+                    <order_history>Order History</order_history>
+                </a>
+            </div>
+            <div class="last_taskbar">
+                <help>HELP</help>
+                <a href="#.html" target="_blank">
+                    <FAQS>FAQS</FAQS>
+                </a>
+            </div>
+            </a>
+            <a href="#.html" target="_blank">
+                <button class="sign_up_button">
+                    <div class="sign_up_text">name</div>
+                </button>
+            </a>
+            <a href="billing history (ไทย).html">
+                <div class="Eng_Thai">EN/TH</div>
+            </a>
+        </div>
+        </header>
+        <div class="bill_box">
+            <div class="bill_history_text">Billing History</div>
+            <div class="no_order_text">No order history</div>
+            <input placeholder="Search by order number" class="search_box">
+            <img src="/icon/search_icon.png" class="search_icon" onclick="searchID()">
+            </input>
+            <button class="filter_button" onclick="openFilter()">
+                <img src="/img/Vector 541.png" class="filter_icon">
+                <div class="filter_text">Filters</div>
+            </button>
+            <div class="filter_drop_down" id="filterDropDown">
+                <div class="order_status_text">Order Status:</div>
+                <button class="in_progress_button" id="inProgress" onclick="inProgressButton()">
+                    <div class="in_progress_text" id="inProgressText">In Progress</div>
+                </button>
+                <button class="completed_button" id="completed" onclick="completedButton()">
+                    <div class="completed_text" id="completedText">Completed</div>
+                </button>
+                <button class="cancelled_button" id="cancelled" onclick="cancelledButton()">
+                    <div class="cancelled_text" id="cancelledText">Cancelled</div>
+                </button>
+                <div class="filter_cancel_text" onclick="cancelFilterButton()">Cancel</div>
+                <button class="filter_apply_button" id="applyFilter" onclick="applyFilterButton()">
+                    <div class="filter_apply_text">Apply</div>
+                </button>
+            </div>
+            <div class="bill_history_table" id="billTable">
+                <div class="bill_field">
+                    <div class="number">NO.</div>
+                    <div class="order_number">ORDER NO.</div>
+                    <div class="order_status">ORDER STATUS</div>
+                    <div class="customer">CUSTOMER</div>
+                    <div class="last_update">LAST UPDATE</div>
+                    <div class="total_field">TOTAL</div>
+                    <div class="payment_field">PAYMENT</div>
+                </div>
+                <div class="bill_content">
+                    <div class="number_data" id="number"></div>
+                    <a href="order details.html">
+                        <div class="order_number_data" id="orderNumber"></div>
+                    </a>
+                    <div class="order_status_data" id="orderStatus"></div>
+                    <div class="customer_data" id="customer"></div>
+                    <div class="last_update_data" id="lastUpdate"></div>
+                    <div class="total_field_data" id="total"></div>
+                    <div class="payment_field_data" id="payment"></div>
+                </div>
+            </div>
+            <button class="see_more_button">See More</button>
+            <div class="date_to_date_box">
+                <div class="from">from</div>
+                <input type="date" class="date1_box"></input>
+                <div class="to">to</div>
+                <input type="date" class="date2_box"></input>
+                <button class="apply_button" onclick="applyDate()">
+                    <div class="apply_text">apply</div>
+                </button>
+            </div>
+        </div>
+        <footer class="footer">
+            <img src="/img/AIESEC.png" class="AIESEC">
+            <div class="taskbar_box">
+                <div class="first_taskbar">
+                    <our_story>OUR STORY</our_story>
+                    <a href="#.html" target="_blank">
+                        <partner>Partner</partner>
+                    </a>
+                    <a href="#.html" target="_blank">
+                        <about_eatmi>About Eatmi</about_eatmi>
+                    </a>
+                    <a href="#.html" target="_blank">
+                        <sustain>Sustainability Journey</sustain>
+                    </a>
+                </div>
+                <div class="line"></div>
+                <a href="https://www.facebook.com/Meella.official/" target="_blank">
+                    <img src="icon/fb.png" class="fb">
+                </a>
+                <a href="https://www.instagram.com/meella.th/?hl=th" target="_blank">
+                    <img src="icon/ig.png" class="ig">
+                </a>
+        </footer>
+        <script src="js/header_dropdown.js"></script>
+        <script src="js/filter_dropdown.js"></script>
+        <script src="js/filter_progress.js"></script>
+</body>
+
+</html>

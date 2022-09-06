@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/payment_method.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Payment Method</h1>
+        <div id="account-list">
+            <div id="account-list-control">
+                <h2>Bank Account</h2>
+                <button id="edit-account-btn">Edit bank account</button>
+            </div>
+            <table>
+                <tr id="table-header">
+                    <td>BANK NAME</td>
+                    <td>ACCOUNT NO.</td>
+                    <td>ACCOUNT NAME</td>
+                    <td>BRANCH NAME</td>
+                </tr>
+                <% accounts.forEach((account) => { %>
+                    <tr>
+                        <td><%- account.bankName %></td>
+                        <td><%- account.accountNo %></td>
+                        <td><%- account.accountName %></td>
+                        <td><%- account.branchName %></td>
+                    </tr>
+                <% }) %>
+            </table>
+        </div>
+        <div id="add-account">
+            <scan>Add Bank Account</scan>
+            <div>
+                <label>Bank Name</label>
+                <input type="text"/>
+                <label>Account No.</label>
+                <input type="text"/>
+                <label>Account Name</label>
+                <input type="text"/>
+                <label>Branch</label>
+                <input type="text"/>
+            </div>
+        </div>
+        <script src="/js/payment_method.js"></script>
+    </body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/product.css">
+    <link rel="stylesheet" href="/css/common.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+    <title>Welcome to EATMI</title>
+</head>
+
+<body>
+    <%# include('common/header-th', {}); %>
+        <div class="search-box">
+            <input type="text" placeholder="search food or restaurant" />
+            <img src="/img/search.png" />
+        </div>
+        <div id="product-info-zone">
+            <img src="<%- productImage %>" />
+            <div>
+                <div id="product-info-head">
+                    <span>Tag : </span>
+                    <span>
+                        <% productTag.forEach((tag)=> { %>
+                            <a class="product-tag">
+                                <%- tag %>
+                            </a>
+                            <% }) %>
+                    </span>
+                    <img id="fav-button" src="/img/heart.png" />
+                </div>
+                <div id="product-info">
+                    <b class="name">
+                        <%- productName %>
+                    </b>
+                    <b>
+                        <%- restaurant %>
+                    </b>
+                    <p>
+                        <%- productDetail %>
+                    </p>
+                    <div>
+                        <img src="/img/fi_map-pin.svg" />
+                        <span>
+                            <%- location %>
+                                <%- distance %> km fron you
+                        </span>
+                    </div>
+
+                    <span>Opening hours: <%- day %>
+                            <%- openTime %>-<%- closeTime %></span>
+                    <div class="margin-top">
+                        <button id="add-to-cart-btn">Add to cart</button>
+                        <button id="buy-coupon-btn">Buy coupon</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="see-more-title">
+            <b class="section-title">More from <%- restaurant %></b>
+            <a>See more >></a>
+        </div>
+        <div id="more-menu">
+            <img src="/img/left-arrow.png" />
+            <%- include('common/product-card', {menus: moreMenus}); %>
+                <img src="/img/right-arrow.png" />
+        </div>
+        <b class="section-title">Reviews</b>
+        <div id="review-zone">
+            <div id="review-summary">
+                <span id="average-rating">
+                    <%- averageRating %>
+                </span>
+                <div>
+                    <% [1,2,3,4,5].forEach((idx)=> { %>
+                        <img class="star" src="/img/star-grey.png" />
+                        <% }) %>
+                </div>
+                <span>Based on <%- reviewCount %> reviews</span>
+            </div>
+            <div id="rating">
+                <div>
+                    <span>5 stars</span>
+                    <span>4 stars</span>
+                    <span>3 stars</span>
+                    <span>2 stars</span>
+                    <span>1 star</span>
+                </div>
+                <div>
+                    <% ratings.forEach((rating)=> { %>
+                        <div class="rating-bar-bg">
+                            <div class="rating-bar" style="width:<%- rating/ratings.reduce((a, b) => a + b, 0)*100 %>%">
+                            </div>
+                        </div>
+                        <% }); %>
+                </div>
+                <div>
+                    <span>(<%= ratings[0] %>)</span>
+                    <span>(<%= ratings[1] %>)</span>
+                    <span>(<%= ratings[2] %>)</span>
+                    <span>(<%= ratings[3] %>)</span>
+                    <span>(<%= ratings[4] %>)</span>
+                </div>
+            </div>
+        </div>
+        <div id="comment-zone">
+            <% comments.forEach((comment)=> { %>
+                <div class="comment-block">
+                    <img src="<%- comment.profileImg %>" />
+                    <div>
+                        <b>
+                            <%- comment.title %>
+                        </b>
+                        <div class="flex-row">
+                            <div class="star-zone">
+                                <% [1,2,3,4,5].forEach((idx)=> { %>
+                                    <img class="star"
+                                        src="/img/star-<%- idx <= comment.rating ? 'yellow':'grey' %>.png" />
+                                    <% }) %>
+                            </div>
+                            <span>
+                                <%- comment.date %>
+                                    <%- comment.time %> by <%- comment.poster %>
+                            </span>
+                        </div>
+                        <span>
+                            <%- comment.content %>
+                                </p>
+                    </div>
+                </div>
+                <% }); %>
+        </div>
+        <%# include('common/header-th', {}); %>
+            <img id="bg-image" src="/img/product_bg.png" />
+            <script src="/js/product.js"></script>
+</body>
+
+</html>

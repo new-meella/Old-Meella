@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('common/common-starter', {}); %>
+        <link rel="stylesheet" href="/css/store_dashboard.css">
+        <link rel="stylesheet" href="/css/common.css">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/footer.css">
+        <link rel="stylesheet" href="/css/slider-range.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.google.com/specimen/Comfortaa#standard-styles" rel="stylesheet">
+
+        <title>Welcome to MEELLA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+</head>
+
+
+<%- include('common/header-en', {}); %>
+
+    <body style="background-image: url('imgcheckout-bg.png')">
+
+        <!-- <header>
+        <section>
+            <div id="header-left-pane">
+                <div class="header-nav-bar-left">
+                    <span>
+                        <img src="/img/meella-logo-cropped.png" class="header-logo-element">
+                    </span>
+                    <span class="header-left-element">
+                        <b>Shop</b>
+                    </span>
+                    <span class="header-left-element">
+                        <b>My Account</b>
+                    </span>
+                    <span class="header-left-element">
+                        <b>Our Story</b>
+                    </span>
+
+
+
+
+                </div>
+
+
+            </div>
+
+            <div id="header-right-pane">
+                <div class="header-nav-bar-right">
+                    <img src="/icon/cart-black.png" class="header-right-element" style="width: 40px">
+                    <span class="sign_up_button">
+                        <b>Logout</b>
+                    </span>
+
+                    <span class="header-right-element">
+                        <b>EN/TH</b>
+                    </span>
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </section>
+    </header> -->
+
+        <body>
+            <h1 style="padding-left: 50px;">Dashboard</h1>
+        </body>
+        <section>
+            <div id="left-pane">
+                <h1>Current order</h1>
+                <current-order-list>
+                    <span>
+
+                        <%- include('common/order-card', {currentOrderList: currentOrderList}); %>
+
+
+                    </span>
+                </current-order-list>
+            </div>
+
+            <div id="right-pane">
+                <div id="sales-box">
+
+                    <h1>Sales</h1>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>NUMBER OF SALES</th>
+                                <th>TOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <%- include('common/table-row-bestseller', {BestSellerFunc: topSalesList}); %>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div id="history-box">
+
+                    <h1>Sales history </h1>
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>DATE</th>
+                                <th>NAME</th>
+                                <th>PRICE</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <%- include('common/table-row-orderhistory', {OrderHistoryFunc: orderHistoryList}); %>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- <footer>
+        <div style="height: 2px; width:100%; background-color: black; margin-bottom: 10px;">
+
+        </div>
+        <div class="aisec-logo">
+            <img src="/img/AIESEC.png" class="center" style="padding-bottom: 10px;">
+            <span>Funded by AIESEC</span>
+
+        </div>
+
+        <table class="footer-table">
+            <tbody>
+                <tr>
+                    <th>OUR STORY</th>
+                    <th>SHOP</th>
+                    <th>MY ACCOUNT</th>
+                    <th>HELP</th>
+                </tr>
+                <tr>
+                    <td>Partner</td>
+                    <td>View Shop</td>
+                    <td>My Profile</td>
+                    <td>FAQs</td>
+                </tr>
+                <tr>
+                    <td>About Meella</td>
+                    <td></td>
+                    <td>My Coupon</td>
+                </tr>
+                <tr>
+                    <td>Sustainability<br>
+                        Journey</td>
+                    <td></td>
+                    <td>Order History</td>
+                </tr>
+
+
+            </tbody>
+        </table>
+        <div class="footer-legal-social">
+            <span class="footer-legal-link">Terms & Condition</span>
+            <span class="footer-legal-link">Privacy Policy</span>
+
+            <img src="/icon/social/facebook-black.png" class="footer-social-link">
+            <img src="/icon/social/instagram-black.png" class="footer-social-link">
+
+
+        </div>
+
+    </footer> -->
+        <!-- <img id="bg-image" src="/img/checkout-bg.png" /> -->
+
+    </body>
+    <%- include('common/footer-en', {}); %>
+        <%- include('common/common-ender', {}); %>
+
+</html>

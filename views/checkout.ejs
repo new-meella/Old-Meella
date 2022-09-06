@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/checkout.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300&display=swap" rel="stylesheet">
+    <title>Welcom to Eatmi</title>
+</head>
+
+<body>
+    <div id="title">
+        <h1>My Cart</h1>
+    </div>
+    <div id="menu-manage">
+        <div>
+            <div class="checkbox">
+                <img src="/img/check.png" />
+            </div>
+            <span>Select all</span>
+        </div>
+        <div id="delete-button">
+            <img src="/img/bin.png" />
+            <span>delete</span>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div id="product-list">
+        <% products.forEach((product, idx)=> { %>
+            <div class="menu-bar">
+                <div class="product-bar">
+                    <div class="checkbox"><img src="/img/check.png" /></div>
+                    <img src="<%- product.image %>" />
+                    <div>
+                        <b class="name">
+                            <%- product.name %>
+                        </b>
+                        <span class="restaurant">
+                            <%- product.restaurant %>
+                        </span>
+                        <span class="description">
+                            <%- product.description %>
+                        </span>
+                        <div class="cart-manage">
+                            <div class="price-tag"><span>
+                                    <%- product.price %>
+                                </span></div>
+                            <div class="quantity-input">
+                                <button class="decrease">-</button>
+                                <span class="quantity">
+                                    <%- product.quantity %>
+                                </span>
+                                <button class="increase">+</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% if (idx+1 < products.length) { %>
+                    <div class="line"></div>
+                    <% } %>
+            </div>
+            <% }) %>
+                <span id="empty-alert">Your cart is empty.</span>
+    </div>
+    <div id="summary-zone">
+        <b>My Order</b>
+        <div class="summary-bar">
+            <div>
+                <span>Price</span>
+            </div>
+            <span id="total-price">0 Baht</span>
+        </div>
+        <div class="summary-bar">
+            <div>
+                <span>Discounted Price</span>
+            </div>
+            <span>-</span>
+        </div>
+        <div class="summary-bar">
+            <div>
+                <span>Final Price</span>
+            </div>
+            <span id="final-price">0 Baht</span>
+        </div>
+    </div>
+    <div id="checkout-zone">
+        <button>Check out</button>
+    </div>
+    <div id="go-back">
+        <img src="/img/back-arrow.png" />
+        <span>Shop for more food</span>
+    </div>
+    <img id="bg-image" src="/img/checkout-bg.png" />
+    <script src="/js/checkout.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+document.getElementById("cost").innerHTML = document.getElementById("price").innerHTML+" THB";

@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign Up (Customer)</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="/css/customer.css">
+    <link rel="stylesheet" href="/css/font.css">
+
+</head>
+<style>
+    .checkbox input[type="checkbox"]:checked {
+        background-image: url(/img/fi_check.png);
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <img src="/img/RectangleCustomer.png" alt="Rectangle1382">
+        <img src="/img/Group 1129.png" alt="Group1129">
+
+        <img src="/img/RectangleCustomer.png" alt="Rectangle1382">
+        <img src="/img/Group1129.png" alt="Group1129">
+
+        <p1>Sign Up</p1>
+        <form action="" method="post">
+            <label1>Username</label1>
+            <div class="txt_username">
+                <input type="Username" required>
+            </div>
+            <label2>Email</label2>
+            <div class="txt_email">
+                <input type="Email" required>
+            </div>
+            <label3>Password</label3>
+            <div class="txt_password">
+                <img src="/img/Eye.jpg" id="ShowPassword" onclick="HidePassword()">
+                <img src="/img/Eye_slash.png" id="togglePassword" onclick="HidePassword()">
+                <input type="password" id="password">
+            </div>
+        </form>
+        <div class="checkbox">
+            <input type="checkbox">
+            <label4>Creating an account means you accept our </label4><a href="#" class="condition">
+                <p>Terms & Conditions</p>
+            </a>
+            <span>and our</span><a href="" class="privacy">
+                <p>Privacy Notice</p>
+            </a>
+        </div>
+
+        <br><input type="submit" class="btn solid" value="Sign Up">
+        <div class="line"></div>
+        <p class="sign_up_with">Or sign up with</p>
+        <div class="social media">
+            <a href="" class="google">
+                <button><img src="/img/google-icon 1.png" alt="google-icon">
+
+                    <button><img src="/img/google-icon.png" alt="google-icon">
+
+                        <p>Gmail</p>
+                    </button>
+            </a>
+            <a href="" class="facebook">
+                <button><img src="/img/facebook-3 1.png" alt="facebook-3">
+
+                    <button><img src="/img/facebook-3.png" alt="facebook-3">
+
+                        <p>Facebook</p>
+                    </button>
+            </a>
+            <p2>Already a member?</p2><a href="#" class="sign_in">Sign in</a>
+
+        </div>
+
+    </div>
+    <script src="/js/sign-up-customer.js"></script>
+</body>
+
+</html>

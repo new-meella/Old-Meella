@@ -1,0 +1,14 @@
+<% OrderHistoryFunc.forEach((orderHistoryList, idx)=> { %>
+
+    <tr>
+        <td>
+            <%- orderHistoryList.date %>
+        </td>
+        <td>
+            <%- orderHistoryList.orderName %>
+        </td>
+        <td>
+            <%- orderHistoryList.price %>
+        </td>
+    </tr>
+    <% }) %>

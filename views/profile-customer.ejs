@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/profile-customer.css">
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <title>Customer's Profile</title>
+
+</head>
+
+<body>
+
+    <div class="content">
+        <p id="show_name">Name</p>
+        <p id="show_lastname">Lastname</p>
+        <p id="ID">ID</p>
+
+        <div id="show_profile">
+            <div class="phone_num">
+                <p>phone no.</p>
+                <p id="show_Phone"></p>
+            </div>
+            <div class="email">
+                <p>email</p>
+                <p id="show_Email"></p>
+            </div>
+            <div class="point">
+                <p>current points</p>
+            </div>
+
+        </div>
+        <button onclick="EditProfile()" id="edit"
+            style="height: 30px;width:30px; background-image: url(public/img/pen.png);"></button>
+        <form action="#" method="post">
+            <section id="edit_profile">
+                <label class="Name-edit">Name</label><input type="text" id="txtInputName">
+                <label class="Lastname-edit">Lastname</label><input type="text" id="txtInputLastname">
+                <label class="phone-edit">phone no.</label><input type="text" id="txtInputPhone">
+                <label class="email-edit">email</label><input type="text" id="txtInputEmail">
+                <p id="Change">Change password</p>
+                <div class="edit_password">
+                    <label class="Current-password">Current password</label><input type="text" id="Current_password">
+                    <label class="New-password">New password</label><input type="text" id="New_password">
+                    <label class="Confirm-new-password">Confirm new password</label><input type="text"
+                        id="Confirm_new_password">
+                </div>
+                <input onclick="ClearFields()" type="reset" id="cancel" value="Cancel">
+
+            </section>
+
+        </form>
+
+        <input onclick="SaveFunction()" type="submit" id="save" value="Save">
+    </div>
+
+
+
+    <script src="/js/profile-customer.js"></script>
+
+</body>
+
+</html>

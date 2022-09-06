@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="/css/sign_in.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/cookie_setting.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <img src="/img/Rectangle-1382.png" alt="Rectangle1382">
+        <img src="/img/Rectangle-1384.png" alt="Rectangle1384">
+        <img src="/img/Rectangle 1383.png" alt="food">
+
+        <img src="/img/Rectangle-1382.png" alt="Rectangle1382">
+        <img src="/img/Rectangle-1384.png" alt="Rectangle1384">
+        <img src="/img/Rectangle_1383.png" alt="food">
+
+
+        <div class="content">
+            <h1>Welcome back!</h1>
+            <p>Sign in to Meella and explore wonderful<br>
+                food with reasonable price</p>
+        </div>
+        <form action="" method="post">
+            <label1>Sign in with username or your email</label1>
+            <div class="txt_username">
+                <img src="/img/user.png" alt="userimage"><input type="Username">
+
+            </div>
+            <label2>Password</label2>
+            <div class="txt_password">
+                <img src="/img/lock.png" alt="lock"><input type="password" id="password">
+                <img src="/img/Eye.jpg" id="ShowPassword" onclick="HidePassword()">
+                <img src="/img/Eye_slash.png" id="togglePassword" onclick="HidePassword()">
+            </div>
+            <nav>
+                <div class="forgot_password">
+                    <a href="#">Forgot Your Password?</a>
+                </div>
+            </nav>
+            <a href="#"><input type="submit" class="btn solid" value="Sign In"></a>
+        </form>
+        <div class="line"></div>
+
+        <div class="social_media">
+            <span>Or Continue With</span><br>
+            <a href="#" class="google">
+                <button><img src="/img/google-icon 1.png" alt="google-icon">
+
+                    <button><img src="/img/google-icon.png" alt="google-icon">
+
+                        <p>Gmail</p>
+                    </button>
+            </a>
+            <a href="#" class="facebook">
+                <button><img src="/img/facebook-3 1.png" alt="facebook-3">
+
+                    <button><img src="/img/facebook-3.png" alt="facebook-3">
+
+                        <p>Facebook</p>
+                    </button>
+            </a>
+
+        </div>
+        <div class="new_member">
+            <p>Not a member?</p>
+            <a href="#">Sign up</a>
+        </div>
+    </div>
+
+    <!--pop up start-->
+    <section>
+        <div class="cookie">
+            <p>This website uses cookie to collect your usage information and improve the performance of website in
+                order
+                to give you a better online experience and offer products or services to suit your wish. By continuing
+                to
+                browse this website without any adjustment, it is deemed that you accept our</p>
+            <a href="#">“Cookie Policy”</a>
+            <p1>.</p1>
+
+            <div id="accept_all">
+                <a href="#"><input type="submit" class="btn solid" value="Accept All Cookies"></a>
+            </div>
+            <div class="close">
+                <button id="closex" style="background-image: url(/img/fi_x.png);"></button>
+            </div>
+
+            <div id="mySidebar" class="sidebar">
+
+                <a href="#">Cookie Setting</a>
+            </div>
+        </div>
+    </section>
+    <div class="scroll">
+        <a href=""><input type="submit" class="btn solid" value="Confirm My Choices"></a>
+        <div class="scrollbar scrollbar-primary">
+            <div class="force-overflow">
+                <div class="object">
+
+                    <div class="p_one">
+                        <b>What are cookies?</b>
+                        <p>Cookies are small text files which are stored on
+                            users’ browser, computer hard drive, or users’
+                            mobile device. Using cookies is not limited to
+                            traditional websites and web browsers. Mobile
+                            applications which commonly communicate with
+                            websites and web services also can set cookies.
+                            Cookies are responsible for recording information
+                            and preferences. For example, remembering language
+                            preferences in the browser on users’
+                            devices, and recording users’ current access status
+                            to help users access the website continuously.
+                            Including the collection of the history of users’
+                            favorite websites in a file format. The cookies do
+                            not harm users’ devices and the content of the cookie
+                            can only be retrieved or read by the website that created the cookie.</p>
+                    </div>
+                    <div class="p_two">
+                        <p>
+                            The information that we obtain through cookies and similar
+                            technologies may include IP address, mobile device advertising ID,
+                            browser characteristics, unique device ID, device characteristics,
+                            operating system, language preferences, referring URLs,
+                            contents that users access or are interested in while visiting,
+                            and dates and times you access or use the services.
+                            In connection with mobile and tablet apps, we also may use a similar automated method.
+                        </p>
+                        <a href=""><input type="submit" class="btn solid" value="Allow All"></a>
+                    </div>
+                    <div class="p_three">
+                        <h4>Manage Consent Preferences</h4>
+                        <input type="checkbox" id="check1">
+                        <div class="container">
+                            <label for="check1" class="box1">
+                                <div class="symbol">
+                                    <span id="minus1"><img src="/img/loma-.png" alt="minus"></span>
+                                    <span id="plus1"><img src="/img/loma.png" alt="plus"></span>
+                                </div>
+                                <h6>Strictly Necessary Cookies</h6>
+                                <b>Always Active</b>
+                            </label>
+                            <div class="data1">
+                                These cookies are essential in order to enable
+                                you to move around Meella’s website, including
+                                services and features on Meella’s website. These
+                                cookies help you to access secure areas of our
+                                website. Without these cookies, Meella’s website
+                                or some functions cannot properly operate,
+                                including some services you have asked for, cannot be provided.
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="p_four">
+                        <input type="checkbox" id="check2">
+                        <div class="container">
+                            <label for="check2" class="box2">
+                                <div class="symbol">
+                                    <span id="minus2"><img src="/img/loma-.png" alt="minus"></span>
+                                    <span id="plus2"><img src="/img/loma.png" alt="plus"></span>
+                                </div>
+                                <h6>Analytical/Performance Cookies</h6>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </label>
+                            <div class="data2">
+                                These cookies collect information about how you use Meella’s website, for instance,
+                                pages you visit on our website, pages you go to most often, and links you might click
+                                on. These cookies do not collect information that identifies you. All information these
+                                cookies collect is aggregated and therefore anonymous. Meella uses this type of cookie
+                                to understand how you use Meella’s online services and website so as to improve how the
+                                website works and improve performance of Meella’s services.
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="p_five">
+                        <input type="checkbox" id="check3">
+                        <div class="container">
+                            <label for="check3" class="box3">
+                                <div class="symbol">
+                                    <span id="minus3"><img src="/img/loma-.png" alt="minus"></span>
+                                    <span id="plus3"><img src="/img/loma.png" alt="plus"></span>
+                                </div>
+                                <h6>Functionality Cookies</h6>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </label>
+                            <div class="data3">
+                                These cookies help Meella’s website to remember information or choices you make (such as
+                                your username, language or the region you are in) and provide more personalised features
+                                (such as where a website may remember font sizes). These cookies can also be used to
+                                remember changes you have made to font size, font type and other parts of web pages that
+                                you can customise. The information these cookies collect may be anonymised and they
+                                cannot track your browsing activity on other websites.
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p_six">
+                        <input type="checkbox" id="check4">
+                        <div class="container">
+                            <label for="check4" class="box4">
+                                <div class="symbol">
+                                    <span id="minus4"><img src="/img/loma-.png" alt="minus"></span>
+                                    <span id="plus4"><img src="/img/loma.png" alt="plus"></span>
+                                </div>
+                                <h6>Advertising Cookies</h6>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </label>
+                            <div class="data4">
+                                These cookies remember your preferences in accessing websites. Meella uses these cookies
+                                to deliver advertisements more relevant to you and your interests and to limit the
+                                number of times you see general advertisements as well as help measure the effectiveness
+                                of Meella’s advertising campaigns. These cookies will be placed by advertising networks
+                                (e.g. Facebook, Google, etc.) with Meella’s permission and will remember how you have
+                                visited Meella’s website and information may be shared with other organisations such as
+                                advertisers. Quite often targeting or advertising cookies will be linked to website
+                                functionality provided by the other organisations. In the event that these cookies are
+                                used to collect, use or disclose your personal data, Meella obtains your consent or
+                                proceeds in accordance with personal data protection laws.
+                                <br>By using Meella’s website, you acknowledge that Meella will place these types of
+                                cookies
+                                for the above purposes. Meella may additionally collect, use or disclose your personal
+                                data forming part of such cookies, for the purposes set out in our Privacy Notice.
+
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--pop up end-->
+
+    <script src="/js/sign_in.js"></script>
+
+
+
+</body>
+
+</html>

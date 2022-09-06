@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/order-history.css">
+
+    </head>
+    <body>
+        <h1>Order History</h1>
+        <div id="order-list">
+            <% orderHistories.forEach((monthlyOrder) => { %>
+                <div>
+                    <h2><%- monthlyOrder.month -%></h2>
+                    <% monthlyOrder.orders.forEach((menu) => { %>
+                        <img src="<%- menu.image -%>" />
+                        <div>
+                            <p><%- menu.menuName -%></p>
+                            <p>by <%- menu.restaurantName -%></p>
+                            <p>Date : <%- menu.date -%></p>
+                        </div>
+                        <p>Price : <%- menu.price -%> TBH</p>
+                    <% }) %>
+                </div>
+            <% }) %>
+        </div>
+    </body>
+</html>

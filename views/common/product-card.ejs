@@ -1,0 +1,29 @@
+<% menus.forEach((menu, idx) => { %>
+    <div class="menu-card-container">
+        <img class="like-button" src="/img/heart.png" />
+        <div class="menu-card">
+            <img src="<%- menu.image %>" />
+            <div class="menu-info">
+                <div class="flex-row">
+                    <b class="title"><%- menu.productName %></b>
+                    <span class="new-price"><%- menu.price %></span>
+                </div>
+                <div class="flex-row">
+                    <span class="location"><%- menu.location %></span>
+                    <span class="old-price"><%- menu.originalPrice %></span>
+                </div>
+                <span class="description"><%- menu.productDescription %></span>
+            </div>
+            <div class="flex-row">
+                <div class="distance">
+                    <img src="/img/map-pin.png" />
+                    <span><%- menu.distance %></span>
+                </div>
+                <div class="add-to-cart-button">
+                    <img src="/img/cart.png" />
+                    <span>Add to cart</span>
+                </div>
+            </div>
+        </div>
+    </div>
+<% }) %>

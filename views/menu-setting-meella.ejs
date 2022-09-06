@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- color of address bar in mobile browser -->
+    <meta name="theme-color" content="#F5C332" />
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="/icon/meella-logo.png" type="image/x-icon" />
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="/css/plugins/bootstrap.min.css" />
+    <!-- swiper css -->
+    <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
+    <!-- datepicker css -->
+    <link rel="stylesheet" href="/css/plugins/datepicker.css" />
+    <!-- mapbox css -->
+    <link href="/css/plugins/mapbox-style.css" rel="stylesheet" />
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="/css/plugins/fancybox.min.css" />
+    <!-- starbelly css -->
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- Vendors Style-->
+    <link rel="stylesheet" href="/css/vendors_css.css" />
+    <!-- Sweetlert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css">
+    <!-- page title -->
+    <title>Menu setting | Meella</title>
+    <style>
+        body {
+            background-image: url("/img/curve-bg.png");
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- app wrapper -->
+    <div class="sb-app">
+        <!-- click effect -->
+        <div class="sb-click-effect"></div>
+        <!-- loader -->
+        <div class="sb-load"></div>
+        <!-- top bar -->
+        <div class="sb-top-bar-frame">
+            <div class="sb-top-bar-bg"></div>
+            <div>
+                <div class="sb-top-bar">
+                    <a href="#.html" class="sb-logo-frame">
+                        <!-- logo img -->
+                        <img src="/icon/meella-logo.png" alt="Starbelly" />
+                    </a>
+                    <!-- menu -->
+                    <div class="sb-right-side">
+                        <nav id="sb-dynamic-menu" class="sb-menu-transition">
+                            <ul class="sb-navigation">
+                                <li class="sb-active">
+                                    <a href="#.html">Shop</a>
+                                </li>
+                                <li class="sb-has-children">
+                                    <a href="#.html">My Account</a>
+                                    <ul>
+                                        <li><a href="#.html">My Profile</a></li>
+                                        <li><a href="#.html">My Coupon</a></li>
+                                        <li><a href="#.html">Order History</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sb-has-children">
+                                    <a href="#.html">Our Story</a>
+                                    <ul>
+                                        <li><a href="#.html">About Meella</a></li>
+                                        <li><a href="#.html">Sustainability Journey</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="sb-buttons-frame">
+                            <!-- button -->
+                            <div class="sb-btn sb-btn-2 sb-btn-gray sb-btn-icon sb-m-0 sb-btn-cart">
+                                <span class="sb-icon" href="#.html">
+                                    <img src="/icon/cart.svg" alt="icon" />
+                                </span>
+                                <i class="sb-cart-number">5</i>
+                            </div>
+                            <!-- button end -->
+                            <!-- Sign up button -->
+                            <div class="bright-btn" style="
+                            text-align: center;
+                            vertical-align: middle;
+                            color: #f9b609;
+                            font-weight: bold;
+                            margin-left: 20px;
+                          "><a href="#.html" style="font-size: 18px;"><span>Sign in /</span></a>&nbsp;<a href="#.html"
+                                    style="font-size: 18px;"><span>Sign up</span></a>
+                            </div>
+                            <!-- Sign up button end -->
+                            <!-- Select Language -->
+                            <div class="sb-navigation se-lang">
+                                <a href="#.html" style="margin-left: 20px">EN</a> &nbsp;
+                                <a>/</a> &nbsp; <a href="#.html">TH</a>
+                            </div>
+                            <!-- Select Language end -->
+                            <!-- menu btn -->
+                            <div class="sb-menu-btn"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- top bar end -->
+
+        <!-- dynamic content -->
+        <div id="sb-dynamic-content" class="sb-transition-fade">
+            <!-- space below the bar -->
+            <section class="sb-p-60-0">
+                <div class="container">
+                    <div class="row flex-md-row-reverse">
+                        <div class="col-lg-6 align-self-center sb-mb-90"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- space below the bar end -->
+
+            <!-- page title -->
+            <section>
+                <div class="container">
+                    <div class="sb-group-title">
+                        <div>
+                            <h2>Menu Setting</h2>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- creat a menu process -->
+            <div class="row curve-bg">
+                <div class="col-lg-12">
+                    <div class="sb-contact-form-frame">
+                        <div class="sb-form-content">
+                            <!-- edit profile -->
+                            <div class="container">
+                                <div class="avatar-upload">
+                                    <div class="avatar-edit">
+                                        <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
+                                        <label for="imageUpload"></label>
+                                    </div>
+                                    <div class="avatar-preview">
+                                        <div id="imagePreview" style="background-image: url('img/editprofile.png');">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="selectpicker" style="margin-top: 40px;">
+                                    <select class="select2">
+                                        <option>ฟาสต์ฟู้ด</option>
+                                        <option>อาหารญี่ปุ่น</option>
+                                        <option>ข้าว</option>
+                                        <option>ขนม</option>
+                                        <option>อาหารอีสาน</option>
+                                        <option>สตรีทฟู้ด</option>
+                                        <option>อาหารสุขภาพ</option>
+                                        <option>น้ำปั่น</option>
+                                        <option>อาหารเกาหลี</option>
+                                        <option>ชาไข่มุก</option>
+                                        <option>เค้ก</option>
+                                        <option>ไก่ทอด</option>
+                                        <option>อาหารเส้น</option>
+                                        <option>อาหารตามสั่ง</option>
+                                        <option>กาแฟ</option>
+                                        <option>อาหารสุขภาพ</option>
+                                        <option>ยำ</option>
+                                        <option>หมาล่า</option>
+                                        <option>อาหารไทย</option>
+                                        <option>ผลไม้</option>
+                                    </select>
+                                    <span class="sb-bar"></span>
+                                    <label>Type of food *</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="sb-group-input">
+                                    <input type="number" name="price" required>
+                                    <span class="sb-bar"></span>
+                                    <label>Full price per a piece</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <div class="sb-group-input">
+                                    <input type="number" name="price" required>
+                                    <span class="sb-bar"></span>
+                                    <label>Discounted price per a piece</label>
+                                </div>
+                            </div>
+                            <!-- Add an amount -->
+                            <div class="col-lg-12">
+                                <label class="sb-mb-15" style="text-align: left;">Add an amount</label>
+                                <div class="sb-input-number-frame" style="margin-bottom: 40px;">
+                                    <div class="sb-input-number-btn sb-sub">-</div>
+                                    <input type="number" value="1" min="1" max="100">
+                                    <div class="sb-input-number-btn sb-add">+</div>
+                                </div>
+                            </div>
+                            <!-- save & cancel -->
+                            <div class="box-footer">
+                                <button class="btn btn-rounded btn-outline" onClick="modaldelete()"
+                                    style="background-color: #EF0000; border-width: 2px; margin-right: 10px; color: white;">
+                                    <img src="/icon/delete-white.png" width="25" height="25"> Delete
+                                </button>
+                                <button class="btn btn-rounded btn-outline"
+                                    style="border-color: #437F97; border-width: 2px; margin-right: 10px; margin-left: 10px;">
+                                    <img src="/icon/cancel-black.png" width="25" height="25"> Cancel
+                                </button>
+                                <button class="btn btn-rounded btn-warning btn-outline" onClick="modalapply()"
+                                    style="margin-left: 10px;">
+                                    <img src="/icon/save-floppy-black.png" width="25" height="25"> Apply
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- creat a menu process end -->
+        </div>
+
+        <!-- dynamic content end -->
+    </div>
+    <!-- app wrapper end -->
+    <!-- footer -->
+    <footer>
+        <div class="container-footer" style="background-color: #f9b609">
+            <div style="margin: 30px; text-align: center; "><img src="/img/Aiesec-logo.png" alt="Aiesec logo"></div>
+            <hr width="100%" color="#231e41" size="50px" />
+            <div class="sb-footer-frame">
+                <div class="ft-link">
+                    <ul class="footer-list mb-sm-5 mb-md-0">
+                        <h5 class="widget-title">OUR STORY</h5>
+                        <li><a href="#">Partner</a></li>
+                        <li><a href="#">About Meella</a></li>
+                        <li><a href="#" style="margin-bottom: 20px;">Sustainability Journey</a></li>
+                    </ul>
+                </div>
+                <div class="ft-link">
+                    <ul class="footer-list mb-sm-5 mb-md-0">
+                        <h5 class="widget-title">SHOP</h5>
+                        <li><a href="#" style="margin-bottom: 20px;">View Shop</a></li>
+                    </ul>
+                </div>
+                <div class="ft-link">
+                    <ul class="footer-list mb-sm-5 mb-md-0">
+                        <h5 class="widget-title">MY ACCOUNT</h5>
+                        <li><a href="#">My Profile</a></li>
+                        <li><a href="#">My Coupon</a></li>
+                        <li><a href="#" style="margin-bottom: 20px;">Order History</a></li>
+                    </ul>
+                </div>
+                <div class="ft-link">
+                    <ul class="footer-list mb-sm-5 mb-md-0">
+                        <h5 class="widget-title">HELP</h5>
+                        <li><a href="#">FAQS</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <div class="sb-footer-3">
+                    <div>
+                        <ul class="tp-list">
+                            <li>
+                                <a href="#">Term & Condition</a> &nbsp;
+                                <a href="#" style="margin-left: 40px">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="mobile-social-icon sb-footer-3">
+                            <li>
+                                <a href="#."><img src="/icon/social/facebook-black.png" alt="" /></a>
+                            </li>
+                            <li>
+                                <a href="#." style="margin-left: 15px"><img src="/icon/social/instagram-black.png"
+                                        alt="" /></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- jquery js -->
+    <script src="js/plugins/jquery.min.js"></script>
+    <!-- smooth scroll js -->
+    <script src="js/plugins/smooth-scroll.js"></script>
+    <!-- swup js -->
+    <script src="js/plugins/swup.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/plugins/swiper.min.js"></script>
+    <!-- datepicker js -->
+    <script src="js/plugins/datepicker.js"></script>
+    <!-- isotope js -->
+    <script src="js/plugins/isotope.js"></script>
+    <!-- sticky -->
+    <script src="js/plugins/sticky.js"></script>
+    <!-- mapbox js -->
+    <script src="js/plugins/mapbox.min.js"></script>
+    <!-- fancybox js -->
+    <script src="js/plugins/fancybox.min.js"></script>
+    <!-- starbelly js -->
+    <script src="js/main.js"></script>
+    <!-- Vendor JS -->
+    <script src="js/pages/chat-popup.js"></script>
+    <script src="js/vendor_components/apexcharts-bundle/dist/apexcharts.min.js"></script>
+    <script src="js/vendor_components/feather-icons/feather.min.js"></script>
+    <script src="js/vendor_components/jquery-steps-master/build/jquery.steps.js"></script>
+    <script src="js/vendor_components/jquery-validation-1.17.0/dist/jquery.validate.min.js"></script>
+    <script src="js/vendor_components/sweetalert/sweetalert.min.js"></script>
+    <script src="js/formatter.js"></script>
+    <script src="js/vendor_components/formatter/jquery.formatter.js"></script>
+    <script src="js/pages/chat-popup.js"></script>
+    <script src="js/vendor_components/apexcharts-bundle/dist/apexcharts.min.js"></script>
+    <script src="js/vendor_components/sweetalert/sweetalert-delete.js"></script>
+    <!-- Riday App -->
+    <script src="js/template.js"></script>
+
+    <script src="js/steps.js"></script>
+    <!-- add(+/-)button number js -->
+    <script src="js/add-number.js"></script>
+    <!-- edit profile js -->
+    <script src="js/editprofile.js"></script>
+</body>
+
+</html>

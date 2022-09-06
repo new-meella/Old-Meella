@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Order details</title>
+    <style>
+        body {
+            background-image: url(img/figma/Vector3.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+            background-position-y: 820px;
+            margin: 0 auto;
+            z-index: -1;
+            overflow-x: hidden;
+        }
+    </style>
+    <link rel="stylesheet" href="css/no_account.css_lists/body.css">
+    <link rel="stylesheet" href="css/no_account.css_lists/header.css">
+    <link rel="stylesheet" href="css/no_account.css_lists/style.css">
+    <link rel="stylesheet" href="css/no_account.css_lists/footer.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+
+<body>
+    <header class="header, header_shade">
+        <div class="left_taskbar">
+            <a href="#.html">
+                <img src="img/figma/meella_logo.png" class="meella_logo">
+            </a>
+            <div class="shop_text">Shop</div>
+            <div class="my_account_text">My Account<arrow1 class="fa-regular fa-angle-down"></arrow1>
+            </div>
+            <div class="select-box1">
+                <div class="options-container1">
+                    <div class="option1">
+                        <input type="radio" class="radio" id="my_profile" name="category" />
+                        <label for="my_profile">My Profile</label>
+                    </div>
+
+                    <div class="option1">
+                        <input type="radio" class="radio" id="my_coupon" name="category" />
+                        <label for="my_coupon">My Coupon</label>
+                    </div>
+
+                    <div class="option1">
+                        <input type="radio" class="radio" id="order_history" name="category" />
+                        <label for="order_history">Order History</label>
+                    </div>
+                </div>
+
+                <div class="option1">
+                    <input type="radio" class="radio" id="my_coupon" name="category" />
+                    <label for="my_coupon">My Coupon</label>
+                </div>
+
+                <div class="option1">
+                    <input type="radio" class="radio" id="order_history" name="category" />
+                    <label for="order_history">Order History</label>
+                </div>
+            </div>
+        </div>
+        <div class="our_story_text">Our Story<arrow2 class="fa-regular fa-angle-down"></arrow2>
+        </div>
+        <div class="select-box2">
+            <div class="options-container2">
+                <div class="option2">
+                    <input type="radio" class="radio" id="partner" name="category" />
+                    <label for="partner">Partner</label>
+                </div>
+
+                <div class="option2">
+                    <input type="radio" class="radio" id="about_eatmi" name="category" />
+                    <label for="about_eatmi">About Eatmi</label>
+                </div>
+
+                <div class="option2">
+                    <input type="radio" class="radio" id="sustain" name="category" />
+                    <label for="sustain">Sustainability Journey</label>
+                </div>
+            </div>
+        </div>
+        </div>
+        <footer class="footer3">
+            <img src="img/figma/AIESEC.png" class="AIESEC">
+            <div class="taskbar_box">
+                <div class="first_taskbar">
+                    <our_story>OUR STORY</our_story>
+                    <a href="#.html" target="_blank">
+                        <partner>Partner</partner>
+                    </a>
+                    <a href="#.html" target="_blank">
+                        <about_eatmi>About Eatmi</about_eatmi>
+                    </a>
+                    <a href="#.html" target="_blank">
+                        <sustain>Sustainability Journey</sustain>
+                    </a>
+                </div>
+                <div class="second_taskbar">
+                    <shop>SHOP</shop>
+                    <a href="#.html" target="_blank">
+                        <view_shop>View Shop</view_shop>
+                    </a>
+                </div>
+                <div class="third_taskbar">
+                    <my_account>MY ACCOUNT</my_account>
+                    <a href="#.html" target="_blank">
+                        <my_profile>My Profile</my_profile>
+                    </a>
+                    <a href="#.html" target="_blank">
+                        <my_coupon>My Coupon</my_coupon>
+                    </a>
+                    <a href="#.html" target="_blank">
+                        <order_history>Order History</order_history>
+                    </a>
+                </div>
+                <div class="last_taskbar">
+                    <help>HELP</help>
+                    <a href="#.html" target="_blank">
+                        <FAQS>FAQS</FAQS>
+                    </a>
+                </div>
+                </a>
+                <a href="#.html" target="_blank">
+                    <button class="sign_up_button">
+                        <div class="sign_up_text">name</div>
+                    </button>
+                </a>
+                <a href="order details (ไทย).html" target="_blank">
+                    <div class="Eng_Thai">EN/TH</div>
+                </a>
+                </box>
+    </header>
+    <div class="bill_box">
+        <div class="order_ID">202202150871354</div>
+        <div class="completed_status">Completed</div>
+        <div class="in_progress_status">In Progress</div>
+        <div class="cancelled_status">Cancelled</div>
+        <div class="order_details_box">
+            <div class="order_details_text">Order Detail</div>
+            <div class="detail_field">
+                <div class="number2">NO.</div>
+                <div class="menu">MENU</div>
+                <div class="quantity">QUANTITY</div>
+                <div class="unit_price">UNIT PRICE</div>
+                <div class="remark">REMARK</div>
+            </div>
+            <div class="detail_content">
+                <div class="number2">1</div>
+                <div class="menu">Glazed Donut</div>
+                <div class="quantity">1</div>
+                <div class="unit_price" id="price">15</div>
+                <div class="remark">-</div>
+            </div>
+            <div class="total_text">Total</div>
+            <div class="total_cost" id="cost"></div>
+        </div>
+        <div class="customer_box">
+            <div class="customer_text">Customer</div>
+            <div class="orange_circle"></div>
+            <div class="customer_name">John Wick</div>
+        </div>
+    </div>
+    <footer class="footer3">
+        <img src="/img/AIESEC.png" class="AIESEC">
+        <div class="taskbar_box">
+            <div class="first_taskbar">
+                <our_story>OUR STORY</our_story>
+                <a href="#.html" target="_blank">
+                    <partner>Partner</partner>
+                </a>
+                <a href="#.html" target="_blank">
+                    <about_eatmi>About Eatmi</about_eatmi>
+                </a>
+                <a href="#.html" target="_blank">
+                    <sustain>Sustainability Journey</sustain>
+                </a>
+            </div>
+            <div class="line"></div>
+            <a href="https://www.facebook.com/Meella.official/" target="_blank">
+                <img src="icon/fb.png" class="fb">
+            </a>
+            <a href="https://www.instagram.com/meella.th/?hl=th" target="_blank">
+                <img src="icon/ig.png" class="ig">
+            </a>
+    </footer>
+    <script src="js/header_dropdown.js"></script>
+    <script src="js/filter_dropdown.js"></script>
+    <script src="js/order_details.js"></script>
+</body>
+
+</html>
