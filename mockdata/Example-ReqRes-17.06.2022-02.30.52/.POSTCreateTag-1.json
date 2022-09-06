@@ -1,0 +1,12 @@
+{
+    "filename": ".POSTCreateTag.json-1",
+    "url": "meella.org/Tag/create",
+    "request": {
+        "tagNameEn": "Chatuchak",
+        "tagNameTh": "\u0e08\u0e15\u0e38\u0e08\u0e31\u0e01\u0e23",
+        "tagType": "District"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

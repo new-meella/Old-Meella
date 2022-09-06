@@ -1,0 +1,17 @@
+{
+    "filename": ".POSTCreateUser.json-3",
+    "url": "meella.org/User/create",
+    "request": {
+        "lang": "en",
+        "userName": "BAAA",
+        "firstName": "\u0e17\u0e34\u0e19\u0e20\u0e31\u0e17",
+        "lastName": "\u0e25\u0e34\u0e21\u0e28\u0e34\u0e25",
+        "phoneNumber": "09883746287",
+        "email": "hihi@gmail.com",
+        "firebaseUserId": "4",
+        "comment": "firebaseUserId CONFLICT"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,345 @@
+.header {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 89.15%;
+
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.085) 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+.eatmi_box,
+.eatmi_icon {
+    position: absolute;
+    left: 2.71%;
+    right: 92.29%;
+    top: 2.03%;
+    bottom: 94.32%;
+
+    height: 72px;
+    width: 72px;
+    border-radius: 72px;
+}
+
+.eatmi_text,
+.our_story_text,
+.shop_text,
+.my_account_text,
+.sign_up_text,
+.Eng_Thai {
+    font-family: 'M PLUS 1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.eatmi_icon {
+    background: #F9B609;
+}
+
+.eatmi_text {
+    position: absolute;
+    left: 4%;
+    right: 90.5%;
+    top: -2%;
+    bottom: 93.48%;
+
+    font-size: 22px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+}
+
+.left_taskbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 12.36%;
+    right: 55.69%;
+    top: 2.19%;
+    bottom: 95.67%;
+}
+
+.our_story_box {
+    position: static;
+    width: 156px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+.our_story_text {
+    position: absolute;
+    width: 131px;
+    height: 32px;
+    left: 0px;
+    top: 0px;
+}
+
+.shop_box {
+    position: absolute;
+    width: 23px;
+    height: 32px;
+    left: 188px;
+    top: 0px;
+
+    color: #000000;
+}
+
+.shop_text {
+    position: static;
+    width: 23px;
+    height: 32px;
+    left: 188px;
+    top: 0px;
+
+    color: #000000;
+}
+
+.my_account_box {
+    position: static;
+    width: 177px;
+    height: 33px;
+    left: 283px;
+    top: 0px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+.my_account_text {
+    position: absolute;
+    width: 152px;
+    height: 32px;
+    left: 283px;
+    top: 0px;
+
+    color: #000000;
+}
+
+.right_taskbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    left: 74.72%;
+    right: 2.57%;
+    top: 1.81%;
+    bottom: 95.16%;
+}
+
+.bag {
+    position: static;
+    width: 56px;
+    height: 47px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+.sign_up_button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 128px;
+    height: 36px;
+    left: 88px;
+    top: 8.5px;
+
+    background: #F9B609;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 10px 0px;
+}
+
+.sign_up_text {
+    position: absolute;
+    width: 80px;
+    height: 32px;
+    left: 24px;
+    top: -22px;
+
+    color: #000000;
+}
+
+.Eng_Thai {
+    position: absolute;
+    width: 79px;
+    height: 47px;
+    left: 220px;
+    top: 20px;
+
+    font-size: 24px;
+    line-height: 35px;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+
+
+.header-forehead {
+    padding-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header-meella-logo {
+
+    width: 10%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+
+}
+
+.header-logo-element {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    vertical-align: center;
+    width: 120px;
+
+
+
+}
+
+.header-left-element {
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+
+
+    padding: 20px 5px 20px 5px;
+    vertical-align: center;
+
+
+
+}
+
+.header-right-element {
+    /* margin-left: auto; */
+    float: right;
+
+    margin-right: 1%;
+
+
+    padding: 20px 5px 20px 5px;
+    vertical-align: center;
+
+}
+
+
+
+.sign_up_button {
+
+    background: #F9B609;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    float: right;
+    margin: 0px 20px 0px 20px;
+
+
+    padding: 20px 0px 20px 0px;
+    vertical-align: center;
+    /* margin-left: auto; */
+    flex-grow: 1;
+
+}
+
+
+/* This is Game's, Only used in Dashboard */
+
+/* Having this in the code like brick other code */
+/* .right_taskbar {
+    float: right;
+    margin-left: 20px;
+}
+
+
+.Eng_Thai {
+
+    float: right;
+    font-style: bold;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.eatmi_icon {
+    position: absolute;
+    height: 72px;
+    width: 72px;
+    border-radius: 72px;
+    background: #F9B609;
+} */
+
+.log_in_out_button {
+    border: 5px solid #F9B609;
+    color: #F9B609;
+
+    background: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    float: right;
+    margin: 0px 20px 0px 20px;
+
+
+    padding: 15px 0px 15px 0px;
+    vertical-align: center;
+    /* margin-left: auto; */
+    /*     flex-grow: 1; */
+
+}
+
+
+
+.header-Log-In-Out {
+    border-radius: 10px;
+    background: #f9b609;
+    float: right;
+    margin-left: 20px;
+}
+
+/* .footer-legal-link {
+    text-align: left;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */

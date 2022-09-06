@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    height: 800px;
+    left: 120px;
+    top: 215px;
+    display: flex;
+   align-items: center;
+    background: #FFFFFF;
+    /* Drop shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+}
+
+.content h2 {
+    /* Reset password */
+    position: absolute;
+    width: 582px;
+    height: 42px;
+    left: 630px;
+    top: 165px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.content p {
+    /* Type your new password here. */
+    position: absolute;
+    width: 504px;
+    height: 41px;
+    left: 637px;
+    top: 235px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+label1 {
+    /* New password */
+    position: absolute;
+    width: 311px;
+    height: 24px;
+    left: 637px;
+    top: 296px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+.txt_field_new {
+    position: absolute;
+    width: 411px;
+    height: 50px;
+    left: 637px;
+    top: 332px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.txt_field_new input {
+    position: absolute;
+    width: 340px;
+    height: 24px;
+    left: 20px;
+    top: 9px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    outline: none;
+}
+
+label2 {
+    /* Confirm new password */
+    position: absolute;
+    width: 311px;
+    height: 24px;
+    left: 637px;
+    top: 398px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+.txt_field_confirm {
+    position: absolute;
+    width: 411px;
+    height: 50px;
+    left: 637px;
+    top: 434px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.txt_field_confirm input {
+    position: absolute;
+    width: 340px;
+    height: 24px;
+    left: 20px;
+    top: 9px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 23px;
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 792px;
+    top: 539px;
+    background: #FECC2F;
+    /* Drop shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border: none;
+}
+
+form input[value="Submit"] {
+    /* Submit */
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+img[alt="Rectangle1382"] {
+    position: absolute;
+    width: 557.67px;
+    height: 799.01px;
+    left: 21.33px;
+}
+
+img[alt="Rectangle1384"]{
+    position: absolute;
+width: 545.29px;
+    height: 802px;
+}
+
+img[alt="vector"] {
+    position: absolute;
+    left: 63px;
+    top: 180px;
+}
+
+img[alt="unlock"] {
+    position: absolute;
+    width: 174.94px;
+    height: 174.94px;
+    left: 113.93px;
+    top: 288.18px;
+    border-radius: 400px;
+}
+img#togglePassword1{
+display: none;
+position: absolute;
+top: 10px;
+left: 365px;
+}
+img#ShowPassword1{
+    position: absolute;
+    top: 10px;
+    left: 365px;
+}
+img#ShowPassword2{
+    position: absolute;
+    top: 10px;
+    left: 365px;
+}
+img#togglePassword2{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 365px;
+    }
+
+@media (max-width:1150px) {
+    .content h2 {
+        position: absolute;
+        left: 560px;
+    }
+
+    .content p {
+        position: absolute;
+        left: 567px;
+    }
+
+    label1 {
+        position: absolute;
+        left: 567px;
+    }
+
+    .txt_field_new {
+        position: absolute;
+        left: 567px;
+    }
+
+    label2 {
+        position: absolute;
+        left: 567px;
+    }
+
+    .txt_field_confirm {
+        position: absolute;
+        left: 567px;
+    }
+
+    form input[type="submit"] {
+        position: absolute;
+        left: 682px;
+    }
+
+    img[alt="Rectangle1382"] {
+        position: absolute;
+        width: 500.29px;
+    }
+
+    img[alt="Rectangle1384"]{
+        position: absolute;
+        width: 490.29px;
+
+    }
+
+    img[alt="vector"] {
+        position: absolute;
+        width: 280px;
+        left: 38px;
+    }
+
+    img[alt="unlock"] {
+        position: absolute;
+        width: 170.94px;
+        left: 80.93px;
+        top: 268.18px;
+    }
+}
+
+@media (max-width:1050px) {
+    .container {
+        width: 1000px;}
+    .content h2 {
+        position: absolute;
+        left: 490px;
+    }
+
+    .content p {
+        position: absolute;
+        left: 497px;
+    }
+
+    label1 {
+        position: absolute;
+        left: 497px;
+    }
+
+    .txt_field_new {
+        position: absolute;
+        left: 497px;
+    }
+
+    label2 {
+        position: absolute;
+        left: 497px;
+    }
+
+    .txt_field_confirm {
+        position: absolute;
+        left: 497px;
+    }
+
+    form input[type="submit"] {
+        position: absolute;
+        left: 592px;
+    }
+
+    img[alt="Rectangle1382"] {
+        position: absolute;
+        width: 440.29px;
+    }
+
+    img[alt="Rectangle1384"]{
+        position: absolute;
+        width: 430.29px;
+
+    }
+
+    img[alt="vector"] {
+        position: absolute;
+        width: 250px;
+        left: 38px;
+        top: 200px;
+    }
+
+    img[alt="unlock"] {
+        position: absolute;
+        width: 170.94px;
+        left: 80.93px;
+        top: 268.18px;
+    }
+}

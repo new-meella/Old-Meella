@@ -1,0 +1,37 @@
+{
+  "Tag/ProductTag/create": [
+    {
+      "productId": 1,
+      "tagNameEn": "Korean"
+    },
+    {
+      "productId": 2,
+      "tagNameEn": "Japanese"
+    },
+    {
+      "productId": 3,
+      "tagNameEn": "Western"
+    },
+    {
+      "productId": 4,
+      "tagNameEn": "Western"
+    },
+    {
+      "productId": 5,
+      "tagNameEn": "Western"
+    },
+    {
+      "productId": 6,
+      "tagNameEn": "Korean"
+    },
+    {
+      "productId": 7,
+      "tagNameEn": "Western"
+    },
+    {
+      "productId": 7,
+      "tagNameEn": "Dessert"
+    },
+    {}
+  ]
+}

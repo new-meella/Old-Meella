@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-20",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Government Housing Bank",
+        "bankNameOfficial": "THE GOVERNMENT HOUSING BANK"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

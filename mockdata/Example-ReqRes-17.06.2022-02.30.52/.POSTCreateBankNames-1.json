@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-1",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Kasikornbank",
+        "bankNameOfficial": "KASIKORNBANK PUBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

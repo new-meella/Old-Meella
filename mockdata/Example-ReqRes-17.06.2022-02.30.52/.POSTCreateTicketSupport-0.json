@@ -1,0 +1,15 @@
+{
+    "filename": ".POSTCreateTicketSupport.json-0",
+    "url": "meella.org/TicketSupport/create",
+    "request": {
+        "userId": 3,
+        "orderId": 1,
+        "email": "itsjustsupport@yahoo.com",
+        "supportTypeNameEn": "Indian Call Center",
+        "title": "my food stinks",
+        "description": "Bugs in food"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

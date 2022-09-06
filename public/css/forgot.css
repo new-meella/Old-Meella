@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    max-width: 1200px;
+    height: 800px;
+    left: 120px;
+    align-items: center;
+    display: flex;
+    top: 215px;
+    background: #FFFFFF;
+    /* Drop shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+}
+
+
+.content h2 {
+    /* Forgot your password? */
+    position: absolute;
+    width: 582px;
+    height: 42px;
+    left: 579px;
+    top: 218px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.content p {
+    position: absolute;
+    width: 504px;
+    height: 41px;
+    left: 586px;
+    top: 310px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+label {
+    /* Email */
+    position: absolute;
+    width: 311px;
+    height: 24px;
+    left: 586px;
+    top: 399px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+.txt_field_email {
+    position: absolute;
+    width: 411px;
+    height: 50px;
+    left: 586px;
+    top: 435px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.txt_field_email input {
+    position: absolute;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    width: 364px;
+    left: 20px;
+    top: 10px;
+    border: none;
+    outline: none;
+}
+
+form input[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 23px;
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 741px;
+    top: 533px;
+    background: #FECC2F;
+    /* Drop shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border: none;
+}
+
+form input[value="Submit"] {
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.pic img[alt="lock"] {
+    position: absolute;
+    left: 101px;
+    top: 264.66px;
+}
+
+.pic img[alt="Vector lock"] {
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+
+.pic img[alt="Rectangle 1384"] {
+    position: absolute;
+    width: 545.29px;
+    height: 802px;
+    left: 0px;
+    top: 0px;
+}
+
+.pic img[alt="Rectangle 1382"] {
+    position: absolute;
+    width: 555px;
+    height: 802px;
+    left: 39px;
+    top: 0px;
+}
+
+@media screen and (max-width: 1280px) {
+    .content h2 {
+        position: absolute;
+        left: 509px;
+    }
+
+    .content p {
+        position: absolute;
+        left: 516px;
+    }
+
+    label {
+        position: absolute;
+        left: 516px;
+    }
+
+    .txt_field_email {
+        position: absolute;
+        left: 516px;
+    }
+
+    form input[type="submit"] {
+        position: absolute;
+        left: 651px;
+    }
+
+    .pic img[alt="lock"] {
+        position: absolute;
+        width: 200px;
+        left: 70px;
+    }
+
+    .pic img[alt="Vector lock"] {
+        position: absolute;
+        width: 280px;
+        left: 30px;
+        top: 170px;
+    }
+
+    .pic img[alt="Rectangle 1384"] {
+        position: absolute;
+        width: 470px;
+    }
+
+    .pic img[alt="Rectangle 1382"] {
+        position: absolute;
+        width: 480px
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .content h2 {
+        position: absolute;
+        left: 437px;
+    }
+
+    .content p {
+        position: absolute;
+        left: 446px;
+    }
+
+    label {
+        position: absolute;
+        left: 446px;
+    }
+
+    .txt_field_email {
+        position: absolute;
+        left: 446px;
+    }
+
+    form input[type="submit"] {
+        position: absolute;
+        left: 561px;
+    }
+
+    .pic img[alt="lock"] {
+        position: absolute;
+        width: 185px;
+        left: 50px;
+        top: 240px;
+    }
+
+    .pic img[alt="Vector lock"] {
+        position: absolute;
+        width: 250px;
+        left: 25px;
+        top: 170px;
+    }
+
+    .pic img[alt="Rectangle 1384"] {
+        position: absolute;
+        width: 420px;
+    }
+
+    .pic img[alt="Rectangle 1382"] {
+        position: absolute;
+        width: 430px
+    }
+}
+@media screen and (max-width: 1030px) {
+    .container{
+        width: 950px;
+    }
+    .content h2 {
+        position: absolute;
+        left: 367px;
+    }
+
+    .content p {
+        position: absolute;
+        left: 376px;
+    }
+
+    label {
+        position: absolute;
+        left: 376px;
+    }
+
+    .txt_field_email {
+        position: absolute;
+        left: 376px;
+    }
+
+    form input[type="submit"] {
+        position: absolute;
+        left: 481px;
+    }
+
+    .pic img[alt="lock"] {
+        position: absolute;
+        width: 160px;
+        left: 40px;
+        top: 240px;
+    }
+
+    .pic img[alt="Vector lock"] {
+        position: absolute;
+        width: 215px;
+        left: 15px;
+        top: 190px;
+    }
+
+    .pic img[alt="Rectangle 1384"] {
+        position: absolute;
+        width: 350px;
+    }
+
+    .pic img[alt="Rectangle 1382"] {
+        position: absolute;
+        width: 340px
+    }
+}

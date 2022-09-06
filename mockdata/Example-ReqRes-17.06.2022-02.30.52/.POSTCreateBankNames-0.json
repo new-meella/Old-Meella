@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-0",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Bangkok Bank",
+        "bankNameOfficial": "BANGKOK BANK PUBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

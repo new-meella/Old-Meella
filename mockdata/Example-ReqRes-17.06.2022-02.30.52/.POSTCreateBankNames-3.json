@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-3",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Krungthai Bank",
+        "bankNameOfficial": "KRUNG THAI BANK PUBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

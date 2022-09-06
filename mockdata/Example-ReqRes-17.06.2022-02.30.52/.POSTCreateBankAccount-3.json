@@ -1,0 +1,14 @@
+{
+    "filename": ".POSTCreateBankAccount.json-3",
+    "url": "meella.org/StoreOwner/Bankaccount/create",
+    "request": {
+        "storeOwnerId": 4,
+        "accountNumber": "0293478098234",
+        "accountName": "Ox Limsila",
+        "branch": "your Pathuwan",
+        "bankName": "TMB Bank"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

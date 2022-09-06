@@ -1,0 +1,17 @@
+{
+  "Payment/PaymentType/create": [
+    {
+      "paymentName": "Cash"
+    },
+    {
+      "paymentName": "Credit Card"
+    },
+    {
+      "paymentName": "QR-Code"
+    },
+    {
+      "paymentName": "Paypal"
+    },
+    {}
+  ]
+}

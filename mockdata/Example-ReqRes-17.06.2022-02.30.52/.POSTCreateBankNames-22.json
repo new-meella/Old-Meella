@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-22",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Mizuho Bank",
+        "bankNameOfficial": "MIZUHO BANK, LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

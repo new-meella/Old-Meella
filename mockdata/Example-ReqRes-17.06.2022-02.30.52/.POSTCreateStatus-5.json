@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateStatus.json-5",
+    "url": "meella.org/Status/create",
+    "request": {
+        "statusNameEn": "Completed",
+        "statusNameTh": "\u0e40\u0e2a\u0e23\u0e47\u0e08\u0e2a\u0e34\u0e49\u0e19"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

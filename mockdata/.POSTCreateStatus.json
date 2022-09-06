@@ -1,0 +1,28 @@
+{
+  "Status/create": [
+    {
+      "statusNameEn": "Finished",
+      "statusNameTh": "เสร็จ"
+    },
+    {
+      "statusNameEn": "Canceled",
+      "statusNameTh": "ยกเลิก"
+    },
+    {
+      "statusNameEn": "Pending",
+      "statusNameTh": "ยังค้างอยู่"
+    },
+    {
+      "statusNameEn": "Open",
+      "statusNameTh": "เปิด"
+    },
+    {
+      "statusNameEn": "Closed",
+      "statusNameTh": "ปิด"
+    },
+    {
+      "statusNameEn": "Completed",
+      "statusNameTh": "เสร็จสิ้น"
+    }
+  ]
+}

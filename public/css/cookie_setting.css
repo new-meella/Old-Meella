@@ -1,0 +1,842 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/*.bg{
+    display: block;
+    left: 600px;
+    background: linear-gradient(126.35deg, rgba(196, 196, 196, 0.31) 2.35%, rgba(196, 196, 196, 0) 100%);
+    backdrop-filter: blur(10px);
+    min-height: fit-content;
+    width: 100%;
+
+}*/
+body{
+    background: linear-gradient(126.35deg, rgba(196, 196, 196, 0.31) 2.35%, rgba(196, 196, 196, 0) 100%);
+    backdrop-filter: blur(10px);
+}
+
+.scroll {
+    position: absolute;
+    width: 600px;
+    height: 1233px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    /* Drop shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 0px 50px 50px 0px;
+}
+
+.scroll input[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 24px;
+    gap: 10px;
+    position: absolute;
+    width: 215px;
+    height: 51px;
+    left: 192px;
+    top: 1134px;
+
+    background: #FECC2F;
+    border-radius: 15px;
+    border: none;
+}
+.scroll input[type="submit"]:focus{
+    outline: none;
+}
+
+
+.scroll input[value="Confirm My Choices"] {
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*scroll*/
+.scrollbar {
+    margin-left: 50px;
+    margin-top: 56px;
+    float: left;
+    height: 1008px;
+    width: 515px;
+    background: #FFFFFF;
+    overflow-y: scroll;
+    margin-bottom: 169px;
+    overflow-x: hidden;
+
+}
+
+.force-overflow {
+    min-height: fit-content;/*3430*/
+}
+
+.scrollbar-primary::-webkit-scrollbar {
+    width: 15px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+}
+
+.scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #F9B609;
+}
+
+.scrollbar-primary {
+    scrollbar-color: #F9B609 #EEEEEE;
+}
+
+.scrollbar-danger::-webkit-scrollbar-track {
+    background-color: #EEEE;
+    border-radius: 20px;
+}
+
+/*scroll*/
+.force-overflow .object .p_one b {
+    position: relative;
+    width: 269px;
+    height: 43px;
+    left: 0px;
+    top: 0px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+.force-overflow .object .p_one p {
+    position: relative;
+    max-width: 475px;
+    left: 0px;
+    top: 20px;
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+.force-overflow .object .p_two p {
+    position: relative;
+    max-width: 475px;
+    left: 0px;
+    top: 40px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+.force-overflow .object .p_two a input[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 24px;
+    gap: 10px;
+    position: relative;
+    width: 121px;
+    height: 51px;
+    left: 0px;
+    top: 70px;
+    background: #FECC2F;
+    border-radius: 15px;
+    border: none;
+}
+.force-overflow .object .p_two a input[type="submit"]:focus{
+    outline: none;
+}
+
+.force-overflow .object .p_two a input[value="Allow All"] {
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.force-overflow .object .p_two a input[value="Allow All"]:focus{
+    outline: none;
+}
+
+.force-overflow .object .p_three h4 {
+    position: relative;
+    width: 429px;
+    height: 43px;
+    left: 0px;
+    margin-top: 100px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+/****box1*****/
+.force-overflow .object .p_three .box1 {
+    position: relative;
+    left: 0px;
+    top: 24px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.force-overflow .object .p_three .box1 h6 {
+    position: absolute;
+    padding-left: 38px;
+    padding-top: 23px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+.force-overflow .object .p_three .box1 b {
+    position: absolute;
+    padding-left: 322px;
+    padding-top: 23px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #437F97;
+}
+
+.force-overflow .object .p_three .box1 .symbol {
+    position: relative;
+}
+
+.force-overflow .object .p_three .box1 .symbol #plus1 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+.force-overflow .object .p_three .box1 .symbol #minus1 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+/***check box1**/
+.force-overflow .object .p_three input {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#check1:checked~.container .box1 #plus1 {
+    display: none;
+}
+
+#check1:checked~.container .box1 #minus1 {
+    display: block;
+
+}
+
+/***check box1 end**/
+
+
+/***part show box 1***/
+.force-overflow .object .p_three .data1 {
+    display: none;
+}
+
+.force-overflow .object .p_three .data1.show {
+    left: 0px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 294px;
+    border: 2px solid #FADC82;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    transition: 0.3s ease;
+    top: 18px;
+    margin-bottom: 5px;
+}
+.force-overflow .object .p_three .box1.show{
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background: #FFFFFF;
+}
+
+/***part show box1 end***/
+
+
+/***** box 2*****/
+.force-overflow .object .p_four .box2 {
+    position: relative;
+    left: 0px;
+    top: 29px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.force-overflow .object .p_four .box2 h6 {
+    position: absolute;
+    padding-left: 38px;
+    padding-top: 23px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+
+
+
+.force-overflow .object .p_four .box2 .symbol {
+    position: relative;
+}
+
+.force-overflow .object .p_four .box2 .symbol #plus2 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+.force-overflow .object .p_four .box2 .symbol #minus2 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+/***check box2**/
+.force-overflow .object .p_four input {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#check2:checked~.container .box2 #plus2 {
+    display: none;
+}
+
+#check2:checked~.container .box2 #minus2 {
+    display: block;
+
+}
+
+/***check box2 end**/
+
+/***switch box2****/
+.force-overflow .object .p_four .switch input {
+    opacity: 0;
+  width: 0;
+  height: 0;
+}
+.force-overflow .object .p_four .switch .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    left: 400px;
+    right: 0;
+    bottom: 0;
+    height: 18.67px;
+    width: 41.66px;
+    background-color: #E0E0E0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.force-overflow .object .p_four .switch .slider::before{
+    position: absolute;
+  content: "";
+  height: 23.54px;
+  width: 24.19px;
+  left: 0px;
+  bottom: -2.5px;
+  background-color: #7D7D7D;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.force-overflow .object .p_four .switch input:checked+.slider {
+    background-color: rgba(67, 127, 151, 0.5);
+  }
+  .force-overflow .object .p_four .switch input:focus+.slider {
+    box-shadow: 0 0 1px rgba(67, 127, 151, 0.5);
+  }
+  
+  .force-overflow .object .p_four .switch input:checked+.slider:before {
+    -webkit-transform: translateX(23.54px);
+    -ms-transform: translateX(23.54px);
+    transform: translateX(23.54px);
+    background-color: #437F97;
+  }
+  
+  /* Rounded sliders */
+  .force-overflow .object .p_four .box2  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .force-overflow .object .p_four .box2 .slider.round:before {
+    border-radius: 50%;
+  }
+  
+/***switch box2 end****/
+
+/***part show box 2***/
+.force-overflow .object .p_four .data2 {
+    display: none;
+}
+
+.force-overflow .object .p_four .data2.show {
+    left: 0px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 380px;
+    border: 2px solid #FADC82;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    transition: 0.3s ease;
+    top: 28px;
+}
+
+.force-overflow .object .p_four .box2.show {
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background: #FFFFFF;
+}
+
+
+/***part show box2 end***/
+
+
+/***** box 3*****/
+.force-overflow .object .p_five .box3 {
+    position: relative;
+    left: 0px;
+    top: 35px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.force-overflow .object .p_five .box3 h6 {
+    position: absolute;
+    padding-left: 38px;
+    padding-top: 23px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+
+.force-overflow .object .p_five .box3 .symbol {
+    position: relative;
+}
+
+.force-overflow .object .p_five .box3 .symbol #plus3 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+.force-overflow .object .p_five .box3 .symbol #minus3 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+/***check box3**/
+.force-overflow .object .p_five input {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#check3:checked~.container .box3 #plus3 {
+    display: none;
+}
+
+#check3:checked~.container .box3 #minus3 {
+    display: block;
+
+}
+
+/***check box3 end**/
+
+/***switch box3****/
+.force-overflow .object .p_five .switch input {
+    opacity: 0;
+  width: 0;
+  height: 0;
+}
+.force-overflow .object .p_five .switch .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    left: 400px;
+    right: 0;
+    bottom: 0;
+    height: 18.67px;
+    width: 41.66px;
+    background-color: #E0E0E0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.force-overflow .object .p_five .switch .slider::before{
+    position: absolute;
+  content: "";
+  height: 23.54px;
+  width: 24.19px;
+  left: 0px;
+  bottom: -2.5px;
+  background-color: #7D7D7D;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.force-overflow .object .p_five .switch input:checked+.slider {
+    background-color: rgba(67, 127, 151, 0.5);
+  }
+  .force-overflow .object .p_five .switch input:focus+.slider {
+    box-shadow: 0 0 1px rgba(67, 127, 151, 0.5);
+  }
+  
+  .force-overflow .object .p_five .switch input:checked+.slider:before {
+    -webkit-transform: translateX(23.54px);
+    -ms-transform: translateX(23.54px);
+    transform: translateX(23.54px);
+    background-color: #437F97;
+  }
+  
+  /* Rounded sliders */
+  .force-overflow .object .p_five .box3  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .force-overflow .object .p_five .box3 .slider.round:before {
+    border-radius: 50%;
+  }
+  
+/***switch box3 end****/
+
+/***part show box 3***/
+.force-overflow .object .p_five .data3 {
+    display: none;
+}
+
+.force-overflow .object .p_five .data3.show {
+    left: 0px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 403.98px;
+    border: 2px solid #FADC82;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    transition: 0.3s ease;
+    top: 30px;
+    margin-bottom: 5px;
+}
+
+.force-overflow .object .p_five .box3.show {
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background: #FFFFFF;
+}
+
+
+/***part show box3 end***/
+
+
+/***** box 4*****/
+.force-overflow .object .p_six .box4 {
+    position: relative;
+    left: 0px;
+    top: 41px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-radius: 10px;
+    background: #FFFFFF;
+    display: block;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+.force-overflow .object .p_six .box4 h6 {
+    position: absolute;
+    padding-left: 38px;
+    padding-top: 23px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+
+.force-overflow .object .p_six .box4 .symbol {
+    position: relative;
+}
+
+.force-overflow .object .p_six .box4 .symbol #plus4 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+.force-overflow .object .p_six .box4 .symbol #minus4 {
+    display: block;
+    position: absolute;
+    left: 8px;
+    color: #F9B609;
+    font-size: 30px;
+    line-height: 30px;
+    top: 8px;
+    transform: translateY(50%);
+}
+
+/***check box4**/
+.force-overflow .object .p_six input {
+    -webkit-appearance: none;
+    display: none;
+}
+
+#check4:checked~.container .box4 #plus4 {
+    display: none;
+}
+
+#check4:checked~.container .box4 #minus4 {
+    display: block;
+
+}
+/***check box4 end**/
+
+/***switch box4****/
+.force-overflow .object .p_six .switch input {
+    opacity: 0;
+  width: 0;
+  height: 0;
+}
+.force-overflow .object .p_six .switch .slider{
+    position: absolute;
+    cursor: pointer;
+    top: 30px;
+    left: 400px;
+    right: 0;
+    bottom: 0;
+    height: 18.67px;
+    width: 41.66px;
+    background-color: #E0E0E0;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+.force-overflow .object .p_six .switch .slider::before{
+    position: absolute;
+  content: "";
+  height: 23.54px;
+  width: 24.19px;
+  left: 0px;
+  bottom: -2.5px;
+  background-color: #7D7D7D;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.force-overflow .object .p_six .switch input:checked+.slider {
+    background-color: rgba(67, 127, 151, 0.5);
+  }
+  .force-overflow .object .p_six .switch input:focus+.slider {
+    box-shadow: 0 0 1px rgba(67, 127, 151, 0.5);
+  }
+  
+  .force-overflow .object .p_six .switch input:checked+.slider:before {
+    -webkit-transform: translateX(23.54px);
+    -ms-transform: translateX(23.54px);
+    transform: translateX(23.54px);
+    background-color: #437F97;
+  }
+  
+  /* Rounded sliders */
+  .force-overflow .object .p_six .box4  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .force-overflow .object .p_six .box4 .slider.round:before {
+    border-radius: 50%;
+  }
+  
+/***switch box4 end****/
+
+/***part show box 4***/
+.force-overflow .object .p_six .data4 {
+    display: none;
+}
+
+.force-overflow .object .p_six .data4.show {
+    left: 0px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    padding: 16px;
+    box-sizing: border-box;
+    width: 475px;
+    height: 844px;
+    border: 2px solid #FADC82;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    transition: 0.3s ease;
+    top: 36px;
+
+}
+
+.force-overflow .object .p_six .box4.show {
+    width: 475px;
+    height: 81px;
+    border: 2px solid #FADC82;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background: #FFFFFF;
+}
+
+
+/***part show box4 end***/
+

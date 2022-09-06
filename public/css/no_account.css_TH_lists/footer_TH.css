@@ -1,0 +1,132 @@
+.footer,
+.footer_success,
+.footer3,
+.footer4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding-bottom: 145px;
+    margin-top: 200px;
+
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    left: 0%;
+    right: 0%;
+    top: 115%;
+
+    background: #F9B609;
+}
+
+.footer_success {
+    top: 270%;
+}
+
+.footer3 {
+    top: 200%;
+}
+
+.footer4 {
+    top: 225%;
+}
+
+.taskbar_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+    
+    position: relative;
+    top: 25px;
+    bottom: 0px;
+    margin-left: 200px;
+}
+
+.first_taskbar {
+    position: static;
+    width: 177px;
+    height: 198px;
+    left: 0px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.second_taskbar {
+    position: static;
+    width: 102px;
+    height: 108px;
+    left: 225px;
+    top: 0px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.third_taskbar {
+    position: static;
+    width: 194px;
+    height: 202px;
+    left: 375px;
+    top: 0px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.last_taskbar {
+    position: static;
+    width: 59px;
+    height: 87px;
+    left: 617px;
+    top: 0px;
+    
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.line {
+    position: relative;
+    width: 75%;
+    height: 0px;
+    left: 0px;
+    top: -225px;
+    
+    background-color: black;
+
+    border: 0.5px solid rgba(0, 0, 0, 0.57);
+    transform: rotate(-0.11deg);
+}
+
+.AIESEC {
+    position: relative;
+    top: -50px;
+}
+
+.fb {
+    position: relative;
+    left: 1500%;
+    right: 0px;
+    top: 100px;
+    bottom: 0px;
+}
+
+.ig {
+    position: relative;
+    left: 1700%;
+    right: 0px;
+    top: 65px;
+    bottom: 0px;
+}

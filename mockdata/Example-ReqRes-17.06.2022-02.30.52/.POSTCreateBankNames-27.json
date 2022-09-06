@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-27",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Kiatnakin Bank",
+        "bankNameOfficial": "KIATNAKIN BANK PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

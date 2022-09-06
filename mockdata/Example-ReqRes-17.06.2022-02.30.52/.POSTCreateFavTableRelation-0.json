@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateFavTableRelation.json-0",
+    "url": "meella.org/FavTable/create",
+    "request": {
+        "storeId": "2",
+        "userId": "1"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

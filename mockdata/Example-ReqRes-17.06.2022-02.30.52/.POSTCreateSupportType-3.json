@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateSupportType.json-3",
+    "url": "meella.org/SupportType/create",
+    "request": {
+        "supportTypeNameEn": "Sucking",
+        "supportTypeNameTh": "By Sucking"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

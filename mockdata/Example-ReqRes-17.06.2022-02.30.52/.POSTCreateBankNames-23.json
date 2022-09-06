@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-23",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "BNP Paribas",
+        "bankNameOfficial": "BNP PARIBAS"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

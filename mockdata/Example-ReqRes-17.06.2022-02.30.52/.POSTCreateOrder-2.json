@@ -1,0 +1,28 @@
+{
+    "filename": ".POSTCreateOrder.json-2",
+    "url": "meella.org/Order/create",
+    "request": {
+        "storeId": 2,
+        "userId": 3,
+        "pickUpTimeNameEn": "After 18:00",
+        "couponId": null,
+        "orderNote": null,
+        "paymentName": "QR-Code",
+        "product": [
+            {
+                "productId": 2,
+                "quantity": 1,
+                "productNote": "ALL CURELY FRIES"
+            },
+            {
+                "productId": 3,
+                "quantity": 1,
+                "productNote": null
+            }
+        ],
+        "comment": "valid productId, Invalid StoreId"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "M PLUS 1";
+}
+
+.container-fluid {
+    position: absolute;
+    width: 1200px;
+    max-width: 100%;
+    height: 800px;
+    left: 130px;
+    top: 216px;
+    background: #FFFFFF;
+    /* Drop shadow */
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    display: flex;
+}
+
+img[alt="Rectangle1382"] {
+    position: absolute;
+    width: 649px;
+    height: 880px;
+    right: -42px;
+    top: -20px;
+}
+
+p1 {
+    /* Sign Up */
+    position: absolute;
+    width: 262px;
+    height: 77px;
+    left: 50px;
+    top: 64px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 93px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+label1 {
+    /* Username */
+    position: absolute;
+    width: 91px;
+    height: 41px;
+    left: 69px;
+    top: 184px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+.txt_username {
+    position: absolute;
+    width: 222px;
+    height: 44px;
+    left: 63px;
+    top: 232px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.txt_username input[type="Username"] {
+    position: absolute;
+    width: 188px;
+    left: 12px;
+    top: 4px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+label2 {
+    position: absolute;
+    width: 91px;
+    height: 41px;
+    left: 318px;
+    top: 184px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+
+    color: #9A9A9A;
+}
+
+.txt_email {
+    position: absolute;
+    width: 298px;
+    height: 44px;
+    left: 312px;
+    top: 232px;
+
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+input[type="Email"] {
+    position: absolute;
+    width: 262px;
+    left: 12px;
+    top: 4px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+label3 {
+    /* Password */
+    position: absolute;
+    width: 274px;
+    height: 41px;
+    left: 69px;
+    top: 293px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    color: #9A9A9A;
+}
+
+.txt_password {
+    position: absolute;
+    width: 357px;
+    height: 44px;
+    left: 63px;
+    top: 341px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+input[type="password"] {
+    position: absolute;
+    width: 300px;
+    left: 12px;
+    top: 4px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+.password{
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
+}
+/***Show-hide Password****/
+.txt_password img#togglePassword {
+    display: none;
+}
+
+.txt_password img#ShowPassword {
+    position: absolute;
+    left: 315px;
+    top: 6px;
+}
+
+/*******/
+
+
+label4{
+    display: inline;
+    position: absolute;
+    width: 287px;
+    height: 20px;
+    left: 90px;
+    top: 411px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+    color: #000000;
+}
+
+.checkbox span {
+    /* and our */
+
+
+    position: absolute;
+    width: 51px;
+    height: 20px;
+    left: 90px;
+    top: 434px;
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+
+    color: #000000;
+
+
+}
+
+.privacy p {
+    /* Privacy Notice */
+
+    position: absolute;
+    width: 97px;
+    height: 20px;
+    left: 148px;
+    top: 434px;
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: underline;
+
+    color: #0014F2;
+
+}
+
+.condition p {
+    /* Terms & Conditions */
+    position: absolute;
+    width: 131px;
+    height: 20px;
+    left: 384px;
+    top: 411px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    /* identical to box height, or 20px */
+
+    text-decoration-line: underline;
+
+    color: #0014F2;
+
+}
+
+.checkbox input[type="checkbox"] {
+    appearance: none;
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 60px;
+    top: 408px;
+    border: 2px solid #FDC008;
+    border-radius: 10px;
+}
+.checkbox input[type="checkbox"]:checked{
+    background: url(image/fi_check.png) -2px -1px ;
+}
+.checkbox input[type="checkbox"]:focus{
+    outline: none;
+}
+
+input[type="submit"] {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 23px;
+
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 219px;
+    top: 477px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+    background: #FECC2F;
+    /* Drop shadow */
+
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+    border: none;
+    
+}
+.input[type="submit"]:focus{
+    outline: none;
+}
+
+.line {
+    /*line*/
+    position: absolute;
+    width: 180px;
+    height: 0px;
+    left: 204px;
+    top: 545.91px;
+
+    border-top: 1px solid #C4C4C4;
+    transform: rotate(-0.35deg);
+}
+
+.sign_up_with {
+
+    position: absolute;
+    width: 114px;
+    height: 17px;
+    left: 241px;
+    top: 571px;
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #9A9A9A;
+}
+
+.google button {
+    /* Google Button */
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 223px;
+    top: 600px;
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.google p {
+    /* email */
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    left: 58px;
+    top: 12px;
+    color: #09051C;
+    mix-blend-mode: normal;
+}
+
+.google img {
+    /* google-icon 1 */
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.facebook button {
+    /* Facebook Button */
+    position: absolute;
+    width: 150px;
+    height: 44px;
+    left: 223px;
+    top: 656px;
+    background: #FFFFFF;
+    border: 1px solid #F4F4F4;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.facebook p {
+    /* Facebook */
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    position: absolute;
+    left: 58px;
+    top: 12px;
+    color: #09051C;
+    mix-blend-mode: normal;
+}
+
+.facebook img {
+    position: absolute;
+    left: 20px;
+    top: 11px;
+}
+
+p2 {
+    /* Already a member? */
+    position: absolute;
+    width: 165px;
+    height: 26px;
+    left: 371px;
+    top: 733px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height */
+    color: #000000;
+
+}
+
+.sign_in {
+    position: absolute;
+    width: 60px;
+    height: 25px;
+    left: 540px;
+    top: 733px;
+
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    /* or 25px */
+
+    text-decoration-line: underline;
+
+    color: #6470F7;
+
+}
+
+img[alt="Group1129"] {
+    position: absolute;
+    width: 447.16px;
+    height: 382px;
+    right: 35.84px;
+    top: 184px;
+
+}
+
+
+
+@media (max-width:1200px) {
+    img[alt="Group1129"] {
+        position: absolute;
+        width: 447.16px;
+    right: 15.84px;
+    }
+
+    img[alt="Rectangle1382"] {
+        position: absolute;
+        width: 619px;
+        right: -42px;
+    }
+
+    
+}
+@media (max-width:1170px) {
+    img[alt="Group1129"] {
+        position: absolute;
+        width: 447.16px;
+    right: 15.84px;
+    }
+
+    img[alt="Rectangle1382"] {
+        position: absolute;
+        width: 619px;
+        right: -42px;
+    }
+    p2 {
+        position: absolute;
+        left: 351px;
+    }
+    
+    .sign_in {
+        position: absolute;
+        left: 520px;
+    }
+}
+
+@media (max-width:1150px) {
+    img[alt="Group1129"] {
+        position: absolute;
+        width: 427.16px;
+    right: 15.84px;
+    }
+
+    img[alt="Rectangle1382"] {
+        position: absolute;
+        width: 590px;
+        right: -42px;
+    }
+}
+@media (max-width:1130px){
+    img[alt="Group1129"] {
+        position: absolute;
+        width: 417.16px;
+    right: 2.84px;
+    }
+
+    img[alt="Rectangle1382"] {
+        position: absolute;
+        width: 550px;
+        right: -42px;
+    }
+}
+@media (max-width:975px){
+    .container-fluid {
+        position: absolute;
+        max-width: 950px;
+        left: 130px;
+    }
+    p2 {
+        position: absolute;
+        left: 235px;
+    }
+    
+    .sign_in {
+        position: absolute;
+        left: 405px;
+    }
+}

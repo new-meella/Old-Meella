@@ -1,0 +1,1319 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/***tab***/
+:root {
+    /* ===== Colors ===== */
+    --sidebar-color: #EEEEEE;
+    --primary-color: #F9B609;
+    --text-color: #231e41;
+
+    /* ====== Transition ====== */
+    --tran-03: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.3s ease;
+    --tran-05: all 0.3s ease;
+}
+
+.sidebar {
+    position: fixed;
+    top: 216px;
+    right: 0px;
+    width: 418px;
+    background: var(--sidebar-color);
+    transition: var(--tran-05);
+
+}
+
+.sidebar li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.sidebar .text {
+    color: #231e41;
+    transition: var(--tran-03);
+}
+
+.sidebar .text {
+    font-size: 20px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-left: 30px;
+    margin-top: 10px;
+    opacity: 1;
+    font-family: 'IBM Plex Sans Thai Looped';
+}
+
+.sidebar .menu {
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+.sidebar li a {
+    list-style: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: var(--tran-03);
+}
+
+
+.sidebar li a:hover .text {
+    color: var(--text-color);
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .menu-bar {
+    height: 1115px;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow-y: scroll;
+}
+
+.menu {
+    min-height: 1500px;
+}
+
+.menu-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.toggle {
+    position: absolute;
+    float: left;
+    right: 418px;
+    background: #F9B609;
+    border: none;
+    width: 74px;
+    height: 203px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.toggle span {
+    top: 48px;
+    font-family: 'M PLUS 1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 43px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    transform: rotate(-90deg);
+}
+
+.toggle img {
+    position: absolute;
+    top: 150px;
+    left: 25px;
+}
+
+
+/*******************/
+.head .edit h1 {
+    /* ประกาศนโยบายความเป็นส่วนตัว (Privacy Notice) */
+    padding-left: 72px;
+    padding-top: 211px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 82px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #231e41;
+}
+
+.head .edit p {
+    padding-left: 72px;
+    padding-top: 15px;
+    max-width: 1294px;
+    /* Thai 20 */
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #9E9E9E;
+}
+
+.head p {
+    max-width: 1290px;
+    padding-left: 72px;
+    padding-top: 20px;
+    /*max-width: 1230px;*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+/***part one***/
+#part-one h4 {
+    padding-left: 72px;
+    padding-top: 40px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+    display: flex;
+    align-items: center;
+}
+
+#part-one p {
+    max-width: 1298px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+#part-one .one-one h {
+    position: relative;
+    max-width: 516px;
+    padding-left: 72px;
+    top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-one .one-one p {
+    max-width: 1294px;
+    padding-left: 72px;
+    padding-top: 68px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+}
+
+#part-one .one-one ul {
+    max-width: 1298px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: inline;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-one .one-two h {
+    max-width: 446px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-one .one-two p{
+    position: relative;
+    padding-left: 72px;
+    top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: inline;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-one .one-two ul {
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: inline;
+    align-items: center;
+    color: #231e41;
+}
+#part-one .one-three h {
+    max-width: 604px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-one .one-three p {
+    max-width: 1100px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-one .one-three ul {
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: inline;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-one .one-four h {
+    max-width: 331px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-one .one-four p {
+    max-width: 1298px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-one .one-four ul {
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: inline;
+    align-items: center;
+    color: #231e41;
+}
+#part-one .one-five h {
+    max-width: 342px;
+    padding-left: 72px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-one .one-five p {
+    max-width: 1298px;
+    padding-left: 72px;
+    margin-top: 0px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+}
+
+#part-one .one-five ul {
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: inline;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-one .end_part-one p {
+    max-width: 1310px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+}
+
+
+/******part two**********/
+#part-two h4 {
+    max-width: 716px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+}
+
+#part-two p {
+    max-width: 1298px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+/********table two*************/
+#part-two .table-two {
+    margin-left: 316px;
+    margin-top: 40px;
+    margin-right: 317px;
+    width: 810px;
+    max-width: 100%;
+    border-collapse: collapse;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.0001);
+    box-shadow: inset 0px 1px 0px #B9B9B9;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+}
+
+#part-two .table-two thead th {
+    padding: 12px 15px;
+    border-top: 0.8px solid #B9B9B9;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    background: rgba(0, 0, 0, 0.05);
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    width: 405px;
+    height: 53.01px;
+    color: #231e41;
+}
+#part-two .table-two .row-one td {
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+#part-two .table-two .row-two td {
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+
+
+#part-two .table-two .row-three td {
+    position: relative;
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+
+
+
+#part-two .table-two .row-four td {
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+
+#part-two .table-two .row-five td {
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+
+
+
+#part-two .table-two .row-six td {
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+
+
+#part-two .table-two .row-seven td {
+    padding: 10px;
+    border-bottom: 0.8px solid #B9B9B9;
+    border-left: 1px solid #B9B9B9;
+    border-right: 0.8px solid #B9B9B9;
+    border-radius: 2px;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #231e41;
+}
+
+/*****/
+/**part three****/
+#part-three h4 {
+    max-width: 388px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+}
+
+#part-three p {
+    max-width: 1340px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+}
+/**part four****/
+#part-four h4 {
+    max-width: 549px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+}
+
+#part-four p1 {
+    max-width: 1214px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-four p2 {
+    max-width: 1214px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+/****/
+/****part five****/
+#part-five h4 {
+    max-width: 264px;
+    padding-left: 72px;
+    padding-top: 48px;/*1047*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five p {
+    max-width: 1214px;
+    padding-left: 72px;
+    padding-top: 20px;/*1094*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+
+}
+
+#part-five .five-one h {
+    max-width: 812px;
+    padding-left: 72px;
+    padding-top: 20px;/*1141.92*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-one p {
+    max-width: 1235px;
+    left: 72px;
+    padding-top: 20px;/*1161.92*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-two h {
+    max-width: 635px;
+    padding-left: 72px;
+    padding-top: 20px;/*1209.92*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-two p {
+    max-width: 1214px;
+    left: 72px;
+    padding-top: 20px;/*1229.92*/
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-three h {
+    max-width: 633px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-three p {
+    max-width: 1214px;
+    left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-four h {
+    max-width: 745px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-four p {
+    max-width: 1005px;
+    left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-five h {
+    max-width: 1034px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-five p {
+    max-width: 1298px;
+    left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-six h {
+    max-width: 870px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-six p {
+    max-width: 1244px;
+    left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-seven h {
+    max-width: 480px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-seven p {
+    max-width: 1259px;
+    left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-eight h {
+    max-width: 480px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #231e41;
+}
+
+#part-five .five-eight p1 {
+    max-width: 1298px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-eight p2 {
+    
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+#part-five .five-eight p3 {
+    max-width: 1214px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+}
+
+/****part six****/
+#part-six h4{
+    max-width: 408px;
+    padding-left: 72px;
+    padding-top:48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    }
+    #part-six p{
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    }
+    /****table six***/
+    #part-six .table-six {
+        position: relative;
+        margin-left: 318px;
+        margin-top: 48px;
+        margin-right: 318px;
+        max-width: 804px;
+        border-collapse: collapse;
+        box-sizing: border-box;
+        background: rgba(255, 255, 255, 0.0001);
+        box-shadow: inset 0px 1px 0px #B9B9B9;
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    
+    }
+    
+    #part-six .table-six thead th {
+        padding: 12px 15px;
+        border-top: 0.8px solid #B9B9B9;
+        border-bottom: 0.8px solid #B9B9B9;
+        border-left: 1px solid #B9B9B9;
+        border-right: 0.8px solid #B9B9B9;
+        border-radius: 2px;
+        text-align: center;
+        box-sizing: border-box;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        background: rgba(0, 0, 0, 0.05);
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px;
+        width: 405px;
+        height: 53.01px;
+        color: #231e41;
+    }
+    #part-six .table-six .row-one td {
+        padding: 10px;
+        border-bottom: 1px solid #B9B9B9;
+        border-left: 1px solid #B9B9B9;
+        border-right: 0.8px solid #B9B9B9;
+        border-radius: 2px;
+        text-align: left;
+        box-sizing: border-box;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #231e41;
+    }
+    #part-six .table-six .row-two td
+    {
+        padding: 10px;
+        padding-bottom: 0px;
+        border-bottom: 0.8px solid #B9B9B9;
+        border-left: 1px solid #B9B9B9;
+        border-right: 0.8px solid #B9B9B9;
+        border-radius: 2px;
+        text-align: left;
+        box-sizing: border-box;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #231e41;
+    }
+    #part-six .table-six .row-two td p{
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 28px;
+        color: #231e41;
+        
+    }
+    
+    /****part seven****/
+    #part-seven h4{
+    max-width: 481px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+    }
+    #part-seven p{
+    max-width: 1250px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+    }
+    
+    /****part eight**/
+    #part-eight h4{
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+    }
+    #part-eight .p1 p{
+    max-width: 1360px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+    
+    }
+    #part-eight .p2 p{
+    max-width: 1380px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+    
+    }
+    
+    #part-eight .p3 p{
+    max-width: 1380px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+    }
+    #part-eight .p3 p a{
+        font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #3913B8;
+    }
+    
+    /****part nine**/
+    #part-nine h4{
+    max-width: 474px;
+    padding-left: 72px;
+    padding-top: 48px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    color: #231e41;
+    }
+    #part-nine p{
+    max-width: 1350px;
+    padding-left: 72px;
+    padding-top: 20px;
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #231e41;
+    }
+    /****part-ten****/
+#part-ten h4{
+    max-width: 374px;
+    padding-left: 72px;
+    padding-top: 48px;
+    
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    }
+    #part-ten .p1 p{
+    max-width: 1310px;
+    padding-left: 72px;
+    padding-top:20px;
+    
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    }
+    #part-ten .p2 p{
+    
+    max-width: 1350px;
+    padding-left: 72px;
+    padding-top: 20px;
+    
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    }
+    
+    /****part-eleven*****/
+    #part-eleven h4{
+    max-width: 374px;
+    padding-left: 72px;
+    padding-top: 48px;
+    
+    font-family: 'IBM Plex Sans Thai Looped';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    color: #231e41;
+    }
+    #part-eleven p{
+    
+        max-width: 1298px;
+        padding-left: 72px;
+        padding-top: 20px;
+        
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #231e41;
+    }
+    /****part-twelve****/
+    #part-twelve h4{
+        max-width: 383px;
+        padding-left: 72px;
+        padding-top: 48px;
+        
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 33px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        color: #231e41;
+    }
+    #part-twelve p{
+        padding-left: 72px;
+        padding-top: 20px;
+        font-family: 'IBM Plex Sans Thai Looped';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 33px;
+        display: flex;
+        align-items: center;
+        color: #231e41;
+        padding-bottom: 80px;
+    }
+    

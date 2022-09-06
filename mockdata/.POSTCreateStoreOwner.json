@@ -1,0 +1,37 @@
+{
+  "StoreOwner/create": [
+    {
+      "userName": "StoreOwner1",
+      "firstName": " Tinapat",
+      "lastName": "Limsila",
+      "phoneNumber": "0982488445",
+      "email": "myemail+meella@yahoo.com",
+      "lang": "th"
+    },
+    {
+      "userName": "StoreOwner2",
+      "firstName": " Jack",
+      "lastName": "Limsila",
+      "phoneNumber": "0982988445",
+      "email": "male+meella@yahoo.com",
+      "lang": "th"
+    },
+    {
+      "userName": "StoreOwner156",
+      "firstName": " James",
+      "lastName": "Limsila",
+      "phoneNumber": "0982438445",
+      "email": "myemai+meella@yahoo.com",
+      "lang": "en"
+    },
+    {
+      "userName": "StoreOwner10",
+      "firstName": " James",
+      "lastName": "Limsila",
+      "phoneNumber": "0982438445",
+      "email": "myemai+meella@yahoo.com",
+      "lang": "En"
+    },
+    {}
+  ]
+}

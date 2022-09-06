@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-5",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Bank of Tokyo-Mitsubishi UFJ",
+        "bankNameOfficial": "THE BANK OF TOKYO-MITSUBISHI UFJ, LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

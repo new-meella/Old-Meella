@@ -1,0 +1,19 @@
+{
+  "Store/edit": [
+    {
+      "storeId": 2,
+      "storeOwnerId": 2,
+      "nameEn": "Cheap Korean",
+      "nameTh": "ร้านอาหารเกาหลีราคาถูก",
+      "phoneNumber": "0982488775",
+      "foodType": "Korean",
+      "aboutUs": "This is a Korean restaurant. HAVE SOME FOOD",
+      "address": "this is the address",
+      "location": "Google Map link",
+      "image": "\"hello\"",
+      "district": "Pathumwan",
+      "province": "Bangkok",
+      "subDistrict": "somewhere"
+    }
+  ]
+}

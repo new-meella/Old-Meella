@@ -1,0 +1,7 @@
+{
+  "Payment/bankaccount/delete": [
+    { "storeOwnerId": 2 },
+    { "storeOwnerId": 12 },
+    {}
+  ]
+}

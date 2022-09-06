@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-10",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Standard Chartered (Thai)",
+        "bankNameOfficial": "STANDARD CHARTERED BANK (THAI) PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

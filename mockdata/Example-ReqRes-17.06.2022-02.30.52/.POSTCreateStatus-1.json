@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateStatus.json-1",
+    "url": "meella.org/Status/create",
+    "request": {
+        "statusNameEn": "Canceled",
+        "statusNameTh": "\u0e22\u0e01\u0e40\u0e25\u0e34\u0e01"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

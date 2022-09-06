@@ -1,0 +1,16 @@
+{
+    "filename": ".POSTCreateUser.json-2",
+    "url": "meella.org/User/create",
+    "request": {
+        "lang": "th",
+        "userName": "ChingChong",
+        "firstName": "\u0e17\u0e34\u0e19\u0e20\u0e31\u0e17\u0e23",
+        "lastName": "\u0e25\u0e34\u0e21\u0e28\u0e34\u0e25\u0e32",
+        "phoneNumber": "234324234234",
+        "email": "BOOGERsmall@gmail.com",
+        "firebaseUserId": "3"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

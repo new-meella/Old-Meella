@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateStoreTag.json-0",
+    "url": "meella.org/Tag/StoreTag/create",
+    "request": {
+        "storeId": 1,
+        "tagNameEn": "Pathumwan"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

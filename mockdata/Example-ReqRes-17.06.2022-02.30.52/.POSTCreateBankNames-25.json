@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-25",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Islamic Bank of Thailand",
+        "bankNameOfficial": "ISLAMIC BANK OF THAILAND"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

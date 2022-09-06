@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-26",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Tisco Bank",
+        "bankNameOfficial": "TISCO BANK PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "filename": ".POSTCreateReview.json-0",
+    "url": "meella.org/Review/create",
+    "request": {
+        "userId": "  1  ",
+        "storeId": "1  ",
+        "orderId": 2,
+        "rating": 2,
+        "title": "motherfucker  ",
+        "description": null
+    },
+    "response": {
+        "status": "empty"
+    }
+}

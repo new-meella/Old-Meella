@@ -1,0 +1,13 @@
+{
+    "filename": ".POSTCreateCoupon.json-2",
+    "url": "meella.org/Coupon/create",
+    "request": {
+        "description": "Discount 20 Baht at store 1",
+        "aptStore": null,
+        "aptProduct": 1,
+        "discountAmount": 2000
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,11 @@
+build
+node_modules
+# Keep environment variables out of version control
+.env
+.history
+src/app.ts
+src/compare.ts
+mockdata/Example-
+.DS_Store
+.history
+node_modules

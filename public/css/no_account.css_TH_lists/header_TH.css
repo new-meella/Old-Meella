@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@500&display=swap');
+
+.header {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 89.15%;
+}
+
+.header_shade {
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 89.15%;
+        
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.085) 0%, rgba(196, 196, 196, 0) 100%);
+}
+
+.eatmi_text,
+.our_story_text,
+.shop_text,
+.my_account_text,
+.sign_up_text,
+.Eng_Thai,
+.option1,
+.option2 {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #231E41;
+}
+
+.meella_logo {
+    position: absolute;
+    width: 150px; 
+    height: 50px;
+    top: 7px;
+}
+
+.left_taskbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    z-index: 10;
+    
+    position: absolute;
+    left: 4%;
+    right: 0%;
+    top: 15px;
+    bottom: 92.9%;
+}
+
+.shop_text {
+    position: absolute;
+    width: 85px;
+    height: 32px;
+    left: 206px;
+    top: 19px;
+}
+
+.my_account_text {
+    position: absolute;
+    width: 140px;
+    height: 32px;
+    left: 315px;
+    top: 7px;
+}
+
+.our_story_text {
+    position: absolute;
+    width: 206px;
+    height: 32px;
+    left: 520px;
+    top: 7px;
+}
+
+.shop_text:hover,
+.my_account_text:hover,
+.our_story_text:hover {
+    color: #F9B609 
+}
+
+.option1,
+.option2 {
+    margin-bottom: -12px;
+    width: 140px;
+    font-size: 20px;
+}
+
+.select-box1 {
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 315px;
+    top: 60px;
+}
+
+.select-box2 {
+    position: absolute;
+    width: 126px;
+    height: 32px;
+    left: 540px;
+    top: 60px;
+}
+
+.options-container1,
+.options-container2 {
+    color: #f5f6fa;
+    max-height: 0;
+    width: 200px;
+    opacity: 0;
+    transition: all 0.4s;
+    border-radius: 8px;
+    overflow: hidden;
+  
+    order: 1;
+}
+  
+.select-box1 .options-container1.active,
+.select-box2 .options-container2.active {
+    max-height: 150px;
+    opacity: 1;
+    z-index: 500;
+    overflow-y: scroll;
+}
+  
+.select-box1 .options-container1::-webkit-scrollbar,
+.select-box2 .options-container2::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+}
+  
+.select-box1 .options-container1::-webkit-scrollbar-thumb,
+.select-box2 .options-container2::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+}
+  
+.select-box1 .option1,
+.select-box2 .option2,
+.my_account_text,
+.our_story_text {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+  
+.select-box1 label,
+.select-box2 label {
+    cursor: pointer;
+}
+  
+.select-box1 .option1 .radio,
+.select-box2 .option2 .radio {
+    display: none;
+}
+
+.right_taskbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-self: flex-end;
+
+    position: absolute;
+    width: 75%;
+    right: 2%;
+    top: 19px;
+    margin-left: auto;
+
+    align-items: center;
+}
+
+.bag {
+    width: 56px;
+    height: 47px;
+    left: 0px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.sign_up_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+    
+    width: 128px;
+    height: 39px;
+    left: 88px;
+    top: 8.5px;    
+    
+    background: #FFFFFF;
+    border: 3px solid #F9B609;
+    box-sizing: border-box;
+    
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05), 0px 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    cursor: pointer;
+}
+
+.sign_up_text {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    top: 17px;
+    
+    color: #F9B609;
+}
+
+.Eng_Thai {
+    position: relative;
+    width: 79px;
+    height: 47px;
+    left: 5px;
+    top: 6px;
+    
+    font-size: 24px;
+    line-height: 35px;
+    
+    mix-blend-mode: normal;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 32px;
+}

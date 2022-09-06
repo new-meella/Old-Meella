@@ -1,0 +1,16 @@
+{
+  "Product/edit": [
+    {
+      "productId": 2,
+      "storeId": 2,
+      "nameTh": "Plat Sin thai",
+      "nameEn": "Platinum food(Edited)",
+      "description": "its Plat",
+      "image": "root/editedroot.png",
+      "meellaPrice": 34534,
+      "quantity": 6,
+      "ogPrice": 45646,
+      "pickUpTimeNameEn": "After 20:00"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateCouponUser.json-2",
+    "url": "meella.org/Coupon/CouponUser",
+    "request": {
+        "userId": 1,
+        "couponId": 3
+    },
+    "response": {
+        "status": "empty"
+    }
+}

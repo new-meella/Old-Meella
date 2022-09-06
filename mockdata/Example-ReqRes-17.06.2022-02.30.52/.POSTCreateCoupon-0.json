@@ -1,0 +1,13 @@
+{
+    "filename": ".POSTCreateCoupon.json-0",
+    "url": "meella.org/Coupon/create",
+    "request": {
+        "description": "No discount for you",
+        "aptStore": null,
+        "aptProduct": null,
+        "discountAmount": null
+    },
+    "response": {
+        "status": "empty"
+    }
+}

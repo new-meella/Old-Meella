@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-18",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Hongkong and Shanghai Banking Corporation",
+        "bankNameOfficial": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "filename": ".POSTCreateProduct.json-6",
+  "url": "meella.org/Product/create",
+  "request": {
+    "storeId": 2,
+    "nameTh": "GOLD SHITin thai",
+    "nameEn": "GOLD SHIT",
+    "description": "its GOLD",
+    "image": "root/baaaaa",
+    "meellaPrice": 567,
+    "quantity": 6,
+    "ogPrice": 1024,
+    "pickUpTimeNameEn": "After 20:30"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

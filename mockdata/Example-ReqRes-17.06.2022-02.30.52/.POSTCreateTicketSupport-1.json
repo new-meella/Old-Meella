@@ -1,0 +1,15 @@
+{
+    "filename": ".POSTCreateTicketSupport.json-1",
+    "url": "meella.org/TicketSupport/create",
+    "request": {
+        "userId": 3,
+        "orderId": 2,
+        "email": "hihi@gmail.com",
+        "supportTypeNameEn": "Sucking",
+        "title": "my food stinks",
+        "description": "Bugs in food"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

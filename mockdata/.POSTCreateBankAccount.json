@@ -1,0 +1,40 @@
+{
+  "StoreOwner/Bankaccount/create": [
+    {
+      "storeOwnerId": 1,
+      "accountNumber": 1123123123123,
+      "accountName": "Tinapat Limsila",
+      "branch": "your mum",
+      "bankName": "Bank of Tokyo-Mitsubishi UFJ"
+    },
+    {
+      "storeOwnerId": 2,
+      "accountNumber": "0475909384345",
+      "accountName": "Jacok Limsila",
+      "branch": "your dads",
+      "bankName": "Bangkok Bank"
+    },
+    {
+      "storeOwnerId": 3,
+      "accountNumber": "0239409230928",
+      "accountName": "Jakc Limsila",
+      "branch": "your brother",
+      "bankName": "Kasikornbank"
+    },
+    {
+      "storeOwnerId": 4,
+      "accountNumber": "0293478098234",
+      "accountName": "Ox Limsila",
+      "branch": "your Pathuwan",
+      "bankName": "TMB Bank"
+    },
+    {
+      "storeOwnerId": 8,
+      "accountNumber": 1123123123123,
+      "accountName": "Tinapat Limsila",
+      "branch": "your mum",
+      "bankName": "Bank of Tokyo-Mitsubishi UFJ"
+    },
+    {}
+  ]
+}

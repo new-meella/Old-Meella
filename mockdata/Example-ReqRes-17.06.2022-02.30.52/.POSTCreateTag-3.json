@@ -1,0 +1,12 @@
+{
+    "filename": ".POSTCreateTag.json-3",
+    "url": "meella.org/Tag/create",
+    "request": {
+        "tagNameEn": "Savory ",
+        "tagNameTh": "\u0e02\u0e2d\u0e07\u0e04\u0e32\u0e27",
+        "tagType": "FoodCategory"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

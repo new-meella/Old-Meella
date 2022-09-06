@@ -1,0 +1,14 @@
+{
+    "filename": ".POSTCreateBankAccount.json-1",
+    "url": "meella.org/StoreOwner/Bankaccount/create",
+    "request": {
+        "storeOwnerId": 2,
+        "accountNumber": "0475909384345",
+        "accountName": "Jacok Limsila",
+        "branch": "your dads",
+        "bankName": "Bangkok Bank"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

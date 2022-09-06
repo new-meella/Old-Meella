@@ -1,0 +1,25 @@
+{
+  "filename": ".POSTCreateStore.json-4",
+  "url": "meella.org/Store/create",
+  "request": {
+    "storeOwnerId": 5,
+    "nameEn": "Game",
+    "nameTh": "\u0e21\u0e30\u0e25\u0e34",
+    "phoneNumber": "28347982374",
+    "foodType": "Japanese",
+    "aboutUs": "we are Japanese",
+    "location": "Bangkok",
+    "image": "\"hello\"",
+    "district": "Pathumwan",
+    "numCoupons": 0,
+    "numOrders": 0,
+    "numProducts": 0,
+    "numReviews": 0,
+    "province": "Bangkok",
+    "rating": 0,
+    "subDistrict": "somewhere"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

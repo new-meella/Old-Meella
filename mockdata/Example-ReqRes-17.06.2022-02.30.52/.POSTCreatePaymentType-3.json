@@ -1,0 +1,10 @@
+{
+    "filename": ".POSTCreatePaymentType.json-3",
+    "url": "meella.org/Payment/PaymentType/create",
+    "request": {
+        "paymentName": "Paypal"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

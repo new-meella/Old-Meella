@@ -1,0 +1,46 @@
+{
+  "SearchFilter/product": [
+    {
+      "sortBy": "nameEn",
+      "orderBy": "desc",
+      "priceLow": 100,
+      "priceHigh": 900,
+      "tag": ["Dessert"],
+      "pickUpTimeNameEn": ["After 21:00", "After 22:00", "After 20:00"]
+    },
+    {
+      "sortBy": "nameEn",
+      "orderBy": "desc",
+      "priceLow": 100,
+      "priceHigh": 900,
+      "tag": ["Japanese"],
+      "pickUpTimeNameEn": ["After 21:00", "After 22:00", "After 20:00"]
+    },
+    {
+      "sortBy": "price",
+      "orderBy": "desc",
+      "priceLow": 100,
+      "priceHigh": 900,
+      "tag": ["Korean"],
+      "pickUpTimeNameEn": ["After 21:00", "After 22:00", "After 20:00"]
+    },
+    {
+      "sortBy": "price",
+      "orderBy": "asc",
+      "priceLow": 100,
+      "priceHigh": 900,
+      "tag": ["Spicy"],
+      "pickUpTimeNameEn": ["After 21:00", "After 22:00", "After 20:00"]
+    },
+    {
+      "sortBy": "nameEn",
+      "orderBy": "desc",
+      "distance": 5,
+      "priceLow": 10,
+      "priceHigh": 90000,
+      "pickUpTimeLower": "1970-01-01T20:00:01.000Z",
+      "pickUpTimeHigher": "1970-01-01T20:30:01.000Z"
+    },
+    {}
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-19",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Deutsche Bank",
+        "bankNameOfficial": "DEUTSCHE BANK AG."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

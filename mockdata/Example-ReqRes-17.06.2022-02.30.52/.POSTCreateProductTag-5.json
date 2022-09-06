@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateProductTag.json-5",
+    "url": "meella.org/Tag/ProductTag/create",
+    "request": {
+        "productId": 6,
+        "tagNameEn": "Korean"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "filename": ".POSTCreateProduct.json-5",
+  "url": "meella.org/Product/create",
+  "request": {
+    "storeId": 1,
+    "nameTh": "Fries in thai",
+    "nameEn": "Fries",
+    "description": "its unhealthy",
+    "image": "root/baaaaa",
+    "meellaPrice": 80,
+    "quantity": 10,
+    "ogPrice": 100,
+    "pickUpTimeNameEn": "After 20:30"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

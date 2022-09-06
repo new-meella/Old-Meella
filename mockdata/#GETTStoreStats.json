@@ -1,0 +1,11 @@
+{
+  "Store/stats": [
+    {
+      "storeId": 2,
+
+      "CreatedAtLower": "2022-06-12T01:09:00.943Z",
+      "CreatedAtHigher": "2022-06-13T01:11:16.024Z"
+    },
+    {}
+  ]
+}

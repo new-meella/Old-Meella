@@ -1,0 +1,8 @@
+{
+    "filename": ".POSTCreateBankAccount.json-5",
+    "url": "meella.org/StoreOwner/Bankaccount/create",
+    "request": {},
+    "response": {
+        "status": "empty"
+    }
+}

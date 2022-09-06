@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-17",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Government Savings Bank",
+        "bankNameOfficial": "THE GOVERNMENT SAVINGS BANK"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

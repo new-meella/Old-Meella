@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateSupportType.json-2",
+    "url": "meella.org/SupportType/create",
+    "request": {
+        "supportTypeNameEn": "By HUman",
+        "supportTypeNameTh": "By \u0e21\u0e19\u0e38\u0e29\u0e22\u0e4c"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

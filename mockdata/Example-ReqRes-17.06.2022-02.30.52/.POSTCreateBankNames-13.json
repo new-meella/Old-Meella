@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-13",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Bank of Ayudhya (Krungsri)",
+        "bankNameOfficial": "BANK OF AYUDHYA PUBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

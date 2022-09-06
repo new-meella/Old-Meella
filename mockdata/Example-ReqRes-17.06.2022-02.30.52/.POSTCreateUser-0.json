@@ -1,0 +1,16 @@
+{
+    "filename": ".POSTCreateUser.json-0",
+    "url": "meella.org/User/create",
+    "request": {
+        "lang": "en",
+        "userName": "MyOxSmall",
+        "firstName": "Tinapat",
+        "lastName": "Limsila",
+        "phoneNumber": "0982488556",
+        "email": "myoxsmall@gmail.com",
+        "firebaseUserId": "1"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

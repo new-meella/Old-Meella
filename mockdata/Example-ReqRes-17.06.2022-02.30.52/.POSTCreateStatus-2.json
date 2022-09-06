@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateStatus.json-2",
+    "url": "meella.org/Status/create",
+    "request": {
+        "statusNameEn": "Pending",
+        "statusNameTh": "\u0e22\u0e31\u0e07\u0e04\u0e49\u0e32\u0e07\u0e2d\u0e22\u0e39\u0e48"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

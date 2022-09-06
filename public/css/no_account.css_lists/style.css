@@ -1,0 +1,225 @@
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+arrow1,
+arrow2 {
+    position: absolute;
+    width: 10px;
+    height: 15px;
+    left: 137px;
+    top: 19px;    
+}
+
+arrow1 {
+    left: 158px;
+}
+
+bag1 {
+    font-size: 27px;
+    left: 25px;
+    top: 22px;
+}
+
+bag2,
+bag3,
+bag4 {
+    font-size: 45px;
+    margin-left: 20px; 
+    margin-top: 15px;
+}
+
+bag3 {
+    margin-left: -140px; 
+}
+
+bag4 {
+    margin-left: -560px;
+}
+
+credit_card,
+credit_in_circle,
+credit_card2 {
+    position: relative;
+    left: 50px;
+    right: 0px;
+    top: 22px;
+    bottom: 0px;
+
+    font-size: 45px;
+}
+
+credit_in_circle {
+    left: 15px;
+    top: 17px;
+}
+
+credit_card2 {
+    left: 68px;
+}
+
+house,
+house2,
+house_in_circle {
+    position: relative;
+    left: 110px;
+    right: 0px;
+    top: 22px;
+    bottom: 0px;
+
+    font-size: 45px;
+}
+
+house2 {
+    left: 100px;
+}
+
+house_in_circle {
+    left: 15px;
+    top: 17px;
+}
+
+partner,
+about_eatmi,
+sustain,
+view_shop,
+my_profile,
+my_coupon,
+order_history,
+FAQS,
+term_condition,
+privacy_policy {
+    font-family: 'M PLUS 1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    
+    color: #231E41;
+    
+    mix-blend-mode: normal;
+}
+
+partner {
+    position: absolute;
+    width: 73px;
+    height: 29px;
+    left: 0px;
+    top: 53px;
+}
+
+about_eatmi {
+    position: absolute;
+    width: 177px;
+    height: 39px;
+    left: 0px;
+    top: 107px;
+}
+
+sustain {
+    position: absolute;
+    width: 177px;
+    height: 39px;
+    left: 0px;
+    top: 159px;
+}
+
+view_shop {
+    position: absolute;
+    width: 100.96px;
+    height: 55px;
+    left: 226.04px;
+    top: 53px;    
+}
+
+my_profile {
+    position: absolute;
+    width: 192px;
+    height: 55px;
+    left: 375px;
+    top: 53px;
+}
+
+my_coupon {
+    position: absolute;
+    width: 194px;
+    height: 55px;
+    left: 375px;
+    top: 107px;
+}
+
+order_history {
+    position: absolute;
+    width: 192px;
+    height: 36px;
+    left: 375px;
+    top: 159px;
+}
+
+FAQS {
+    position: absolute;
+    width: 54px;
+    height: 29px;
+    left: 620px;
+    top: 53px;
+}
+
+term_condition {
+    position: absolute;
+    width: 240px;
+    top: 275px;
+    left: -200px;
+}
+
+privacy_policy {
+    position: absolute;
+    width: 131px;
+    top: 275px;
+    left: 16px;
+}
+
+our_story,
+shop,
+my_account,
+help {
+    font-family: 'M PLUS 1', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 32px;
+
+    color: #231E41;
+}
+
+our_story {
+    position: absolute;
+    width: 133px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+}
+
+shop {
+    position: absolute;
+    width: 69.21px;
+    height: 32px;
+    left: 225px;
+    top: 0px;
+}
+
+my_account {
+    position: absolute;
+    width: 157px;
+    height: 31px;
+    left: 375px;
+    top: 0px;
+}
+
+help {
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    left: 617px;
+    top: 0px;
+}

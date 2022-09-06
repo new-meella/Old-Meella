@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-7",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Siam Commercial Bank",
+        "bankNameOfficial": "SIAM COMMERCIAL BANK PUBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

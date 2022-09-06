@@ -1,0 +1,21 @@
+{
+    "filename": "#GETTSearchFilter.json-0",
+    "url": "meella.org/SearchFilter/product",
+    "request": {
+        "sortBy": "nameEn",
+        "orderBy": "desc",
+        "priceLow": 100,
+        "priceHigh": 900,
+        "tag": [
+            "Dessert"
+        ],
+        "pickUpTimeNameEn": [
+            "After 21:00",
+            "After 22:00",
+            "After 20:00"
+        ]
+    },
+    "response": {
+        "status": "empty"
+    }
+}

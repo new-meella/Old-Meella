@@ -1,0 +1,10 @@
+{
+    "filename": ".POSTCreatePaymentType.json-2",
+    "url": "meella.org/Payment/PaymentType/create",
+    "request": {
+        "paymentName": "QR-Code"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

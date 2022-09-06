@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-30",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Land and Houses Bank",
+        "bankNameOfficial": "LAND AND HOUSES BANK PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

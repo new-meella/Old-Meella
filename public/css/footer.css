@@ -1,0 +1,195 @@
+.footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 110.88%;
+    bottom: -75%;
+
+    background: #F9B609;
+}
+
+.footer_taskbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 26.53%;
+    right: 26.53%;
+    top: 77.99%;
+    bottom: 8.97%;
+}
+
+.taskbar_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    left: 26.53%;
+    right: 26.53%;
+    top: 25.99%;
+    bottom: 8.97%;
+}
+
+.first_taskbar {
+    position: static;
+    width: 177px;
+    height: 198px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.second_taskbar {
+    position: static;
+    width: 102px;
+    height: 108px;
+    left: 225px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.third_taskbar {
+    position: static;
+    width: 194px;
+    height: 202px;
+    left: 375px;
+    top: 0px;
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.last_taskbar {
+    position: static;
+    width: 59px;
+    height: 87px;
+    left: 617px;
+    top: 0px;
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    margin: 0px 48px;
+}
+
+.line {
+    position: absolute;
+    width: 1150px;
+    height: 0px;
+    left: 178px;
+    top: 78px;
+
+    background-color: black;
+
+    border: 0.5px solid rgba(0, 0, 0, 0.57);
+    transform: rotate(-0.11deg);
+}
+
+.AIESEC {
+    position: absolute;
+    left: 41.52%;
+    right: 40.21%;
+    top: 5%;
+    bottom: 25.76%;
+}
+
+.fb {
+    position: absolute;
+    left: 81.18%;
+    right: 16.67%;
+    top: 85.55%;
+    bottom: 2.45%;
+}
+
+.ig {
+    position: absolute;
+    left: 85.21%;
+    right: 12.64%;
+    top: 85.55%;
+    bottom: 2.45%;
+}
+
+
+
+.footer-table {
+
+    border-collapse: collapse;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-top: 30px;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: 400px;
+    width: 100%;
+    max-width: 600px;
+    overflow: hidden;
+
+}
+
+.footer-table tr {
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+
+.footer-table th {
+    padding-bottom: 13px;
+}
+
+.footer-table td {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    vertical-align: top;
+    text-align: left;
+    /* width  : min(100% - 2rem,600px) */
+}
+
+.footer-legal-social {
+    padding: 30px 0px 30px 0px;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.footer-legal-link {
+    float: left;
+    padding: 10px 0px 10px 0px;
+    margin-right: 20px;
+
+
+}
+
+.footer-social-link {
+    float: right;
+    margin-left: 20px;
+
+}
+
+/* .footer-legal-link {
+    text-align: left;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} */

@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-9",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Sumitomo Mitsui Banking Corporation",
+        "bankNameOfficial": "SUMITOMO MITSUI BANKING CORPORATION"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

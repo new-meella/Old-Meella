@@ -1,0 +1,25 @@
+{
+  "Coupon/CouponUser": [
+    {
+      "userId": 1,
+      "couponId": 1
+    },
+    {
+      "userId": 1,
+      "couponId": 2
+    },
+    {
+      "userId": 1,
+      "couponId": 3
+    },
+    {
+      "userId": 2,
+      "couponId": 1
+    },
+    {
+      "userId": 3,
+      "couponId": 1
+    },
+    {}
+  ]
+}

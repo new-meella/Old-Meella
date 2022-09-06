@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-8",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Citibank",
+        "bankNameOfficial": "CITIBANK, N.A."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

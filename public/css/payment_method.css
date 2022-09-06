@@ -1,0 +1,27 @@
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+#add-account {
+    display:  none;
+}
+
+#edit-account-btn {
+    color: #9DD9D2;
+    border: 2px solid #9DD9D2;
+    border-radius: 5px;
+    padding: 10px;
+    background: none;
+}
+
+#table-header {
+    background-color: #9DD9D2;
+    padding: 5px;
+    border: 0;
+}
+
+#account-list table {
+    text-align: center;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}

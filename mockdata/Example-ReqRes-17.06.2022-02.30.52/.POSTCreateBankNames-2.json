@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-2",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Royal Bank of Scotland",
+        "bankNameOfficial": "THE ROYAL BANK OF SCOTLAND PLC"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

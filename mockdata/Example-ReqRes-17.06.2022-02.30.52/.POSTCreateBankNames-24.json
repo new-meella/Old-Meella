@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-24",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Thanachart Bank",
+        "bankNameOfficial": "THANACHART BANK PUBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

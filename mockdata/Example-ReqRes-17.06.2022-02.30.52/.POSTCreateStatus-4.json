@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateStatus.json-4",
+    "url": "meella.org/Status/create",
+    "request": {
+        "statusNameEn": "Closed",
+        "statusNameTh": "\u0e1b\u0e34\u0e14"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "filename": ".POSTCreateStoreOwner.json-2",
+    "url": "meella.org/StoreOwner/create",
+    "request": {
+        "userName": "StoreOwner156",
+        "firstName": " James",
+        "lastName": "Limsila",
+        "phoneNumber": "0982438445",
+        "email": "myemai+meella@yahoo.com",
+        "lang": "en"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

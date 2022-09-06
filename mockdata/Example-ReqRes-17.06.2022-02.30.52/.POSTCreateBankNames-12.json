@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-12",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "United Overseas Bank (Thai)",
+        "bankNameOfficial": "UNITED OVERSEAS BANK (THAI) PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

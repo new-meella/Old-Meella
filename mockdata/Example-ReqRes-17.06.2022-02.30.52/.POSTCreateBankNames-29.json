@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-29",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Thai Credit Retail Bank",
+        "bankNameOfficial": "THE THAI CREDIT RETAIL BANK PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

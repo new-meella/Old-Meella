@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-15",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Bank of America",
+        "bankNameOfficial": "BANK OF AMERICA, NATIONAL ASSOCIATION"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

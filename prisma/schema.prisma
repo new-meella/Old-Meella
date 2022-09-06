@@ -1,0 +1,288 @@
+datasource db {
+    provider = "mysql"
+    url      = env("DATABASE_URL")
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+// Junction Table
+model FavTable {
+    storeId     Int
+    userId      Int
+    storeObject Store? @relation(fields: [storeId], references: [storeId])
+    userObject  User?  @relation(fields: [userId], references: [userId])
+
+    @@id([storeId, userId])
+}
+
+model OrderProduct {
+    orderId       Int
+    productId     Int
+    quantity      Int
+    productNote   String?  @db.VarChar(255)
+    orderObject   Order?   @relation(fields: [orderId], references: [orderId])
+    productObject Product? @relation(fields: [productId], references: [productId])
+
+    @@id([orderId, productId])
+}
+
+model ProductTag {
+
+    productId     Int
+    tagNameEn     String   @db.VarChar(255)
+    productObject Product? @relation(fields: [productId], references: [productId])
+    tag           Tag?     @relation(fields: [tagNameEn], references: [tagNameEn])
+    @@id([productId, tagNameEn])
+}
+
+model StoreTag {
+
+    storeId   Int
+    tagNameEn String @db.VarChar(255)
+
+    storeObject Store? @relation(fields: [storeId], references: [storeId])
+    tag         Tag?   @relation(fields: [tagNameEn], references: [tagNameEn])
+    @@id([storeId, tagNameEn])
+}
+
+model UserCoupon {
+    couponId     Int
+    userId       Int
+    used         Boolean @default(false)
+    userObject   User?   @relation(fields: [userId], references: [userId])
+    couponObject Coupon? @relation(fields: [couponId], references: [couponId])
+
+    @@id([couponId, userId])
+}
+
+// Lookup Table
+
+model PaymentType {
+    paymentName String  @id @db.VarChar(255)
+    order       Order[]
+}
+
+model PickUpTimeTag {
+    pickUpTimeNameEn String    @id @unique @db.VarChar(255)
+    pickUpTime       DateTime  @unique @db.Time(0)
+    product          Product[]
+    order            Order[]
+}
+
+model SupportTag {
+    supportTypeNameEn String          @id @db.VarChar(255)
+    supportTypeNameTh String          @unique @db.VarChar(255)
+    ticketSupport     TicketSupport[]
+}
+
+model Tag {
+    tagNameEn  String       @id @db.VarChar(255)
+    tagNameTh  String       @unique @db.VarChar(255)
+    tagType    String       @db.VarChar(255)
+    productTag ProductTag[]
+    storeTag   StoreTag[]
+}
+
+model Status {
+    statusNameEn  String          @id @db.VarChar(255)
+    statusNameTh  String          @db.VarChar(255)
+    Order         Order[]
+    TicketSupport TicketSupport[]
+}
+
+//normie table
+
+model BankAccount {
+    bankAccountId    Int         @id @default(autoincrement())
+    accountNumber    String      @db.VarChar(255)
+    accountName      String      @db.VarChar(255)
+    branch           String      @db.VarChar(255)
+    bankName         String      @db.VarChar(255)
+    bankNameObject   BankName?   @relation(fields: [bankName], references: [bankName])
+    StoreOwnerObject StoreOwner?
+}
+
+model BankName {
+    bankName         String        @id @db.VarChar(255)
+    bankNameOfficial String        @db.VarChar(255)
+    bankAccount      BankAccount[]
+}
+
+model Coupon {
+    couponId              Int          @id @default(autoincrement())
+    descriptionEn         String?      @db.VarChar(255)
+    descriptionTh         String?      @db.VarChar(255)
+    code                  String?      @db.VarChar(255)
+    budget                Int?
+    usesPerCustomerPerDay Int?
+    usesPerDay            Int?
+    aptStore              Int?
+    aptProduct            Int?
+    discountAmount        Int?
+    quantity              Int?         @default(1)
+    discountPercentage    Float?
+    expiredAt             DateTime?
+    updatedAt             DateTime     @default(now()) @updatedAt
+    createdAt             DateTime     @default(now())
+    userCoupon            UserCoupon[]
+    order                 Order[]
+}
+
+model Order {
+    orderId             Int            @id @default(autoincrement())
+    storeId             Int
+    userId              Int
+    couponId            Int?
+    statusNameEn        String         @db.VarChar(255)
+    paymentName         String         @db.VarChar(255)
+    orderNote           String?        @db.VarChar(255)
+    pickUpTimeNameEn    String?        @db.VarChar(255)
+    numItems            Int?
+    totalGbCut          Int
+    totalStoreCut       Int
+    totalMeellaCut      Int
+    totalOriginalPrice  Int
+    totalFinalPrice     Int
+    createdAt           DateTime       @default(now())
+    updatedAt           DateTime       @default(now()) @updatedAt
+    totalPrice          Int
+    meellaPaidAt        DateTime?
+    storePaidAt         DateTime?
+    gbPaidAt            DateTime?
+    couponObject        Coupon?        @relation(fields: [couponId], references: [couponId])
+    paymentObject       PaymentType    @relation(fields: [paymentName], references: [paymentName])
+    storeObject         Store          @relation(fields: [storeId], references: [storeId])
+    userObject          User           @relation(fields: [userId], references: [userId])
+    statusObject        Status         @relation(fields: [statusNameEn], references: [statusNameEn])
+    orderProduct        OrderProduct[]
+    ticketSupport       TicketSupport?
+    pickUpTimeTagObject PickUpTimeTag? @relation(fields: [pickUpTimeNameEn], references: [pickUpTimeNameEn])
+}
+
+model Product {
+    productId           Int            @id @default(autoincrement())
+    storeId             Int
+    nameEn              String         @db.VarChar(255)
+    nameTh              String         @db.VarChar(255)
+    description         String?        @db.VarChar(255)
+    image               String         @db.VarChar(255)
+    quantity            Int            @default(0)
+    meellaPrice         Int            @default(0)
+    ogPrice             Int            @default(0)
+    meellaCut           Int?
+    gbCut               Int?
+    storeCut            Int?
+    numSold             Int            @default(0)
+    numCanceled         Int            @default(0)
+    numView             Int            @default(0)
+    numLike             Int            @default(0)
+    pickUpTimeNameEn    String?        @db.VarChar(255)
+    relDistance         String?        @db.VarChar(255)
+    createdAt           DateTime       @default(now())
+    updatedAt           DateTime       @default(now()) @updatedAt
+    storeObject         Store          @relation(fields: [storeId], references: [storeId])
+    orderProduct        OrderProduct[]
+    productTag          ProductTag[]
+    pickUpTimeTagObject PickUpTimeTag? @relation(fields: [pickUpTimeNameEn], references: [pickUpTimeNameEn])
+    review              Review[]
+}
+
+model Review {
+    reviewId         Int      @id @default(autoincrement())
+    userId           Int
+    storeId          Int
+    orderId          Int
+    createAt         DateTime @default(now())
+    title            String?  @db.VarChar(255)
+    description      String?  @db.VarChar(255)
+    rating           Int
+    userObject       User?    @relation(fields: [userId], references: [userId])
+    StoreObject      Store?   @relation(fields: [storeId], references: [storeId])
+    Product          Product? @relation(fields: [productProductId], references: [productId])
+    productProductId Int?
+}
+
+model Store {
+    storeId      Int         @id @default(autoincrement())
+    storeOwnerId Int         @unique
+    updatedAt    DateTime    @default(now()) @updatedAt
+    createdAt    DateTime    @default(now())
+    nameEn       String      @db.VarChar(255)
+    nameTh       String      @db.VarChar(255)
+    phoneNumber  String      @db.VarChar(255)
+    foodType     String      @db.VarChar(255)
+    aboutUs      String      @db.VarChar(255)
+    location     String      @db.VarChar(255)
+    coordinate   String      @db.VarChar(255)
+    district     String?     @db.VarChar(255)
+    subDistrict  String?     @db.VarChar(255)
+    province     String?     @db.VarChar(255)
+    image        String?     @db.VarChar(255)
+    rating       Float       @default(0)
+    numReviews   Int         @default(0)
+    numProducts  Int         @default(0)
+    numOrders    Int         @default(0)
+    numCoupons   Int         @default(0)
+    storeTag     StoreTag[]
+    owner        StoreOwner?
+    favTable     FavTable[]
+    order        Order[]
+    product      Product[]
+    review       Review[]
+
+    @@unique([nameEn, nameTh])
+}
+
+model StoreOwner {
+    storeOwnerId      Int          @id @default(autoincrement())
+    storeId           Int?         @unique
+    bankAccountId     Int?         @unique
+    createdAt         DateTime     @default(now())
+    updatedAt         DateTime     @default(now()) @updatedAt
+    userName          String       @unique @db.VarChar(255)
+    firstName         String       @db.VarChar(255)
+    lastName          String       @db.VarChar(255)
+    phoneNumber       String       @db.VarChar(255)
+    email             String       @db.VarChar(255)
+    lang              String       @db.VarChar(255)
+    bankAccountObject BankAccount? @relation(fields: [bankAccountId], references: [bankAccountId])
+    storeObject       Store?       @relation(fields: [storeId], references: [storeId])
+}
+
+model TicketSupport {
+    tickSupportId     Int         @id @default(autoincrement())
+    userId            Int
+    orderId           Int         @unique
+    updatedAt         DateTime    @default(now()) @updatedAt
+    createdAt         DateTime    @default(now())
+    email             String?     @db.VarChar(255)
+    supportTypeNameEn String?     @db.VarChar(255)
+    title             String      @db.VarChar(255)
+    description       String      @db.VarChar(255)
+    statusNameEn      String
+    userObject        User        @relation(fields: [userId], references: [userId])
+    statusObject      Status      @relation(fields: [statusNameEn], references: [statusNameEn])
+    orderObject       Order?      @relation(fields: [orderId], references: [orderId])
+    supportTypeObject SupportTag? @relation(fields: [supportTypeNameEn], references: [supportTypeNameEn])
+}
+
+model User {
+    userId         Int             @id @default(autoincrement())
+    firebaseUserId String          @unique
+    createdAt      DateTime        @default(now())
+    updatedAt      DateTime        @default(now()) @updatedAt
+    lang           String          @db.VarChar(255)
+    userName       String          @unique @db.VarChar(255)
+    firstName      String          @db.VarChar(255)
+    lastName       String          @db.VarChar(255)
+    phoneNumber    String          @unique @db.VarChar(255)
+    email          String          @unique @db.VarChar(255)
+    meellaPoints   Int             @default(0)
+    favTable       FavTable[]
+    review         Review[]
+    order          Order[]
+    ticketSupport  TicketSupport[]
+    UserCoupon     UserCoupon[]
+}

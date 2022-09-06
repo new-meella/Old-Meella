@@ -1,0 +1,26 @@
+{
+  "filename": ".POSTCreateStore.json-1",
+  "url": "meella.org/Store/create",
+  "request": {
+    "storeOwnerId": 2,
+    "nameEn": "Cheap Korean",
+    "nameTh": "\u0e23\u0e49\u0e32\u0e19\u0e32Cheap Korean",
+    "phoneNumber": "0982488556",
+    "foodType": "Korean",
+    "aboutUs": "This is a Korean restaurant. HAVE SOME FOOD",
+    "address": "this is the address",
+    "location": "Google Map link",
+    "image": "\"hello\"",
+    "district": "Pathumwan",
+    "numCoupons": 0,
+    "numOrders": 0,
+    "numProducts": 0,
+    "numReviews": 0,
+    "province": "Bangkok",
+    "rating": 0,
+    "subDistrict": "somewhere"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

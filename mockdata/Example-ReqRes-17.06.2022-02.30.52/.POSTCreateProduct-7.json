@@ -1,0 +1,18 @@
+{
+  "filename": ".POSTCreateProduct.json-7",
+  "url": "meella.org/Product/create",
+  "request": {
+    "storeId": 2,
+    "nameTh": "Plat SHITin thai",
+    "nameEn": "Plat SHIT",
+    "description": "its Plat",
+    "image": "root/baaaaa",
+    "meellaPrice": 34534,
+    "quantity": 6,
+    "ogPrice": 45646,
+    "pickUpTimeNameEn": "After 20:30"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

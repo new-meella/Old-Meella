@@ -1,0 +1,12 @@
+{
+    "filename": ".POSTCreateTag.json-7",
+    "url": "meella.org/Tag/create",
+    "request": {
+        "tagNameEn": "Western",
+        "tagNameTh": "\u0e1d\u0e23\u0e31\u0e48\u0e07",
+        "tagType": "FoodNationality"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

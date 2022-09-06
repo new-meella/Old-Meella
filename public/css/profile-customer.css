@@ -1,0 +1,700 @@
+* {
+    padding: 0;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.content{
+    background: #FFFFFF;
+    font-family: 'M PLUS 1';
+   /* min-height: calc(100vh - 10px );*/
+   min-height: fit-content;
+}
+
+.content p#show_name{
+    position: absolute;
+top: 212px;
+padding-left: 70px;
+font-family: 'M PLUS 1';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 72px;
+display: flex;
+align-items: center;
+color: #231e41;
+
+}
+.content p#show_lastname{
+    position: absolute;
+top: 212px;
+padding-left: 485px;
+font-family: 'M PLUS 1';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 72px;
+display: flex;
+align-items: center;
+color: #231e41;
+
+}
+@media (max-width: 900px){
+    .content p#show_lastname{
+        position: absolute;
+    top: 282px;
+    padding-left: 70px;
+}
+}
+.content p#ID{
+    position: absolute;
+    top: 212px;
+    padding-left: 1000px;
+font-family: 'M PLUS 1';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 72px;
+display: flex;
+align-items: center;
+color: #231e41;
+
+}
+@media screen and (max-width: 1290px){
+    .content p#ID{
+        position: relative;
+    top: 282px;
+    padding-left: 70px;
+
+    }
+}
+@media screen and (max-width: 900px){
+    .content p#ID{
+        position: relative;
+    top: 352px;
+    padding-left: 70px;
+
+    }
+}
+.content #show_profile .phone_num p{
+    position: absolute;
+    top: 336px;
+    padding-left: 70px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.content #show_profile #show_Phone{
+    position: absolute;
+    top: 336px;
+    padding-left: 200px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+color: #231e41;
+}
+
+.content #show_profile .email p{
+    position: absolute;
+    top: 396px;
+    padding-left: 70px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.content #show_profile #show_Email{
+    position: relative;
+    top: 396px;
+    padding-left: 150px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.content #show_profile .point p{
+    position: absolute;
+    top: 456px;
+    padding-left: 70px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+/*******edit button********/
+.content button#edit{
+    position: absolute;
+   margin-left: 1335px;
+   top: 224px;
+    width: 30px;
+    height: 30px;
+    background: url(image/pen.png);
+    background-repeat: no-repeat;
+    border: none;
+    transition: all 0.2s ease;
+}
+@media screen and (max-width: 1350px){
+    .content button#edit{
+        margin-left: 1200px;
+    }
+}
+@media screen and (max-width: 1250px){
+    .content button#edit{
+        margin-left: 1100px;
+    }
+}
+@media screen and (max-width: 1150px){
+    .contentbutton#edit{
+        margin-left: 1000px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .content button#edit{
+        margin-left: 900px;
+    }
+}
+@media screen and (max-width: 950px){
+    .content button#edit{
+        margin-left: 850px;
+    }
+}
+@media screen and (max-width: 1290px){
+    .content #show_profile{
+        position: absolute;
+        top: 60px;
+
+    }
+}
+@media screen and (max-width: 900px){
+    .content button#edit{
+        margin-left: 750px;
+    }
+    .content #show_profile{
+        position: absolute;
+        top: 120px;
+    }
+
+}
+@media screen and (max-width: 810px){
+    .content button#edit{
+        margin-left: 550px;
+    }
+}
+@media screen and (max-width: 600px){
+    .content button#edit{
+        margin-left: 500px;
+    }
+}
+/*** edit box****/
+.content #edit_profile{
+    position: absolute;
+    top: 290px;
+}
+.content #edit_profile label.Name-edit {
+    position: absolute;
+    left: 70px;
+    top: 40px;
+    padding-left: 24px;
+    padding-top: 5px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #txtInputName{
+    position: absolute;
+left: 170px;
+top: 55px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+width: 290px;
+border: none;
+}
+.content #edit_profile #txtInputName:focus{
+    outline: none;
+}
+@media screen  and (max-width: 1290px){
+    .content #edit_profile{
+        position: absolute;
+        top: 350px;}
+        
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile{
+        position: absolute;
+        top: 410px;}
+    /*.content #edit_profile label.Name-edit {
+        position: relative;
+        left: 70px;
+        top: 53.57px;}
+        .content #edit_profile #Name_edit{
+            position: relative;
+        left: 170px;
+        top:7px;}*/
+}
+
+/**/
+
+.content #edit_profile label.Lastname-edit{
+    position: absolute;
+    left: 515px;
+    top: 40px;
+    padding-left: 24px;
+    padding-top: 5px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #txtInputLastname{
+    position: relative;
+left: 665px;
+top: 55px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+width: 242px;
+border: none;
+}
+.content #edit_profile #txtInputLastname:focus{
+    outline: none;
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile label.Lastname-edit{
+        position: absolute;
+        left: 70px;
+        top: 115px;
+    }
+    .content #edit_profile #txtInputLastname{
+        position: absolute;
+    left: 215px;
+    top: 130px;
+}
+}
+/**/
+.content #edit_profile  label.phone-edit{
+    position: absolute;
+    padding-left: 24px;
+    padding-top: 2px;
+    left: 70px;
+    top: 115px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #txtInputPhone{
+    position: relative;
+    left: 215px;
+    top: 106px;
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+    width: 247px;
+border: none;
+}
+.content #edit_profile #txtInputPhone:focus{
+    outline: none;
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile  label.phone-edit{
+        position: absolute;
+        top: 190px;}/*195*/
+        .content #edit_profile #txtInputPhone{
+            position: absolute;
+            left: 215px;
+            top: 203px;}
+}
+/**/
+
+.content #edit_profile  label.email-edit{
+    position: absolute;
+    left: 70px;
+    padding-top: 2px;
+    top: 190px;
+    padding-left: 24px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #txtInputEmail{
+    position: absolute;
+    left: 165px;
+top: 203px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+width: 298px;
+border:none; 
+}
+.content #edit_profile #txtInputEmail:focus{
+    outline: none;
+}
+
+
+@media screen  and (max-width: 945px){
+    .content #edit_profile  label.email-edit{
+        position: absolute;
+        top: 265px;}
+        .content #edit_profile #txtInputEmail{
+            position: absolute;
+        top: 278px;}
+
+}
+/**/
+
+/**change password***/
+.content #edit_profile p#Change{
+    position: absolute;
+    width: 500px;
+    left: 70px;
+    top: 270px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #231e41;
+cursor: pointer;
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile p#Change{
+        position: absolute;
+        top: 345px;}
+}
+/**/
+.content #edit_profile label.Current-password{
+    position: absolute;
+    left: 70px;
+    top: 320px;
+    padding-top: 2px;
+    padding-left: 24px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #Current_password{
+    position: absolute;
+    left: 295px;
+top: 333px;
+width: 160px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+border: none; 
+}
+.content #edit_profile #Current_password:focus{
+    outline: none;
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile label.Current-password{
+        position: absolute;
+        top: 400px;}
+        .content #edit_profile #Current_password{
+            position: absolute;
+            left: 295px;
+        top: 413px;}
+}
+/**/
+.content #edit_profile label.New-password{
+    position: absolute;
+    left: 70px;
+    top: 400px;
+    padding-top: 2px;
+    padding-left: 24px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #New_password{
+    position: absolute;
+    left: 260px;
+top: 413px;
+width: 200px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+border: none;
+}
+.content #edit_profile #New_password:focus{
+    outline: none;
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile label.New-password{
+        position: relative;
+        top: 475px;}
+        .content #edit_profile #New_password{
+            position: absolute;
+        top: 488px;}
+}
+/**/
+.content #edit_profile label.Confirm-new-password{
+    position: absolute;
+    left: 515px;
+    top: 400px;
+    padding-top: 2px;
+    padding-left: 24px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+box-sizing: border-box;
+width: 411px;
+height: 47.36px;
+    background: #FFFFFF;
+    border: 3px solid #FDC008;
+    border-radius: 30px;
+}
+.content #edit_profile #Confirm_new_password{
+    position:absolute;
+    left: 788px;
+top: 413px;
+width: 113px;
+font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 22px;
+display: flex;
+align-items: center;
+color: #231e41;
+border: none;
+}
+.content #edit_profile #Confirm_new_password:focus{
+    outline: none;
+}
+@media screen  and (max-width: 945px){
+    .content #edit_profile label.Confirm-new-password{
+        position: absolute;
+        left: 70px;
+        top: 550px;}
+        .content #edit_profile #Confirm_new_password{
+            position: absolute;
+            left: 345px;
+        top: 563px;}
+
+}
+/*********** button **************/
+
+input#cancel{
+    box-sizing: border-box;
+    width: 167px;
+    height: 66.58px;
+    position:absolute;
+    margin-left: 533px;
+    top: 300px;
+    margin-top: 30px;
+    background: #FFFFFF;
+    border: 1px solid #F9B609;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+color: #000000;
+}
+
+input#save{
+   display: none;
+    box-sizing: border-box;
+    width: 167px;
+    height: 66.58px;
+    position: absolute;
+    margin-left: 740px;
+    top: 590px;/*745*/
+    margin-top: 30px;
+    background: #F9B609;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+border: none;
+    font-family: 'Comfortaa';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+color: #000000;
+}
+@media screen  and (max-width: 1290px) {
+    input#save{
+            position: absolute;
+            margin-left: 740px;
+            top: 805px;
+            }
+}
+@media screen  and (max-width: 960px) {
+    input#cancel{
+        position: absolute;
+        margin-left:85px;
+        top: 410px;/*610*/
+    }
+    input#save{
+            position: absolute;
+            margin-left: 292px;
+            top: 820px;/*1020*/
+            }
+}
+
+/************************************/
+.edit_password{
+    display: none;
+}
+.edit_password.show{
+    display: block;
+}
+#save.position{
+   position: absolute;
+   top:745px;
+   transition: 0.1ms;
+}
+#cancel.position{
+position: absolute;
+top: 456px;
+transition: 0.1ms;
+}
+@media screen  and (max-width: 960px) {
+    #cancel.position{
+        position: absolute;
+        margin-left:85px;
+        top: 610px;
+        transition: 0.1ms;
+    }
+    #save.position{
+            position: absolute;
+            margin-left: 292px;
+            top: 1020px;
+            transition: 0.1ms;
+            }
+}
+
+#edit_profile{
+   display: none;
+}
+
+#edit_profile.active{
+    display: none;
+}
+
+#show_profile.active{
+    display: block;
+}

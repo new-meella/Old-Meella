@@ -1,0 +1,12 @@
+{
+    "filename": ".POSTCreatePickUpTimeTag.json-1",
+    "url": "meella.org/Tag/PickupTime/create",
+    "request": {
+        "pickUpTime": "1970-01-01T20:00:00.700Z",
+        "pickUpTimeNameEn": "After 20:00",
+        "pickUpTimeNameTh": "\u0e2b\u0e25\u0e31\u0e07 20:00"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

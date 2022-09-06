@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-11",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "CIMB Thai Bank",
+        "bankNameOfficial": "CIMB THAI BANK PUPBLIC COMPANY LTD."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

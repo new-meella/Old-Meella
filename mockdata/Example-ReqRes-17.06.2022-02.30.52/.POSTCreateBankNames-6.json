@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-6",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "TMB Bank",
+        "bankNameOfficial": "TMB BANK PUBLIC COMPANY LIMITED."
+    },
+    "response": {
+        "status": "empty"
+    }
+}

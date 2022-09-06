@@ -1,0 +1,14 @@
+{
+    "filename": ".POSTCreateBankAccount.json-4",
+    "url": "meella.org/StoreOwner/Bankaccount/create",
+    "request": {
+        "storeOwnerId": 8,
+        "accountNumber": 1123123123123,
+        "accountName": "Tinapat Limsila",
+        "branch": "your mum",
+        "bankName": "Bank of Tokyo-Mitsubishi UFJ"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

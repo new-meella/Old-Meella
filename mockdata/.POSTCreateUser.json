@@ -1,0 +1,43 @@
+{
+  "User/create": [
+    {
+      "lang": "en",
+      "userName": "MyOxSmall",
+      "firstName": "Tinapat",
+      "lastName": "Limsila",
+      "phoneNumber": "0982488556",
+      "email": "myoxsmall@gmail.com",
+      "firebaseUserId": "1"
+    },
+    {
+      "lang": "en",
+      "userName": "MyOxSmall",
+      "firstName": "Tinapat",
+      "lastName": "Limsila",
+      "phoneNumber": "0982488556",
+      "email": "myoxsmall@gmail.com",
+      "firebaseUserId": "2",
+      "comment": "EMAIL & USERNAME & PHONE NUMBER CONFLICT"
+    },
+    {
+      "lang": "th",
+      "userName": "ChingChong",
+      "firstName": "ทินภัทร",
+      "lastName": "ลิมศิลา",
+      "phoneNumber": "234324234234",
+      "email": "BOOGERsmall@gmail.com",
+      "firebaseUserId": "3"
+    },
+    {
+      "lang": "en",
+      "userName": "BAAA",
+      "firstName": "ทินภัท",
+      "lastName": "ลิมศิล",
+      "phoneNumber": "09883746287",
+      "email": "hihi@gmail.com",
+      "firebaseUserId": "4",
+      "comment": "firebaseUserId CONFLICT"
+    },
+    {}
+  ]
+}

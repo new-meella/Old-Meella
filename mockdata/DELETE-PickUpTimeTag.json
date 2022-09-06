@@ -1,0 +1,10 @@
+{
+  "Tag/PickUpTimeTag/delete": [
+    {
+      "pickUpTimeNameEn": "After 21:00"
+    },
+    {
+      "pickUpTimeNameEn": "After 18:00"
+    }
+  ]
+}

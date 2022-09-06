@@ -1,0 +1,12 @@
+{
+    "filename": ".POSTCreateTag.json-6",
+    "url": "meella.org/Tag/create",
+    "request": {
+        "tagNameEn": "Thai ",
+        "tagNameTh": "\u0e44\u0e17\u0e22",
+        "tagType": "FoodNationality"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

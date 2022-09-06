@@ -1,0 +1,17 @@
+{
+    "filename": ".POSTCreateStore.json-0",
+    "url": "meella.org/Store/create",
+    "request": {
+        "storeOwnerId": 1,
+        "nameEn": "Game Store",
+        "nameTh": "\u0e23\u0e49\u0e32\u0e19\u0e32",
+        "phoneNumber": "0982488556",
+        "foodType": "International",
+        "aboutUs": "This is a food restaurant. HAVE SOME FOOD",
+        "address": "this is the address",
+        "location": "Google Map link"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

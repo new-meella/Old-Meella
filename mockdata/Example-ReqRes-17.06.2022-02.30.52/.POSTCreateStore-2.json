@@ -1,0 +1,25 @@
+{
+  "filename": ".POSTCreateStore.json-2",
+  "url": "meella.org/Store/create",
+  "request": {
+    "storeOwnerId": 3,
+    "nameEn": "Print",
+    "nameTh": "\u0e2d\u0e32\u0e17\u0e34\u0e15\u0e22\u0e4c",
+    "phoneNumber": "0982475661",
+    "foodType": "Korean",
+    "aboutUs": "we are korean",
+    "location": "Chaing Mai",
+    "image": "\"hello\"",
+    "district": "Hang Dong",
+    "numCoupons": 0,
+    "numOrders": 0,
+    "numProducts": 0,
+    "numReviews": 0,
+    "province": "Chaing Mai",
+    "rating": 0,
+    "subDistrict": "Pa Daet"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

@@ -1,0 +1,1826 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+.create_account_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    padding: 0px;
+
+    position: relative;
+    left: -900px;
+    right: 0px;
+    top: 263px;
+    bottom: 20.57%;
+    z-index: -1;
+
+    width: 230px;
+    height: 48px;
+
+    background: #F9B609;
+    border: 1px solid #F9B609;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.create_account_text {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 30%;
+    bottom: 70.17%;
+    z-index: -1;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+
+    color: #231E41;
+}
+
+.create_account_button:hover {
+    background: #9DD9D2;
+    border: 1px solid #9DD9D2;
+}
+
+.create_account_button:hover .create_account_text {
+    color: #FFFFFF;
+}
+
+.no_account {
+    position: relative;
+    width: 420px;
+    left: -470px;
+    right: 0px;
+    top: 168px;
+    bottom: 0px;
+    z-index: -1;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
+
+    color: #231E41;
+}
+
+.body_box,
+.body_box2,
+.body_box3,
+.bill_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+
+    position: relative;
+    left: 275px;
+    margin-top: 200px;
+    z-index: 10;
+}
+
+.body_box2 {
+    left: 440px;
+}
+
+.body_box3 {
+    left: 247px;
+}
+
+.bill_box {
+    left: 35px;
+    margin-top: 0px;
+}
+
+.circle1 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+
+    background: #FECC2F;
+}
+
+.circle2 {
+    position: relative;
+    left: 55px;
+    right: 0px;
+    top: 5px;
+    bottom: 0px;
+
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+
+    background: #FECC2F;
+}
+
+.circle3 {
+    position: relative;
+    left: 110px;
+    right: 0px;
+    top: 5px;
+    bottom: 0px;
+
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+
+    background: #FECC2F;
+    z-index: -1;
+}
+
+.left_rect,
+.right_rect,
+.left_rect2,
+.right_rect2,
+.left_rect3,
+.right_rect3 {
+    position: relative;
+    right: 0px;
+    top: 35px;
+    bottom: 40%;
+
+    background: #EBD1B9;
+    border-radius: 15px;
+
+    height: 14.86px;
+    width: 335.35px;
+    border-radius: 15px;
+}
+
+.left_rect {
+    left: 20px;
+}
+
+.right_rect {
+    left: 80px;
+}
+
+.left_rect2 {
+    left: 40px;
+}
+
+.right_rect2 {
+    left: 70px;
+}
+
+.left_rect3 {
+    left: 40px;
+}
+
+.right_rect3 {
+    left: 95px;
+}
+
+/* for scan part exclusively*/
+
+.qr_box {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    left: -610px;
+    top: 150px;
+
+    background: #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.save_qr_button,
+.cancel_button,
+.next_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+}
+
+.save_qr_text,
+.cancel_text,
+.next_text {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.save_qr_button {
+    position: relative;
+    width: 166px;
+    height: 48px;
+    left: 33%;
+    top: 75%;
+
+    background: #F4D06F;
+    border: 1px solid #F4D06F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.save_qr_button:hover {
+    background: #FFFFFF;
+}
+
+.save_qr_text {
+    position: absolute;
+    width: 147px;
+    height: 22px;
+    left: auto;
+    top: 12px;
+
+    color: #231E41;
+}
+
+.cancel_button {
+    position: relative;
+    width: 167px;
+    height: 48px;
+    left: -1030px;
+    top: 700px;
+
+    background: #FFFFFF;
+    border: 1px solid #F9B609;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.cancel_text {
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: auto;
+    top: 25%;
+
+    color: #231E41;
+}
+
+.cancel_button:hover {
+    background: #E15D5D;
+    border: 1px solid #E15D5D;
+}
+
+.cancel_button:hover .cancel_text {
+    color: #FFFFFF;
+}
+
+.next_button {
+    position: relative;
+    width: 167px;
+    height: 48px;
+    left: -995px;
+    top: 700px;
+
+    background: #F9B609;
+    border: 1px solid #F9B609;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.next_text {
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: auto;
+    top: 25%;
+
+    color: #231E41;
+}
+
+.next_button:hover {
+    background: #9DD9D2;
+    border: 1px solid #9DD9D2;
+}
+
+.next_button:hover .next_text {
+    color: #FFFFFF;
+}
+
+.qr-code {
+    background-image: url("https://api.qrserver.com/v1/create-qr-code/?size=240x240&data=1242422444345345345");
+
+    position: absolute;
+    height: 240px;
+    width: 240px;
+    left: 25%;
+    top: 15%
+}
+
+/*success page exclusively*/
+
+.successful {
+    position: absolute;
+    width: 397px;
+    height: 55px;
+    margin-right: 375px;
+    top: 175px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 31px;
+
+    color: #231E41;
+
+    mix-blend-mode: normal;
+}
+
+.food1,
+.food2 {
+    position: absolute;
+    width: 359.77px;
+    height: 251.88px;
+    margin-left: -1500px;
+    top: 309.12px;
+}
+
+.food2 {
+    top: 740.12px;
+}
+
+.discount_circle1,
+.discount_circle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 114px;
+    height: 104px;
+    left: -1530px;
+    top: 262px;
+
+    background: #FECC2F;
+    border-radius: 144px;
+}
+
+.discount_circle2 {
+    top: 932px;
+}
+
+.xx_in_circle {
+    position: absolute;
+    left: 0px;
+    top: 40px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #231E41;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.bill_text1,
+.bill_text2 {
+    position: absolute;
+    width: 251px;
+    height: 104px;
+    top: 355px;
+    margin-right: 300px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 52px;
+
+    color: #1B1A1A;
+}
+
+.bill_text2 {
+    top: 782px;
+}
+
+.blue_line1,
+.blue_line2 {
+    position: absolute;
+    width: 1340px;
+    height: 0px;
+    top: 650px;
+    margin-right: 500px;
+
+    background: #437F97;
+    border: 3px solid #437F97;
+}
+
+.blue_line2 {
+    top: 1077px;
+}
+
+.short_blue_line1,
+.short_blue_line2 {
+    position: absolute;
+    width: 317px;
+    height: 0px;
+    top: 1213px;
+    margin-left: 525px;
+
+    background: #437F97;
+    border: 3px solid #437F97;
+}
+
+.short_blue_line2 {
+    top: 1283px;
+}
+
+.xxTHB1,
+.xxTHB2,
+.xxTHB3,
+.xxTHB4 {
+    position: absolute;
+    width: 73px;
+    height: 22px;
+    top: 440px;
+    margin-left: 750px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #231E41;
+}
+
+.xxTHB2 {
+    top: 868px;
+}
+
+.xxTHB3 {
+    top: 1097px;
+
+    line-height: 52px;
+
+    color: #1B1A1A;
+}
+
+.xxTHB4 {
+    top: 1238px;
+
+    line-height: 52px;
+
+    color: #1B1A1A;
+}
+
+.paylist,
+.total {
+    position: absolute;
+    width: 232px;
+    height: 88px;
+    top: 1105px;
+    margin-left: 500px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 52px;
+    display: flex;
+    align-items: center;
+
+    color: #1B1A1A;
+}
+
+.total {
+    top: 1220px;
+}
+
+.shop_more_button,
+.view_coupons_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 171.36px;
+    height: 48px;
+    margin-right: 800px;
+    top: 1510px;
+
+    background: #9DD9D2;
+    border: 1px solid #9DD9D2;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.view_coupons_button {
+    width: 266.8px;
+    margin-right: 250px;
+
+    background: #437F97;
+    border: 1px solid #437F97;
+}
+
+.shop_more_text,
+.view_coupons_text {
+    position: absolute;
+    width: 140px;
+    height: 21px;
+    top: 10px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.view_coupons_text {
+    width: 177px;
+}
+
+/* last page */
+
+.gray_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 100%;
+    height: 382.75%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+
+    background: rgba(13, 12, 12, 0.54);
+}
+
+.complete_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 1000px;
+    height: 240px;
+    top: 460px;
+    margin-left: 20px;
+    z-index: 11;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.thank_you,
+.you_have,
+.done_button {
+    position: absolute;
+    width: 203px;
+    height: 32.68px;
+    top: 40px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #231E41;
+}
+
+.you_have {
+    width: 236px;
+    top: 89px;
+}
+
+.done_button {
+    width: 167px;
+    height: 49.02px;
+    top: 148px;
+
+    background: #F4D06F;
+    border: 1px solid #F4D06F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.done_button:hover {
+    background: #119200;
+    border: 1px solid #119200;
+
+    color: #FFFFFF;
+}
+
+/*billing history*/
+
+.bill_history_text {
+    position: absolute;
+    top: 248px;
+    margin-right: 1135px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #231E41;
+
+}
+
+.date_to_date_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    position: absolute;
+    top: 430px;
+    margin-right: 1380px;
+}
+
+.date1_box,
+.date2_box {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    position: absolute;
+    left: 74px;
+    top: -22px;
+    width: 160px;
+    height: 44px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+    border: 1.5px solid #C4C4C4;
+    border-radius: 8px;
+}
+
+.date2_box {
+    left: 296px;
+}
+
+.from,
+.to {
+    position: absolute;
+    left: 0%;
+    right: 90.56%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+
+    color: #231E41;
+}
+
+.to {
+    left: 254px;
+}
+
+.apply_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    position: absolute;
+    left: 485px;
+    top: -20px;
+    width: 96px;
+    height: 44px;
+
+    background: #FFFFFF;
+    border: 3px solid #9DD9D2;
+    border-radius: 8px;
+
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}
+
+.apply_text {
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #9DD9D2;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.apply_button:hover {
+    background: #9DD9D2;
+    border: 3px solid #9DD9D2;
+}
+
+.apply_button:hover .apply_text {
+    color: #FFFFFF;
+}
+
+.no_order_text {
+    position: absolute;
+    width: 206px;
+    height: 27px;
+    top: 552px;
+    margin-right: 75px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+
+    text-align: center;
+    z-index: -1;
+
+    color: #231E41;
+}
+
+.search_box {
+    position: absolute;
+    width: 534px;
+    height: 48px;
+    top: 334px;
+    margin-left: 250px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: left;
+
+    background: #F3F3F3;
+    border-radius: 10px;
+}
+
+.search_icon {
+    position: absolute;
+    top: 350px;
+    margin-left: 750px;
+    z-index: 25;
+
+    cursor: pointer;
+}
+
+.search_box::placeholder {
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #A8A8A8;
+}
+
+.filter_button {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 149px;
+    height: 48px;
+    top: 337px;
+    margin-left: 1025px;
+
+    background: #FFFFFF;
+    border: 3px solid #9DD9D2;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.filter_text {
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 57px;
+    right: 6.74%;
+    top: 21px;
+    bottom: 75.34%;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #9DD9D2;
+}
+
+.filter_icon {
+    position: absolute;
+    left: 24px;
+    right: 13.68%;
+    top: 9px;
+    bottom: 76.24%;
+
+    background: url(/img/Vector541.png);
+}
+
+.filter_button:hover {
+    text-align: center;
+
+    background: #9DD9D2;
+    border: 3px solid #9DD9D2;
+}
+
+.filter_button:hover .filter_text {
+    left: 38px;
+
+    color: #FFFFFF;
+}
+
+.filter_drop_down {
+    position: absolute;
+    width: 396px;
+    height: 304px;
+    top: 404px;
+    margin-left: 777px;
+
+    background: #FCFCFC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+
+    visibility: hidden;
+}
+
+.filter_drop_down.active {
+    visibility: visible;
+    z-index: 10;
+}
+
+.in_progress_button,
+.completed_button,
+.cancelled_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 13px 24px;
+    gap: 10px;
+
+    position: absolute;
+    left: 5.05%;
+    right: 53.79%;
+    top: 39.47%;
+    bottom: 44.74%;
+
+    background: #FFFFFF;
+    border: 3px solid #F9B609;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.completed_button {
+    left: 51.26%;
+    right: 8.08%;
+}
+
+.cancelled_button {
+    left: 5.05%;
+    right: 56.82%;
+    top: 60.53%;
+    bottom: 23.68%;
+}
+
+.order_status_text,
+.in_progress_text,
+.completed_text,
+.cancelled_text,
+.filter_apply_text,
+.filter_cancel_text {
+    position: absolute;
+    left: 5.05%;
+    right: 59.6%;
+    top: 15.79%;
+    bottom: 76.97%;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #231E41;
+}
+
+.in_progress_text,
+.completed_text,
+.cancelled_text {
+    left: 0%;
+    right: 0%;
+    top: 10px;
+    bottom: 76.97%;
+    text-align: center;
+}
+
+.in_progress_button.active .in_progress_text,
+.completed_button.active .completed_text,
+.cancelled_button.active .cancelled_text {
+    top: 12px;
+}
+
+.filter_cancel_text {
+    left: 158px;
+    right: 32.83%;
+    top: 83.55%;
+    bottom: 8.55%;
+
+    text-decoration-line: underline;
+
+    cursor: pointer;
+}
+
+.filter_apply_button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+
+    position: absolute;
+    left: 64.9%;
+    right: 8.08%;
+    top: 78.95%;
+    bottom: 5.26%;
+
+    background: #9DD9D2;
+    border: 1px solid #9DD9D2;
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.filter_apply_button:hover {
+    background: #6bff58;
+    border: 1px solid #6bff58;
+}
+
+.filter_apply_text {
+    left: 43px;
+    top: 13px;
+}
+
+.bill_history_table {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 100px;
+
+    position: absolute;
+    width: 1302px;
+    height: 273px;
+    top: 497px;
+    margin-right: 80px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.bill_field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    width: 1302px;
+    height: 73px;
+
+    background: #9DD9D2;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.bill_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 50px;
+
+    width: 1302px;
+    height: 200px;
+
+    background: linear-gradient(0deg, #EEEEEE, #EEEEEE), rgba(255, 255, 255, 0.0001);
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.bill_content::-webkit-scrollbar {
+    width: 8px;
+    background: #0d141f;
+    border-radius: 0 8px 8px 0;
+    overscroll-behavior: auto contain;
+}
+
+.bill_content::-webkit-scrollbar-thumb {
+    background: #525861;
+    border-radius: 0 8px 8px 0;
+    overscroll-behavior: auto contain;
+}
+
+.number,
+.order_number,
+.order_status,
+.customer,
+.last_update,
+.total_field,
+.payment_field {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+
+    width: 186px;
+    height: 22px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #231E41;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.number_data,
+.order_number_data,
+.order_status_data,
+.customer_data,
+.last_update_data,
+.total_field_data,
+.payment_field_data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    position: relative;
+    width: 186px;
+    height: 100px;
+    top: -30px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #231E41;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.order_number_data {
+    text-decoration-line: underline;
+}
+
+.see_more_button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 160px;
+    height: 49px;
+    top: 862px;
+    margin-right: 80px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #231E41;
+
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.see_more_button:hover {
+    color: #FFFFFF;
+
+    background: #437F97;
+    border: 1px solid #437F97;
+}
+
+/*order detail page*/
+
+.order_ID {
+    position: absolute;
+    top: 258px;
+    margin-right: 1100px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #231E41;
+}
+
+.completed_status,
+.in_progress_status,
+.cancelled_status {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: flex-start;
+    text-align: center;
+    padding: 13px 24px;
+    gap: 10px;
+
+    position: absolute;
+    margin-right: 600px;
+    top: 248px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #231E41;
+
+    background: #9DD9D2;
+    border-radius: 20px;
+}
+
+.in_progress_status {
+    background: #FECC2F;
+    display: none;
+}
+
+.cancelled_status {
+    background: #e71010;
+    display: none;
+}
+
+.order_details_box {
+    position: absolute;
+    width: 750px;
+    height: 736px;
+    top: 388px;
+    margin-right: 630px;
+
+    background: #EEEEEE;
+    border-radius: 30px;
+}
+
+.customer_box {
+    position: absolute;
+    width: 530px;
+    height: 232px;
+    top: 388px;
+    margin-left: 700px;
+
+    background: #EEEEEE;
+    border-radius: 30px;
+
+}
+
+.order_details_text,
+.customer_text {
+    position: absolute;
+    width: 115px;
+    height: 33px;
+    left: 20px;
+    top: 52px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 33px;
+    text-align: center;
+
+    color: #231E41;
+}
+
+.customer_text {
+    left: 0px;
+}
+
+.orange_circle {
+    position: absolute;
+    width: 96px;
+    height: 96px;
+    left: 20px;
+    top: 101px;
+
+    background: #FF8811;
+    border-radius: 96px;
+}
+
+.customer_name {
+    position: absolute;
+    width: 200px;
+    height: 19px;
+    left: 146px;
+    top: 137px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 19px;
+
+    text-align: left;
+
+    color: #231E41;
+
+}
+
+.detail_field,
+.detail_content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin-top: 129px;
+
+    width: 750px;
+    height: 73px;
+    border-bottom: 2px solid #231E41;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.detail_content {
+    margin-top: 0px;
+    height: 88px;
+    border: none;
+}
+
+.total_text,
+.total_cost {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 442px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+    text-align: center;
+
+    color: #000000;
+
+}
+
+.total_cost {
+    width: fit-content;
+    margin-left: 550px;
+}
+
+.number2,
+.menu,
+.quantity,
+.unit_price,
+.remark {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0px;
+
+    width: 150px;
+    height: 22px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+
+    color: #231E41;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+/*my coupon*/
+
+.coupon_group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.my_coupon_text {
+    position: absolute;
+    width: 206px;
+    height: 34px;
+    top: 248px;
+    margin-right: 1100px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+
+    color: #231E41;
+
+    mix-blend-mode: normal;
+}
+
+.my_coupon_list1,
+.my_coupon_list2,
+.my_coupon_list3 {
+    position: absolute;
+    width: 1301px;
+    height: 347px;
+    top: 336px;
+
+    background: #FFF9E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.my_coupon_list2 {
+    top: 736px;
+}
+
+.my_coupon_list3 {
+    top: 1136px;
+}
+
+.coupon_food {
+    position: absolute;
+    top: 48px;
+    margin-left: 15px;
+}
+
+.show_location_button,
+.use_coupon_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 256px;
+    height: 47px;
+    top: 258px;
+    margin-left: 688px;
+
+    background: #437F97;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.use_coupon_button {
+    background: #F9B609;
+    width: 247px;
+    margin-left: 978px;
+}
+
+.show_location_text,
+.use_coupon_text {
+    width: 176px;
+    height: 27px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+.use_coupon_text {
+    width: 165px;
+}
+
+.bill_text3 {
+    position: absolute;
+    width: 251px;
+    height: 104px;
+    top: 49px;
+    margin-left: 587px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+
+    color: #1B1A1A;
+}
+
+.show_coupon_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    width: 334px;
+    height: 47px;
+    top: 1552px;
+
+    background: #9DD9D2;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.show_coupon_text {
+    width: 254px;
+    height: 27px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #FFFFFF;
+}
+
+/*my coupon qr-code*/
+
+.coupon_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.coupon_text {
+    position: absolute;
+    width: 263px;
+    height: 52px;
+    top: 248px;
+    margin-right: 1135px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+
+    color: #231E41;
+
+    mix-blend-mode: normal;
+}
+
+.coupon_qr_box {
+    position: absolute;
+    width: 480px;
+    height: 480px;
+    top: 336px;
+
+    background: #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.menu_text {
+    position: absolute;
+    width: 251px;
+    height: 104px;
+    top: 257px;
+    margin-right: 825px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 27px;
+    z-index: -100;
+
+    color: #1B1A1A;
+}
+
+.done_button2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 875px;
+    width: 147px;
+    height: 47px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #231E41;
+
+    background: #FFF9E9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    cursor: pointer;
+}
+
+.done_button2:hover {
+    background: #41e267;
+    color: #FFFFFF;
+}
+
+.gray_box2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    padding: 0px;
+    visibility: hidden;
+
+    position: absolute;
+    width: 100%;
+    height: 227.75%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 10;
+
+    background: rgba(13, 12, 12, 0.54);
+}
+
+.rating_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+
+    position: absolute;
+    width: 1000px;
+    height: 768px;
+    top: 280px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.rate_coupon {
+    position: absolute;
+    width: 210px;
+    height: 38px;
+    top: 84px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
+
+    color: #231E41;
+
+    mix-blend-mode: normal;
+}
+
+.feedback {
+    position: absolute;
+    width: 261px;
+    height: 27px;
+    top: 275px;
+    margin-right: 600px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #231E41;
+}
+
+.feedback_box,
+.feedback_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+
+    color: #231E41;
+
+    position: absolute;
+    width: 860px;
+    height: 280px;
+    top: 312px;
+
+    background: #EEEEEE;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+
+.feedback_text {
+    outline: none;
+    position: inherit;
+    width: 760px;
+    height: 550px;
+    left: 35px;
+    top: -245px;
+
+    background: none;
+    border: none;
+}
+
+.feedback_text::placeholder {
+    top: -500px;
+}
+
+.star-box1,
+.star-box2,
+.star-box3,
+.star-box4,
+.star-box5 {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    margin-right: 500px;
+    top: 150px;
+    z-index: 100;
+
+    cursor: pointer;
+}
+
+.star-box2 {
+    margin-right: 250px;
+}
+
+.star-box3 {
+    margin-right: 0px;
+}
+
+.star-box4 {
+    margin-right: -250px;
+}
+
+.star-box5 {
+    margin-right: -500px;
+}
+
+.done_button3 {
+    position: absolute;
+    top: 657px;
+
+    width: 147px;
+    height: 47px;
+
+    background: #F9B609;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 27px;
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+.done_button3:hover {
+    background: #4dcb55;
+}

@@ -1,0 +1,8 @@
+{
+    "filename": ".POSTCreateCoupon.json-3",
+    "url": "meella.org/Coupon/create",
+    "request": {},
+    "response": {
+        "status": "empty"
+    }
+}

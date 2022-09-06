@@ -1,0 +1,37 @@
+{
+  "Coupon/create": [
+    {
+      "descriptionEn": "No discount for you",
+      "aptStore": null,
+      "aptProduct": null,
+      "discountAmount": null
+    },
+    {
+      "descriptionEn": "No discount for you",
+      "aptStore": null,
+      "aptProduct": null,
+      "discountAmount": null
+    },
+
+    {
+      "descriptionEn": "Discount 20 Baht at store 1",
+      "aptStore": null,
+      "aptProduct": 1,
+      "discountAmount": 2000
+    },
+    {
+      "descriptionEn": "Receive a discount of 20 baht/person, 1 time per day per person.\nLimited to 30 people per day.\nThe code will come from promoting through our ig, influence and on the web page",
+      "descriptionTh": "รับส่วนลด 20 บาท/ คน ได้ 1 ครั้งต่อวันต่อคน\nจำกัดคนได้สิทธิ 30 คน ต่อวัน\nโค้ดจะมาจากการโปรโมทผ่าน ig เรา, influ และบนหน้าเว็บ",
+      "code": "meellaeats",
+      "budget": "600000",
+      "usesPerCustomerPerDay": "1",
+      "usesPerDay": "30",
+      "aptStore": null,
+      "aptProduct": null,
+      "discountAmount": "2000",
+      "quantity": 10000,
+      "discountPercentage": null
+    },
+    {}
+  ]
+}

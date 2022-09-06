@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-16",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Cr\u00e9dit Agricole",
+        "bankNameOfficial": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

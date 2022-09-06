@@ -1,0 +1,116 @@
+{
+  "Payment/Banks/create": [
+    {
+      "bankName": "Bangkok Bank",
+      "bankNameOfficial": "BANGKOK BANK PUBLIC COMPANY LTD."
+    },
+    {
+      "bankName": "Kasikornbank",
+      "bankNameOfficial": "KASIKORNBANK PUBLIC COMPANY LTD."
+    },
+    {
+      "bankName": "Royal Bank of Scotland",
+      "bankNameOfficial": "THE ROYAL BANK OF SCOTLAND PLC"
+    },
+    {
+      "bankName": "Krungthai Bank",
+      "bankNameOfficial": "KRUNG THAI BANK PUBLIC COMPANY LTD."
+    },
+    {
+      "bankName": "J.P. Morgan",
+      "bankNameOfficial": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION"
+    },
+    {
+      "bankName": "Bank of Tokyo-Mitsubishi UFJ",
+      "bankNameOfficial": "THE BANK OF TOKYO-MITSUBISHI UFJ, LTD."
+    },
+    {
+      "bankName": "TMB Bank",
+      "bankNameOfficial": "TMB BANK PUBLIC COMPANY LIMITED."
+    },
+    {
+      "bankName": "Siam Commercial Bank",
+      "bankNameOfficial": "SIAM COMMERCIAL BANK PUBLIC COMPANY LTD."
+    },
+    { "bankName": "Citibank", "bankNameOfficial": "CITIBANK, N.A." },
+    {
+      "bankName": "Sumitomo Mitsui Banking Corporation",
+      "bankNameOfficial": "SUMITOMO MITSUI BANKING CORPORATION"
+    },
+    {
+      "bankName": "Standard Chartered (Thai)",
+      "bankNameOfficial": "STANDARD CHARTERED BANK (THAI) PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "CIMB Thai Bank",
+      "bankNameOfficial": "CIMB THAI BANK PUPBLIC COMPANY LTD."
+    },
+    {
+      "bankName": "United Overseas Bank (Thai)",
+      "bankNameOfficial": "UNITED OVERSEAS BANK (THAI) PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "Bank of Ayudhya (Krungsri)",
+      "bankNameOfficial": "BANK OF AYUDHYA PUBLIC COMPANY LTD."
+    },
+    {
+      "bankName": "Mega International Commercial Bank",
+      "bankNameOfficial": "MEGA INTERNATIONAL COMMERCIAL BANK PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "Bank of America",
+      "bankNameOfficial": "BANK OF AMERICA, NATIONAL ASSOCIATION"
+    },
+    {
+      "bankName": "Crédit Agricole",
+      "bankNameOfficial": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK"
+    },
+    {
+      "bankName": "Government Savings Bank",
+      "bankNameOfficial": "THE GOVERNMENT SAVINGS BANK"
+    },
+    {
+      "bankName": "Hongkong and Shanghai Banking Corporation",
+      "bankNameOfficial": "THE HONGKONG AND SHANGHAI BANKING CORPORATION LTD."
+    },
+    { "bankName": "Deutsche Bank", "bankNameOfficial": "DEUTSCHE BANK AG." },
+    {
+      "bankName": "Government Housing Bank",
+      "bankNameOfficial": "THE GOVERNMENT HOUSING BANK"
+    },
+    {
+      "bankName": "Bank for Agriculture and Agricultural Cooperatives",
+      "bankNameOfficial": "BANK FOR AGRICULTURE AND AGRICULTURAL COOPERATIVES"
+    },
+    { "bankName": "Mizuho Bank", "bankNameOfficial": "MIZUHO BANK, LTD." },
+    { "bankName": "BNP Paribas", "bankNameOfficial": "BNP PARIBAS" },
+    {
+      "bankName": "Thanachart Bank",
+      "bankNameOfficial": "THANACHART BANK PUBLIC COMPANY LTD."
+    },
+    {
+      "bankName": "Islamic Bank of Thailand",
+      "bankNameOfficial": "ISLAMIC BANK OF THAILAND"
+    },
+    {
+      "bankName": "Tisco Bank",
+      "bankNameOfficial": "TISCO BANK PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "Kiatnakin Bank",
+      "bankNameOfficial": "KIATNAKIN BANK PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "Industrial and Commercial Bank of China (Thai)",
+      "bankNameOfficial": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (THAI) PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "Thai Credit Retail Bank",
+      "bankNameOfficial": "THE THAI CREDIT RETAIL BANK PUBLIC COMPANY LIMITED"
+    },
+    {
+      "bankName": "Land and Houses Bank",
+      "bankNameOfficial": "LAND AND HOUSES BANK PUBLIC COMPANY LIMITED"
+    }
+  ]
+}

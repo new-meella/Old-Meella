@@ -1,0 +1,8 @@
+{
+    "filename": ".POSTCreateStoreTag.json-1",
+    "url": "meella.org/Tag/StoreTag/create",
+    "request": {},
+    "response": {
+        "status": "empty"
+    }
+}

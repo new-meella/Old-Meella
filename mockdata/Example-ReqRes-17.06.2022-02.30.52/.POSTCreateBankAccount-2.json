@@ -1,0 +1,14 @@
+{
+    "filename": ".POSTCreateBankAccount.json-2",
+    "url": "meella.org/StoreOwner/Bankaccount/create",
+    "request": {
+        "storeOwnerId": 3,
+        "accountNumber": "0239409230928",
+        "accountName": "Jakc Limsila",
+        "branch": "your brother",
+        "bankName": "Kasikornbank"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

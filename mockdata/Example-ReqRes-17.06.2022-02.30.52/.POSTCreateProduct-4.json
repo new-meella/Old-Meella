@@ -1,0 +1,18 @@
+{
+  "filename": ".POSTCreateProduct.json-4",
+  "url": "meella.org/Product/create",
+  "request": {
+    "storeId": 1,
+    "nameTh": "bruger thai",
+    "nameEn": "Burger",
+    "description": "its a burger",
+    "image": "root/baaaaa",
+    "meellaPrice": 300,
+    "quantity": 345,
+    "ogPrice": 450,
+    "pickUpTimeNameEn": "After 20:00"
+  },
+  "response": {
+    "status": "empty"
+  }
+}

@@ -1,0 +1,27 @@
+{
+    "filename": ".POSTCreateOrder.json-1",
+    "url": "meella.org/Order/create",
+    "request": {
+        "storeId": 2,
+        "userId": 3,
+        "pickUpTimeNameEn": "After 18:00",
+        "couponId": null,
+        "orderNote": null,
+        "paymentName": "QR-Code",
+        "product": [
+            {
+                "productId": 1,
+                "quantity": 10,
+                "productNote": "SOO Pt"
+            },
+            {
+                "productId": 4,
+                "quantity": 1,
+                "productNote": null
+            }
+        ]
+    },
+    "response": {
+        "status": "empty"
+    }
+}

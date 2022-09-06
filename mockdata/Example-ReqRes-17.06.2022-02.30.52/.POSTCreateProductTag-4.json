@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateProductTag.json-4",
+    "url": "meella.org/Tag/ProductTag/create",
+    "request": {
+        "productId": 5,
+        "tagNameEn": "Western"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

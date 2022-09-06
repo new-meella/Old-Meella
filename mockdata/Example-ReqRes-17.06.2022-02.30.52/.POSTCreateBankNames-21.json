@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-21",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Bank for Agriculture and Agricultural Cooperatives",
+        "bankNameOfficial": "BANK FOR AGRICULTURE AND AGRICULTURAL COOPERATIVES"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

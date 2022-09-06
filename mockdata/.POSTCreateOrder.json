@@ -1,0 +1,85 @@
+{
+  "Order/create": [
+    {
+      "storeId": 1,
+      "userId": 3,
+      "pickUpTimeNameEn": "After 18:00",
+      "couponId": null,
+      "orderNote": null,
+      "paymentName": "QR-Code",
+      "product": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "productNote": "ALL CURELY FRIES"
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "productNote": null
+        }
+      ]
+    },
+    {
+      "storeId": 2,
+      "userId": 3,
+      "pickUpTimeNameEn": "After 18:00",
+      "couponId": null,
+      "orderNote": null,
+      "paymentName": "QR-Code",
+      "product": [
+        {
+          "productId": 1,
+          "quantity": 10,
+          "productNote": "SOO Pt"
+        },
+        {
+          "productId": 4,
+          "quantity": 1,
+          "productNote": null
+        }
+      ]
+    },
+    {
+      "storeId": 2,
+      "userId": 3,
+      "pickUpTimeNameEn": "After 18:00",
+      "couponId": null,
+      "orderNote": null,
+      "paymentName": "QR-Code",
+      "product": [
+        {
+          "productId": 2,
+          "quantity": 1,
+          "productNote": "ALL CURELY FRIES"
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "productNote": null
+        }
+      ],
+      "comment": "valid productId, Invalid StoreId"
+    },
+    {
+      "storeId": 1,
+      "userId": 3,
+      "pickUpTimeNameEn": "After 18:00",
+      "couponId": null,
+      "orderNote": null,
+      "paymentName": "QR-Code",
+      "product": [
+        {
+          "productId": 20,
+          "quantity": 1,
+          "productNote": "ALL CURELY FRIES"
+        },
+        {
+          "productId": 3,
+          "quantity": 1,
+          "productNote": null
+        }
+      ]
+    }
+  ]
+}

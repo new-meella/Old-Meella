@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-28",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Industrial and Commercial Bank of China (Thai)",
+        "bankNameOfficial": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (THAI) PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-4",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "J.P. Morgan",
+        "bankNameOfficial": "JPMORGAN CHASE BANK, NATIONAL ASSOCIATION"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

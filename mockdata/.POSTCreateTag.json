@@ -1,0 +1,45 @@
+{
+  "Tag/create": [
+    {
+      "tagNameEn": "Dessert",
+      "tagNameTh": "ของหวาน",
+      "tagType": "FoodCategory"
+    },
+    {
+      "tagNameEn": "Chatuchak",
+      "tagNameTh": "จตุจักร",
+      "tagType": "District"
+    },
+    {
+      "tagNameEn": "Pathumwan",
+      "tagNameTh": "ปทุมวัน",
+      "tagType": "District"
+    },
+    {
+      "tagNameEn": "Savory ",
+      "tagNameTh": "ของคาว",
+      "tagType": "FoodCategory"
+    },
+    {
+      "tagNameEn": "Japanese",
+      "tagNameTh": "ญี่ปุ่น",
+      "tagType": "FoodNationality"
+    },
+    {
+      "tagNameEn": "Korean ",
+      "tagNameTh": "เกาหลี",
+      "tagType": "FoodNationality"
+    },
+    {
+      "tagNameEn": "Thai ",
+      "tagNameTh": "ไทย",
+      "tagType": "FoodNationality"
+    },
+    {
+      "tagNameEn": "Western",
+      "tagNameTh": "ฝรั่ง",
+      "tagType": "FoodNationality"
+    },
+    {}
+  ]
+}

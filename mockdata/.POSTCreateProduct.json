@@ -1,0 +1,99 @@
+{
+  "Product/create": [
+    {
+      "storeId": 2,
+      "nameTh": "Plat SHTin thai",
+      "nameEn": "Plat SIT",
+      "description": "its Plat",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 34534,
+      "quantity": 6,
+      "ogPrice": 45646,
+      "meellaCut": 1232,
+      "gbCut": 123,
+      "storeCut": 123,
+      "pickUpTimeNameEn": "After 20:00"
+    },
+    {
+      "storeId": 1,
+      "nameTh": "bruger thai",
+      "nameEn": "Burger",
+      "description": "its a burger",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 300,
+      "quantity": 345,
+      "ogPrice": 450,
+      "pickUpTimeNameEn": "After 20:00"
+    },
+    {
+      "storeId": 2,
+      "nameTh": "Plat SHTin thai",
+      "nameEn": "Plat SIT",
+      "description": "its Plat",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 34534,
+      "quantity": 6,
+      "ogPrice": 45646,
+      "meellaCut": null,
+      "gbCut": null,
+      "storeCut": null,
+      "pickUpTimeNameEn": "After 20:30"
+    },
+    {
+      "storeId": 2,
+      "nameTh": "Plat Sin thai",
+      "nameEn": "PlatIT",
+      "description": "its Plat",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 34534,
+      "quantity": 6,
+      "ogPrice": 45646,
+      "pickUpTimeNameEn": "After 18:00"
+    },
+    {
+      "storeId": 2,
+      "nameTh": "Plat SHITin thai",
+      "nameEn": "Plat SHIT",
+      "description": "its Plat",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 34534,
+      "quantity": 6,
+      "ogPrice": 45646,
+      "pickUpTimeNameEn": "After 21:00"
+    },
+    {
+      "storeId": 1,
+      "nameTh": "Fries in thai",
+      "nameEn": "Fries",
+      "description": "its unhealthy",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 80,
+      "quantity": 10,
+      "ogPrice": 100,
+      "pickUpTimeNameEn": "After 20:30"
+    },
+    {
+      "storeId": 2,
+      "nameTh": "GOLD SHITin thai",
+      "nameEn": "GOLD SHIT",
+      "description": "its GOLD",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 567,
+      "quantity": 6,
+      "ogPrice": 1024,
+      "pickUpTimeNameEn": "After 20:30"
+    },
+    {
+      "storeId": 2,
+      "nameTh": "Plat SHITin thai",
+      "nameEn": "Plat SHIT",
+      "description": "its Plat",
+      "image": "/img/product_preview.png",
+      "meellaPrice": 34534,
+      "quantity": 6,
+      "ogPrice": 45646,
+      "pickUpTimeNameEn": "After 20:30"
+    },
+    {}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "filename": ".POSTCreateTag.json-4",
+    "url": "meella.org/Tag/create",
+    "request": {
+        "tagNameEn": "Japanese",
+        "tagNameTh": "\u0e0d\u0e35\u0e48\u0e1b\u0e38\u0e48\u0e19",
+        "tagType": "FoodNationality"
+    },
+    "response": {
+        "status": "empty"
+    }
+}

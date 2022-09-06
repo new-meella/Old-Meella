@@ -1,0 +1,260 @@
+@media screen {
+  #text{
+    width: 1340px;
+  }
+}
+
+
+.edit .container-fluid h4{
+  position: relative;
+
+  left: 72px;
+  top: 211px;
+  font-family: 'IBM Plex Sans Thai Looped';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 82px;
+  /* identical to box height */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #231e41;
+}
+.edit .container-fluid p{
+position: relative;
+
+left: 72px;
+top: 235px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #9E9E9E;
+}
+.cookie h5{
+  position: relative;
+
+left: 72px;
+top: 283px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+color: #231e41;
+}
+.cookie .passage1 p{
+  position: relative;
+margin-right: 72px;
+left: 72px;
+top: 303px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.cookie .passage2 p{
+  position: relative;
+margin-right: 72px;
+left: 72px;
+top: 323px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.type h5{
+  position: relative;
+left: 72px;
+top: 371px;px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.type .one p{
+  position: relative;
+  margin-right: 72px;
+left: 72px;
+top: 391px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+display: inline;
+color: #231e41;
+}
+
+.type .two p{
+  position: relative;
+  margin-right: 72px;
+left: 72px;
+top: 411px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+display: inline;
+color: #231e41;
+}
+
+.type .three p{
+  position: relative;
+  margin-right: 72px;
+left: 72px;
+top: 431px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+display: inline;
+color: #231e41;
+}
+
+.type .four p{
+  position: relative;
+  margin-right: 72px;
+left: 72px;
+top: 451px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+display: inline;
+color: #231e41;
+}
+.type p{
+  position: relative;
+left: 72px;
+top: 471px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+display: inline;
+align-items: center;
+color: #231e41;
+}
+
+.type p a{
+  position: relative;
+left: 0px;
+top: 0px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+align-items: center;
+text-decoration-line: underline;
+color: #3913B8;
+display: inline;
+}
+
+.manage h5{
+  position: relative;
+left: 72px;
+top: 519px;
+
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.manage p{
+  position: relative;
+left: 72px;
+top: 539px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #231e41;
+}
+#text .manage ul span{
+  position: relative;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+text-decoration-line: underline;
+color: #3913B8;
+}
+
+.policy h5{
+  position: relative;
+left: 72px;
+top:727px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 33px;
+/* identical to box height */
+display: flex;
+align-items: center;
+color: #231e41;
+}
+.policy p{
+  position: relative;
+left: 72px;
+top: 747px;
+font-family: 'IBM Plex Sans Thai Looped';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+display: flex;
+align-items: center;
+color: #231e41;
+}
+
+footer{
+  position: absolute;
+  top: 850px;
+}

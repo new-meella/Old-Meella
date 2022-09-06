@@ -1,0 +1,23 @@
+[
+  {
+    "storeId": 1,
+    "userId": 4,
+    "pickUpTime": "After 18:00",
+    "couponId": null,
+    "orderNote": null,
+    "paymentType": "QR-Code",
+    "product": [
+      {
+        "productId": 21,
+        "quantity": 1,
+        "productNote": "ALL CURELY FRIES"
+      },
+      {
+        "productId": 22,
+        "quantity": 1,
+        "productNote": null
+      }
+    ]
+  },
+  {}
+]

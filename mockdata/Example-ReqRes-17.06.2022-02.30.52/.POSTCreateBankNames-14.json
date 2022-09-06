@@ -1,0 +1,11 @@
+{
+    "filename": ".POSTCreateBankNames.json-14",
+    "url": "meella.org/Payment/Banks/create",
+    "request": {
+        "bankName": "Mega International Commercial Bank",
+        "bankNameOfficial": "MEGA INTERNATIONAL COMMERCIAL BANK PUBLIC COMPANY LIMITED"
+    },
+    "response": {
+        "status": "empty"
+    }
+}
